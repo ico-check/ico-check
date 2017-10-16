@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+<div class="ui main container">
+    <h2 class="ui center aligned icon header">
+      <i class="circular inverted teal search icon"></i>
+      ICO background check
+      <div class="sub header">
+        List of ICOs and their background check.
+      </div>      
+    </h2>
+    <p></p>
+  </div>
+
+  <div class="ui main container">
+    <table class="ui celled padded table">
+      <thead>
+        <tr><th class="single line center aligned">Company name</th>
+        <th class="center aligned">Real team</th>
+        <th class="center aligned">GitHub</th>
+        <th class="center aligned">Smart Contract</th>
+        <th class="center aligned">MVP</th>
+        <th class="center aligned">Min vesting*</th>
+        <th class="center aligned">Have a company</th>
+        <th class="center aligned">Comments</th>
+        <th class="center aligned">Safe</th>
+      </tr></thead>
+      <tbody>
+
+        {% for ico in site.data.icos %}
+          <tr>
+            <td>
+              <h4 class="ui image header">
+                <img src="{{ ico.image }}" class="ui mini rounded image">
+                <div class="content">
+                  {{ ico.name }}
+                </div>
+              </h4>
+            </td>
+
+            {% if ico.real-team %}
+            {% include positive-cell.html %}
+            {% else %}
+            {% include negative-cell.html %}
+            {% endif %}
+
+            {% if ico.github %}
+            {% include positive-cell.html %}
+            {% else %}
+            {% include negative-cell.html %}
+            {% endif %}
+
+            {% if ico.smart-contract %}
+            {% include positive-cell.html %}
+            {% else %}
+            {% include negative-cell.html %}
+            {% endif %}
+
+            {% if ico.mvp %}
+            {% include positive-cell.html %}
+            {% else %}
+            {% include negative-cell.html %}
+            {% endif %}
+
+            {% if ico.min-vesting %}
+            {% include positive-cell.html %}
+            {% else %}
+            {% include negative-cell.html %}
+            {% endif %}
+
+            {% if ico.have-company %}
+            {% include positive-cell.html %}
+            {% else %}
+            {% include negative-cell.html %}
+            {% endif %}
+
+            {% if ico.comments %}
+              <td class="center aligned">
+                {{ ico.comments }}
+              </td>
+            {% else %}
+              <td class="center aligned">
+                <i class="large icon minus"></i>
+              </td>
+            {% endif %}
+
+            {% if ico.safe %}
+            {% include positive-cell.html %}
+            {% else %}
+            {% include negative-cell.html %}
+            {% endif %}
+          </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="ui main container">
+    *Min vesting - 2 year vesting / token lock + 6 month cliff
+  </div>

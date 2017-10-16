@@ -1,0 +1,20 @@
+- name: Template
+  image: image-url.jpg
+  real-team: true
+  github: true
+  smart-contract: true
+  mvp: true
+  min-vesting: true
+  have-company: true
+  comments: Some template comments
+  safe: true
+
+- name: Another template
+  image: image-url.jpg
+  real-team: true
+  github: true
+  smart-contract: true
+  mvp: true
+  min-vesting: true
+  have-company: true
+  safe: true
