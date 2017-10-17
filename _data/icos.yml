@@ -29,3 +29,17 @@
   ico-start-date: 2017-10-04T00:00:00Z
   ico-end-date: 2017-12-24T00:00:00Z
   safe: false
+
+- name: NapoleonX
+  image: https://tokenmarket.net/blockchain/ethereum/assets/napoleon-x/logo_big.png
+  url: https://www.napoleonx.ai/
+  real-team: true
+  github: true
+  smart-contract: true
+  mvp: false
+  min-vesting: false
+  have-company: true
+  location: fr
+  ico-start-date: 2017-10-23T00:00:00Z
+  ico-end-date: 2017-11-23T00:00:00Z
+  safe: true
