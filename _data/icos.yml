@@ -10,10 +10,10 @@
   min-vesting: false
   have-company: true
   location: de
-  comments: Dutch Auction
+  comments: Dutch Auction. Cash Grab
   ico-start-date: 2017-10-18T00:00:00Z
   ico-end-date: 2017-11-18T00:00:00Z
-  safe: true
+  safe: false
 
 - name: Token Desk
   image: https://pbs.twimg.com/profile_images/911198979332898816/JuOoVJb3.jpg
