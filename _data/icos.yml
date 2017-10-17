@@ -15,16 +15,17 @@
   ico-end-date: 2017-11-18T00:00:00Z
   safe: true
 
-- name: Another template
+- name: Token Desk
   image: image-url.jpg
-  url: https://google.com
+  url: https://www.tokendesk.io
   real-team: true
-  github: true
-  smart-contract: true
-  mvp: true
-  min-vesting: true
+  github: false
+  smart-contract: false
+  mvp: false
+  min-vesting: false
   have-company: true
-  location: es
-  ico-start-date: 2017-08-13T00:00:00Z
-  ico-end-date: 2017-08-30T00:00:00Z
-  safe: true
+  location: uk
+  comments: Avoid
+  ico-start-date: 2017-10-04T00:00:00Z
+  ico-end-date: 2017-12-24T00:00:00Z
+  safe: false
