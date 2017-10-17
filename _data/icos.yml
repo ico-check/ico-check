@@ -16,7 +16,7 @@
   safe: true
 
 - name: Token Desk
-  image: image-url.jpg
+  image: https://pbs.twimg.com/profile_images/911198979332898816/JuOoVJb3.jpg
   url: https://www.tokendesk.io
   real-team: true
   github: false
