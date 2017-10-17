@@ -7,9 +7,10 @@
   github: true
   smart-contract: true
   mvp: true
+  min-vesting: false
   have-company: true
   location: de
-  comments: Some template comments
+  comments: Dutch Auction
   ico-start-date: 2017-10-18T00:00:00Z
   ico-end-date: 2017-11-18T00:00:00Z
   safe: true
