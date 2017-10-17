@@ -1,20 +1,30 @@
+# For country names visit: https://semantic-ui.com/elements/flag.html
+
 - name: Template
   image: image-url.jpg
+  url: https://google.com
   real-team: true
   github: true
   smart-contract: true
   mvp: true
   min-vesting: true
   have-company: true
+  location: us
   comments: Some template comments
+  ico-start-date: 2016-04-30T00:00:00Z
+  ico-end-date: 2016-03-23T00:00:00Z
   safe: true
 
 - name: Another template
   image: image-url.jpg
+  url: https://google.com
   real-team: true
   github: true
   smart-contract: true
   mvp: true
   min-vesting: true
   have-company: true
+  location: es
+  ico-start-date: 2017-08-13T00:00:00Z
+  ico-end-date: 2017-08-30T00:00:00Z
   safe: true

@@ -21,9 +21,11 @@ layout: default
         <th class="center aligned">GitHub</th>
         <th class="center aligned">Smart Contract</th>
         <th class="center aligned">MVP</th>
-        <th class="center aligned">Min vesting*</th>
+        <th class="center aligned">Vesting*</th>
         <th class="center aligned">Have a company</th>
+        <th class="center aligned">Location</th>
         <th class="center aligned">Comments</th>
+        <th class="center aligned">Date</th>
         <th class="center aligned">Safe</th>
       </tr></thead>
       <tbody>
@@ -32,9 +34,17 @@ layout: default
           <tr>
             <td>
               <h4 class="ui image header">
-                <img src="{{ ico.image }}" class="ui mini rounded image">
+                {% if ico.image %}
+                  <img src="{{ ico.image }}" class="ui mini rounded image">
+                {% endif %}
                 <div class="content">
-                  {{ ico.name }}
+                  {% if ico.url %}
+                    <a href="{{ico.url}}">
+                      {{ ico.name }}
+                    </a>
+                  {% else %}
+                    {{ ico.name }}
+                  {% endif %}
                 </div>
               </h4>
             </td>
@@ -75,15 +85,29 @@ layout: default
             {% include negative-cell.html %}
             {% endif %}
 
-            {% if ico.comments %}
-              <td class="center aligned">
-                {{ ico.comments }}
-              </td>
-            {% else %}
-              <td class="center aligned">
+            <td class="center aligned">
+              {% if ico.location %}
+                <i class="large {{ ico.location }} flag"></i>
+              {% else %}
                 <i class="large icon minus"></i>
-              </td>
-            {% endif %}
+              {% endif %}
+            </td>
+
+            <td class="center aligned">
+              {% if ico.comments %}
+                {{ ico.comments }}
+              {% else %}
+                <i class="large icon minus"></i>
+              {% endif %}
+            </td>
+
+            <td class="center aligned">
+              {% if ico.ico-start-date and ico.ico-end-date %}
+                {{ ico.ico-start-date | date_to_string }} - {{ ico.ico-end-date | date_to_string }}
+              {% else %}
+                <i class="large icon minus"></i>
+              {% endif %}
+            </td>
 
             {% if ico.safe %}
             {% include positive-cell.html %}
@@ -98,5 +122,5 @@ layout: default
   </div>
 
   <div class="ui main container">
-    *Min vesting - 2 year vesting / token lock + 6 month cliff
+    *Vesting - 2 year vesting / token lock + 6 month cliff
   </div>
