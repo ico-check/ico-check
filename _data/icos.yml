@@ -7,7 +7,6 @@
   github: true
   smart-contract: true
   mvp: true
-  min-vesting: false
   have-company: true
   location: de
   comments: Some template comments
