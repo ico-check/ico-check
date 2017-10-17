@@ -31,7 +31,7 @@
   safe: false
 
 - name: NapoleonX
-  image: https://tokenmarket.net/blockchain/ethereum/assets/napoleon-x/logo_big.png
+  image: https://tokenmarket.net/blockchain/ethereum/assets/napoleon-x/logo_small.png
   url: https://www.napoleonx.ai/
   real-team: true
   github: true
