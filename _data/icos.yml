@@ -40,6 +40,22 @@
   min-vesting: false
   have-company: true
   location: fr
+  comments: Cash grab. Short vesting
   ico-start-date: 2017-10-23T00:00:00Z
   ico-end-date: 2017-11-23T00:00:00Z
-  safe: true
+  safe: false
+  
+- name: Spectre
+  image: https://spectre.ai/img/spectre-logo.png
+  url: https://spectre.ai/
+  real-team: true
+  github: false
+  smart-contract: true
+  mvp: true
+  min-vesting: false
+  have-company: true
+  location: gb
+  comments: Cash grab. Short vesting
+  ico-start-date: 2017-10-23T00:00:00Z
+  ico-end-date: 2017-11-23T00:00:00Z
+  safe: false
