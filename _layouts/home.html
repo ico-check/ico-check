@@ -14,111 +14,121 @@ layout: default
   </div>
 
   <div class="ui main container">
-    <table class="ui celled padded unstackable table">
+
+    {% for ico in site.data.icos %}
+    <table class="ui celled horizontal padded definition table only-mobile-visible">
+      <tbody>
+          <tr>
+            <td class="three wide">
+              Company name
+            </td>
+            {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              Real team
+            </td>
+            {% include bool-cell.html value=ico.real-team %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              GitHub
+            </td>
+            {% include bool-cell.html value=ico.github %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              Smart Contract
+            </td>
+            {% include bool-cell.html value=ico.smart-contract %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              MVP
+            </td>
+            {% include bool-cell.html value=ico.mvp %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              Vesting*
+            </td>
+            {% include bool-cell.html value=ico.min-vesting %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              Have a company
+            </td>
+            {% include bool-cell.html value=ico.have-company %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              Location
+            </td>
+            {% include flag-cell.html country=ico.location %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              Comments
+            </td>
+            {% include centered-cell-if-exists.html content=ico.comments %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              Date
+            </td>
+            {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
+          </tr>
+          <tr>
+            <td class="three-wide">
+              Safe
+            </td>
+            {% include bool-cell.html value=ico.safe %}
+          </tr>
+      </tbody>
+    </table>
+    {% endfor %}
+
+    <table class="ui celled padded table mobile-hidden">
       <thead>
-        <tr><th class="single line center aligned">Company name</th>
-        <th class="center aligned">Real team</th>
-        <th class="center aligned">GitHub</th>
-        <th class="center aligned">Smart Contract</th>
-        <th class="center aligned">MVP</th>
-        <th class="center aligned">Vesting*</th>
-        <th class="center aligned">Have a company</th>
-        <th class="center aligned">Location</th>
-        <th class="center aligned">Comments</th>
-        <th class="center aligned">Date</th>
-        <th class="center aligned">Safe</th>
-      </tr></thead>
+        <tr>
+          <th class="single line center aligned">Company name</th>
+          <th class="center aligned">Real team</th>
+          <th class="center aligned">GitHub</th>
+          <th class="center aligned">Smart Contract</th>
+          <th class="center aligned">MVP</th>
+          <th class="center aligned">Vesting*</th>
+          <th class="center aligned">Have a company</th>
+          <th class="center aligned">Location</th>
+          <th class="center aligned">Comments</th>
+          <th class="center aligned">Date</th>
+          <th class="center aligned">Safe</th>
+        </tr>
+      </thead>
       <tbody>
 
-        {% for ico in site.data.icos %}
-          <tr>
-            <td>
-              <h4 class="ui image header">
-                {% if ico.image %}
-                  <img src="{{ ico.image }}" class="ui mini rounded image">
-                {% endif %}
-                <div class="content">
-                  {% if ico.url %}
-                    <a href="{{ico.url}}">
-                      {{ ico.name }}
-                    </a>
-                  {% else %}
-                    {{ ico.name }}
-                  {% endif %}
-                </div>
-              </h4>
-            </td>
+      {% for ico in site.data.icos %}
+      <tr>
+        {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
 
-            {% if ico.real-team %}
-            {% include positive-cell.html %}
-            {% else %}
-            {% include negative-cell.html %}
-            {% endif %}
+        {% include bool-cell.html value=ico.real-team %}
+        {% include bool-cell.html value=ico.github %}
+        {% include bool-cell.html value=ico.mvp %}
+        {% include bool-cell.html value=ico.smart-contract %}
+        {% include bool-cell.html value=ico.min-vesting %}
+        {% include bool-cell.html value=ico.have-company %}
 
-            {% if ico.github %}
-            {% include positive-cell.html %}
-            {% else %}
-            {% include negative-cell.html %}
-            {% endif %}
+        {% include flag-cell.html country=ico.location %}
 
-            {% if ico.smart-contract %}
-            {% include positive-cell.html %}
-            {% else %}
-            {% include negative-cell.html %}
-            {% endif %}
+        {% include centered-cell-if-exists.html content=ico.comments %}
+        {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
 
-            {% if ico.mvp %}
-            {% include positive-cell.html %}
-            {% else %}
-            {% include negative-cell.html %}
-            {% endif %}
-
-            {% if ico.min-vesting %}
-            {% include positive-cell.html %}
-            {% else %}
-            {% include negative-cell.html %}
-            {% endif %}
-
-            {% if ico.have-company %}
-            {% include positive-cell.html %}
-            {% else %}
-            {% include negative-cell.html %}
-            {% endif %}
-
-            <td class="center aligned">
-              {% if ico.location %}
-                <i class="large {{ ico.location }} flag"></i>
-              {% else %}
-                <i class="large icon minus"></i>
-              {% endif %}
-            </td>
-
-            <td class="center aligned">
-              {% if ico.comments %}
-                {{ ico.comments }}
-              {% else %}
-                <i class="large icon minus"></i>
-              {% endif %}
-            </td>
-
-            <td class="center aligned">
-              {% if ico.ico-start-date and ico.ico-end-date %}
-                {{ ico.ico-start-date | date_to_string }} - {{ ico.ico-end-date | date_to_string }}
-              {% else %}
-                <i class="large icon minus"></i>
-              {% endif %}
-            </td>
-
-            {% if ico.safe %}
-            {% include positive-cell.html %}
-            {% else %}
-            {% include negative-cell.html %}
-            {% endif %}
-          </tr>
-        {% endfor %}
+        {% include bool-cell.html value=ico.safe %}
+      </tr>
+      {% endfor %}
 
       </tbody>
     </table>
+
   </div>
 
   <div class="ui main container">

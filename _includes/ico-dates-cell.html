@@ -1,0 +1,7 @@
+<td class="center aligned">
+  {% if include.start-date and include.end-date %}
+  {{ include.start-date | date_to_string }} - {{ include.end-date | date_to_string }}
+  {% else %}
+  <i class="large icon minus"></i>
+  {% endif %}
+</td>

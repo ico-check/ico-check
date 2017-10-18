@@ -1,0 +1,16 @@
+<td class="single line center aligned">
+  <h4 class="ui image header">
+    {% if include.image %}
+      <img src="{{ include.image }}" class="ui mini rounded image">
+    {% endif %}
+    <div class="content">
+      {% if include.url %}
+        <a href="{{include.url}}">
+          {{ include.name }}
+        </a>
+      {% else %}
+        {{ include.name }}
+      {% endif %}
+    </div>
+  </h4>
+</td>

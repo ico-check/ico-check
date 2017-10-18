@@ -2,6 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$max-mobile-res: 1199px;
+
 body {
   background-color: #FFFFFF;
 }
@@ -20,4 +22,20 @@ body {
 .ui.footer.segment {
   margin: 5em 0 0;
   padding: 5em 0;
+}
+
+@media screen and (min-width: $max-mobile-res + 1) {
+  .only-mobile-visible {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
+@media screen and (max-width: $max-mobile-res) {
+  .mobile-hidden {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
 }
