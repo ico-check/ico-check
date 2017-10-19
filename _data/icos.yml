@@ -10,7 +10,9 @@
   min-vesting: false
   have-company: true
   location: Germany
-  comments: Dutch Auction. Cash Grab
+  comments:
+    - content: Dutch Auction
+    - content: Cash Grab
   ico-start-date: 2017-10-18T00:00:00Z
   ico-end-date: 2017-11-18T00:00:00Z
   safe: false
@@ -25,7 +27,9 @@
   min-vesting: false
   have-company: true
   location: United Kingdom
-  comments: Avoid. https://tinyurl.com/ycqlk4n5
+  comments:
+    - content: Avoid
+      url: https://www.reddit.com/r/icocrypto/comments/73yx4f/beware_of_tokendeskio_their_whitepaper_and/
   ico-start-date: 2017-10-04T00:00:00Z
   ico-end-date: 2017-12-24T00:00:00Z
   safe: false
@@ -40,7 +44,9 @@
   min-vesting: false
   have-company: true
   location: France
-  comments: Cash grab. Short vesting
+  comments:
+    - content: Cash grab
+    - content: Short vesting
   ico-start-date: 2017-10-23T00:00:00Z
   ico-end-date: 2017-11-23T00:00:00Z
   safe: false
@@ -55,7 +61,9 @@
   min-vesting: false
   have-company: true
   location: United Kingdom
-  comments: Cash grab. Short vesting
+  comments:
+    - content: Cash grab
+    - content: Short vesting
   ico-start-date: 2017-11-17T00:00:00Z
   ico-end-date: 2017-12-10T00:00:00Z
   safe: false

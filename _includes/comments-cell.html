@@ -1,0 +1,23 @@
+{% if include.is-mobile %}
+<td class="center aligned">
+{% else %}
+<td>
+{% endif %}
+  {% if include.comments %}
+    <ul class="ui list">
+      {% for comment in include.comments %}
+          <li>
+            {% if comment.url %}
+              <a href="{{comment.url}}">
+                {{ comment.content }}
+              </a>
+            {% else %}
+              {{ comment.content }}
+            {% endif %}
+          </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+  <i class="large icon minus"></i>
+  {% endif %}
+</td>

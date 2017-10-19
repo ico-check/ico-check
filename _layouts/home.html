@@ -108,7 +108,7 @@ layout: default
           <td class="three-wide">
             Comments
           </td>
-          {% include centered-cell-if-exists.html content=ico.comments %}
+          {% include comments-cell.html comments=ico.comments is-mobile=true %}
         </tr>
         <tr>
           <td class="three-wide">
@@ -157,7 +157,7 @@ layout: default
 
       {% include flag-cell.html country=ico.location %}
 
-      {% include centered-cell-if-exists.html content=ico.comments %}
+      {% include comments-cell.html comments=ico.comments is-mobile=false %}
       {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
 
       {% include bool-cell.html value=ico.safe %}
