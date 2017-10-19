@@ -13,7 +13,7 @@ body {
 .ui.menu .item img.logo {
   margin-right: 1.5em;
 }
-.main.container {
+.top-padded {
   margin-top: 3em;
 }
 .wireframe {
@@ -22,6 +22,14 @@ body {
 .ui.footer.segment {
   margin: 5em 0 0;
   padding: 5em 0;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-link:hover {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 @media screen and (min-width: $max-mobile-res + 1) {

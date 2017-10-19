@@ -1,6 +1,8 @@
 <td class="center aligned">
   {% if include.country %}
-  <i class="large {{ include.country }} flag"></i>
+  <div class="ui icon" data-tooltip="{{ include.country }}">
+    <i class="large {{ include.country | downcase }} flag"></i>
+  </div>
   {% else %}
   <i class="large icon minus"></i>
   {% endif %}

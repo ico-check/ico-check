@@ -17,6 +17,7 @@ title: ICO check
 email: your-email@example.com
 telegram-url: https://t.me/checkico
 github-url: https://github.com/hterrence/ico-check/issues
+github-issues-url: https://github.com/hterrence/ico-check/issues
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for

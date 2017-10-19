@@ -1,4 +1,4 @@
-# For country names visit: https://semantic-ui.com/elements/flag.html
+# For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
 - name: Raiden Network
   image: https://cdn-images-1.medium.com/fit/c/200/200/1*0TL5ON_7R1LOnmCWHCxdoA.png
@@ -9,7 +9,7 @@
   mvp: true
   min-vesting: false
   have-company: true
-  location: de
+  location: Germany
   comments: Dutch Auction. Cash Grab
   ico-start-date: 2017-10-18T00:00:00Z
   ico-end-date: 2017-11-18T00:00:00Z
@@ -24,7 +24,7 @@
   mvp: false
   min-vesting: false
   have-company: true
-  location: gb
+  location: United Kingdom
   comments: Avoid. https://tinyurl.com/ycqlk4n5
   ico-start-date: 2017-10-04T00:00:00Z
   ico-end-date: 2017-12-24T00:00:00Z
@@ -39,7 +39,7 @@
   mvp: false
   min-vesting: false
   have-company: true
-  location: fr
+  location: France
   comments: Cash grab. Short vesting
   ico-start-date: 2017-10-23T00:00:00Z
   ico-end-date: 2017-11-23T00:00:00Z
@@ -54,7 +54,7 @@
   mvp: true
   min-vesting: false
   have-company: true
-  location: gb
+  location: United Kingdom
   comments: Cash grab. Short vesting
   ico-start-date: 2017-11-17T00:00:00Z
   ico-end-date: 2017-12-10T00:00:00Z
