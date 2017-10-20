@@ -1,5 +1,9 @@
-{% if include.value %}
+{% if include.value == true %}
 {% include positive-cell.html %}
-{% else %}
+{% elsif include.value == false %}
 {% include negative-cell.html %}
+{% else %}
+<td class="center aligned collapsing">
+  <i class="large icon minus"></i>
+</td>
 {% endif %}
