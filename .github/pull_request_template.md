@@ -14,4 +14,4 @@ Checklist:
 
 
 ### Is safe:
-*Provide an explanation why the is considered safe/unsafe. By default when one of the boolean fields is false, this one also should be false.* 
+*Provide an explanation why the ICO is considered safe/unsafe. By default when one of the boolean fields is false, this one also should be false.* 
