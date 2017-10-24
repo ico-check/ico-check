@@ -13,5 +13,5 @@ Checklist:
 - [ ] Date is checked - *Here put dates when ICO starts and ends. Provide information where this information found with links where possible*
 
 
-###Is safe:
+### Is safe:
 *Provide an explanation why the is considered safe/unsafe. By default when one of the boolean fields is false, this one also should be false.* 
