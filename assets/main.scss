@@ -2,7 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$max-mobile-res: 1199px;
+$max-mobile-res: 767px;
+$max-device-res: 1199px;
 
 body {
   background-color: #FFFFFF;
@@ -32,8 +33,16 @@ body {
   color: rgba(255, 255, 255, 0.9);
 }
 
-@media screen and (min-width: $max-mobile-res + 1) {
+@media screen and (min-width: $max-device-res + 1) {
   .only-mobile-visible {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
+@media screen and (max-width: $max-device-res) {
+  .mobile-hidden {
     visibility: hidden;
     clear: both;
     display: none;
@@ -46,4 +55,12 @@ body {
     clear: both;
     display: none;
   }
+
+  .ui.definition.table tr td.definition, .ui.definition.table tr td:first-child:not(.ignored) {
+    background-color: white !important;
+  }
+}
+
+.ui.definition.table {
+  margin: 3em 0 !important;
 }
