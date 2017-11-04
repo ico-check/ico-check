@@ -2,7 +2,7 @@ Fixes #issue_number.
 
 Checklist:
 - [ ] New record is added to `_data/icos.yml` file
-- [ ] Real team is checked - *Here put sources checked (e.g. LinkedIn for members X, Y, Z) with linkes where possible*
+- [ ] Real team is checked - *Here put sources checked (e.g. LinkedIn for members X, Y, Z) with links where possible*
 - [ ] Company's GitHub is checked - *Here put link to company's GitHub if exists*
 - [ ] Smart contract is checked - *Here put e.g. Etherscan if ICO's on Ethereum*
 - [ ] MVP is checked - *Here put link to the demo if exists*
