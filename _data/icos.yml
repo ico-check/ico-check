@@ -1,7 +1,7 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
 - name: Raiden Network
-  image: https://cdn-images-1.medium.com/fit/c/200/200/1*0TL5ON_7R1LOnmCWHCxdoA.png
+  image: https://pbs.twimg.com/profile_images/907514603806097408/6_Ez7WXO_400x400.jpg
   url: https://raiden.network/
   real-team: true
   github: true
