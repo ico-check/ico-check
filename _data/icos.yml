@@ -9,10 +9,10 @@
   mvp: true
   min-vesting: false
   have-company: true
-  location: Germany
+  location: Lichtenstein
   comments:
-    - content: Dutch Auction
-    - content: Cash Grab
+    - content: No vesting schedule
+      url: https://github.com/ico-check/ico-check/issues/1
   ico-start-date: 2017-10-18T00:00:00Z
   ico-end-date: 2017-11-18T00:00:00Z
   safe: false
