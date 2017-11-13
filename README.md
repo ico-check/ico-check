@@ -1,3 +1,5 @@
+# ICO Check
+
 [ICO-Check](https://icocheck.io/) is a community-driven website that lists the latest ICOs and conducts due diligence on each one of them.            
              
 With the large number of ICOs currently around, ICO-Check is an important tool that allows more transparency in the field, giving investors the confidence they need before deciding which tokens to buy.
