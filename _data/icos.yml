@@ -21,7 +21,7 @@
   image: https://pbs.twimg.com/profile_images/911198979332898816/JuOoVJb3.jpg
   url: https://www.tokendesk.io
   real-team: true
-  github: false
+  github: true
   smart-contract: false
   mvp: false
   min-vesting: false
