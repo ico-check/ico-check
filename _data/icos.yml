@@ -46,8 +46,8 @@
   location: France
   comments:
     - content: Short vesting
-  ico-start-date: 2017-10-23T00:00:00Z
-  ico-end-date: 2017-11-23T00:00:00Z
+  ico-start-date: 2017-12-04T00:00:00Z
+  ico-end-date: 2018-01-04T00:00:00Z
   safe: false
   
 - name: Spectre
