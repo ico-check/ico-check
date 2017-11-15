@@ -28,8 +28,8 @@
   have-company: true
   location: United Kingdom
   comments:
-    - content: Avoid
-      url: https://www.reddit.com/r/icocrypto/comments/73yx4f/beware_of_tokendeskio_their_whitepaper_and/
+    - content: Multiple red flags
+      url: https://github.com/ico-check/ico-check/issues/2
   ico-start-date: 2017-10-04T00:00:00Z
   ico-end-date: 2017-12-24T00:00:00Z
   safe: false
