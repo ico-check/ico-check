@@ -55,8 +55,8 @@
   image: https://i.imgur.com/LZywFzo.jpg
   url: https://spectre.ai/
   real-team: true
-  github: false
-  smart-contract: true
+  github: true
+  smart-contract: false
   mvp: true
   min-vesting: false
   have-company: true
