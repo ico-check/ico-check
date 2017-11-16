@@ -67,3 +67,18 @@
   ico-start-date: 2017-11-17T00:00:00Z
   ico-end-date: 2017-12-10T00:00:00Z
   safe: false
+
+- name: Quantstamp
+  image: https://i.imgur.com/XnKrWqp.png
+  url: https://quantstamp.com
+  real-team: true
+  github: true
+  smart-contract: true
+  mvp: true
+  min-vesting: true
+  have-company: true
+  location: United States
+  comments:
+  ico-start-date: 2017-15-17T00:00:00Z
+  ico-end-date: 2017-22-10T00:00:00Z
+  safe: true
