@@ -76,7 +76,7 @@ layout: default
         </tr>
         <tr>
           <td class="three-wide">
-            Smart Contract Deployed
+            Smart Contract*
           </td>
           {% include bool-cell.html value=ico.smart-contract %}
         </tr>
@@ -88,7 +88,7 @@ layout: default
         </tr>
         <tr>
           <td class="three-wide">
-            Vesting*
+            Vesting**
           </td>
           {% include bool-cell.html value=ico.min-vesting %}
         </tr>
@@ -171,5 +171,8 @@ layout: default
 
 
 <div class="ui top-padded container">
-  *+ 2 years vesting with a 6 month cliff
+  * Must be deployed
+</div>
+<div class="ui top-padded container">
+  ** +2 years vesting with a 6 month cliff
 </div>
