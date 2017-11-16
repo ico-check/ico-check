@@ -52,7 +52,7 @@
   safe: false
   
 - name: Spectre
-  image: https://spectre.ai/img/spectre-logo.png
+  image: https://i.imgur.com/LZywFzo.jpg
   url: https://spectre.ai/
   real-team: true
   github: false
