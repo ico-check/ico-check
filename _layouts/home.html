@@ -120,7 +120,7 @@ layout: default
           <td class="three-wide">
             Safe
           </td>
-          {% include bool-cell.html value=ico.safe %}
+          {% include bool-cell.html value=ico.safe url=ico.issue-url %}
         </tr>
     </tbody>
   </table>
@@ -160,7 +160,7 @@ layout: default
       {% include comments-cell.html comments=ico.comments is-mobile=false %}
       {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
 
-      {% include bool-cell.html value=ico.safe %}
+      {% include bool-cell.html value=ico.safe url=ico.issue-url %}
     </tr>
     {% endfor %}
 

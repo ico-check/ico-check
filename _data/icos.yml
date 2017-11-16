@@ -16,6 +16,7 @@
   ico-start-date: 2017-11-17T00:00:00Z
   ico-end-date: 2017-12-16T00:00:00Z
   safe: true
+  issue-url: https://github.com/ico-check/ico-check/issues/5
 
 - name: Raiden Network
   image: https://pbs.twimg.com/profile_images/907514603806097408/6_Ez7WXO_400x400.jpg
@@ -33,6 +34,7 @@
   ico-start-date: 2017-10-18T00:00:00Z
   ico-end-date: 2017-11-1T00:00:00Z
   safe: false
+  issue-url: https://github.com/ico-check/ico-check/issues/1
 
 - name: Token Desk
   image: https://pbs.twimg.com/profile_images/911198979332898816/JuOoVJb3.jpg
@@ -50,6 +52,7 @@
   ico-start-date: 2017-10-04T00:00:00Z
   ico-end-date: 2017-12-24T00:00:00Z
   safe: false
+  issue-url: https://github.com/ico-check/ico-check/issues/2
 
 - name: NapoleonX
   image: https://i.imgur.com/Hruaqkl.png
@@ -67,6 +70,7 @@
   ico-start-date: 2017-12-04T00:00:00Z
   ico-end-date: 2018-01-04T00:00:00Z
   safe: false
+  issue-url: https://github.com/ico-check/ico-check/issues/3
   
 - name: Spectre
   image: https://i.imgur.com/LZywFzo.jpg
@@ -84,3 +88,4 @@
   ico-start-date: 2017-11-17T00:00:00Z
   ico-end-date: 2017-12-10T00:00:00Z
   safe: false
+  issue-url: https://github.com/ico-check/ico-check/issues/4
