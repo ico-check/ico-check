@@ -1,5 +1,22 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
+- name: Quantstamp
+  image: https://i.imgur.com/XnKrWqp.png
+  url: https://quantstamp.com
+  real-team: true
+  github: true
+  smart-contract: true
+  mvp: true
+  min-vesting: true
+  have-company: true
+  location: United States
+  comments:
+    - content: More info
+      url: https://github.com/ico-check/ico-check/issues/5
+  ico-start-date: 2017-11-17T00:00:00Z
+  ico-end-date: 2017-12-16T00:00:00Z
+  safe: true
+
 - name: Raiden Network
   image: https://pbs.twimg.com/profile_images/907514603806097408/6_Ez7WXO_400x400.jpg
   url: https://raiden.network/
@@ -67,20 +84,3 @@
   ico-start-date: 2017-11-17T00:00:00Z
   ico-end-date: 2017-12-10T00:00:00Z
   safe: false
-
-- name: Quantstamp
-  image: https://i.imgur.com/XnKrWqp.png
-  url: https://quantstamp.com
-  real-team: true
-  github: true
-  smart-contract: true
-  mvp: true
-  min-vesting: true
-  have-company: true
-  location: United States
-  comments:
-    - content: More info
-      url: https://github.com/ico-check/ico-check/issues/5
-  ico-start-date: 2017-15-17T00:00:00Z
-  ico-end-date: 2017-22-10T00:00:00Z
-  safe: true
