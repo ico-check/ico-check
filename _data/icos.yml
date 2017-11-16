@@ -62,7 +62,8 @@
   have-company: true
   location: British Virgin Islands
   comments:
-    - content: Short vesting
+    - content: 6 month vesting
+    url: https://github.com/ico-check/ico-check/issues/4
   ico-start-date: 2017-11-17T00:00:00Z
   ico-end-date: 2017-12-10T00:00:00Z
   safe: false
