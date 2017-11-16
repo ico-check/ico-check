@@ -132,9 +132,9 @@ layout: default
         <th class="single line center aligned">Company name</th>
         <th class="center aligned">Real team</th>
         <th class="center aligned">GitHub</th>
-        <th class="center aligned">Smart Contract</th>
-        <th class="center aligned">MVP</th>
-        <th class="center aligned">Vesting*</th>
+        <th class="center aligned">Smart Contract*</th>
+        <th class="center aligned">MVP**</th>
+        <th class="center aligned">Vesting***</th>
         <th class="center aligned">Have a company</th>
         <th class="center aligned">Location</th>
         <th class="center aligned">Comments</th>
@@ -150,8 +150,8 @@ layout: default
 
       {% include bool-cell.html value=ico.real-team %}
       {% include bool-cell.html value=ico.github %}
-      {% include bool-cell.html value=ico.mvp %}
       {% include bool-cell.html value=ico.smart-contract %}
+      {% include bool-cell.html value=ico.mvp %}
       {% include bool-cell.html value=ico.min-vesting %}
       {% include bool-cell.html value=ico.have-company %}
 
