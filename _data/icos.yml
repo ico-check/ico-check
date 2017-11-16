@@ -39,7 +39,7 @@
   url: https://www.napoleonx.ai/
   real-team: true
   github: true
-  smart-contract: true
+  smart-contract: false
   mvp: false
   min-vesting: false
   have-company: true
