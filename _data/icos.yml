@@ -1,5 +1,23 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
+- name: Naga
+  image: https://i.imgur.com/LaGRyZ6.png
+  url: https://tokenbox.io
+  real-team: true
+  github: true
+  smart-contract: false
+  mvp: false
+  min-vesting: false
+  have-company: true
+  location: Germany
+  comments:
+    - content: 6 month vesting for 50 % of team tokens.
+      url: https://github.com/ico-check/ico-check/issues/7
+  ico-start-date: 2017-11-30T00:00:00Z
+  ico-end-date: 2017-12-15T00:00:00Z
+  safe: false
+  issue-url: https://github.com/ico-check/ico-check/issues/7
+
 - name: Tokenbox
   image: https://i.imgur.com/LaGRyZ6.png
   url: https://tokenbox.io
