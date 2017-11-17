@@ -5,6 +5,8 @@
 $max-mobile-res: 767px;
 $max-device-res: 1199px;
 
+$light-gray: #f7f7f7;
+
 body {
   background-color: #FFFFFF;
 }
@@ -57,7 +59,11 @@ body {
   }
 
   .ui.definition.table tr td.definition, .ui.definition.table tr td:first-child:not(.ignored) {
-    background-color: white !important;
+    background-color: inherit !important;
+  }
+
+  .light-gray-background {
+    background-color: $light-gray !important;
   }
 }
 
