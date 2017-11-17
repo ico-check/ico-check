@@ -1,5 +1,23 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
+- name: Tokenbox
+  image: https://i.imgur.com/LaGRyZ6.png
+  url: https://tokenbox.io
+  real-team: true
+  github: true
+  smart-contract: true
+  mvp: false
+  min-vesting: false
+  have-company: true
+  location: Cayman Islands
+  comments:
+    - content: 1 year vesting schedule
+      url: https://github.com/ico-check/ico-check/issues/6
+  ico-start-date: 2017-11-14T00:00:00Z
+  ico-end-date: 2017-11-28T00:00:00Z
+  safe: false
+  issue-url: https://github.com/ico-check/ico-check/issues/6
+
 - name: Quantstamp
   image: https://i.imgur.com/XnKrWqp.png
   url: https://quantstamp.com
