@@ -6,7 +6,7 @@
   real-team: true
   github: true
   smart-contract: false
-  mvp: false
+  product: false
   min-vesting: false
   have-company: true
   location: Germany
@@ -24,7 +24,7 @@
   real-team: true
   github: true
   smart-contract: true
-  mvp: false
+  product: false
   min-vesting: false
   have-company: true
   location: Cayman Islands
@@ -42,7 +42,7 @@
   real-team: true
   github: true
   smart-contract: true
-  mvp: true
+  product: true
   min-vesting: true
   have-company: true
   location: United States
@@ -60,7 +60,7 @@
   real-team: true
   github: true
   smart-contract: true
-  mvp: true
+  product: true
   min-vesting: false
   have-company: true
   location: Liechtenstein
@@ -78,7 +78,7 @@
   real-team: true
   github: true
   smart-contract: false
-  mvp: false
+  product: false
   min-vesting: false
   have-company: true
   location: United Kingdom
@@ -96,7 +96,7 @@
   real-team: true
   github: true
   smart-contract: false
-  mvp: false
+  product: false
   min-vesting: false
   have-company: true
   location: France
@@ -114,7 +114,7 @@
   real-team: true
   github: true
   smart-contract: false
-  mvp: true
+  product: true
   min-vesting: false
   have-company: true
   location: British Virgin Islands
