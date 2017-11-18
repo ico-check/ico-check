@@ -120,7 +120,7 @@
   have-company: true
   location: France
   comments:
-    - content: 6 month vesting schedule for founders and team
+    - content: 6 month vesting schedule for tokens distributed to founders and team
       url: https://github.com/ico-check/ico-check/issues/3
   ico-start-date: 2017-12-04T00:00:00Z
   ico-end-date: 2018-01-04T00:00:00Z
