@@ -11,7 +11,7 @@
   have-company: false
   location:
   comments:
-    - Asks to send eth to a wallet address and not a contract address
+    - content: Asks to send eth to a wallet address and not a contract address
     - content: Anonymous Scam or troll ICO. Avoid
       url: https://github.com/ico-check/ico-check/issues/8
   ico-start-date:
