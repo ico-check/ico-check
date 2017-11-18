@@ -84,7 +84,7 @@
   have-company: true
   location: Liechtenstein
   comments:
-    - content: No vesting schedule
+    - content: No vesting schedule for tokens distributed to Brainbot and its employees.
       url: https://github.com/ico-check/ico-check/issues/1
   ico-start-date: 2017-10-18T00:00:00Z
   ico-end-date: 2017-11-1T00:00:00Z
