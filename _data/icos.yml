@@ -132,7 +132,7 @@
   url: https://spectre.ai/
   real-team: true
   github: true
-  smart-contract: false
+  smart-contract: true
   product: true
   min-vesting: false
   have-company: true
