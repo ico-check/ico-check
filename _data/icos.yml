@@ -1,5 +1,22 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
+- name: LockChain
+  image: 
+  url: https://lockchain.co/
+  real-team: true
+  github: true
+  smart-contract: true
+  product: false
+  min-vesting: false
+  have-company: true
+  location: Bulgaria
+  comments:
+    - content: 1 year vesting schedule for 25% of tokens distributed to team, advisors, community and supporters 
+  ico-start-date:
+  ico-end-date:
+  safe: false
+  issue-url:
+
 - name: SpitCoin
   image: 
   url: http://spit-token.atwebpages.com
