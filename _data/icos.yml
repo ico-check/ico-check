@@ -11,11 +11,12 @@
   have-company: true
   location: Bulgaria
   comments:
-    - content: 1 year vesting schedule for 25% of tokens distributed to team, advisors, community and supporters 
-  ico-start-date:
-  ico-end-date:
+    - content: 1 year vesting schedule for 25% of tokens distributed to team, advisors, community and supporters
+    url: https://github.com/ico-check/ico-check/issues/9
+  ico-start-date: 2017-10-29T00:00:00Z
+  ico-end-date: 2017-11-30T00:00:00Z
   safe: false
-  issue-url:
+  issue-url: https://github.com/ico-check/ico-check/issues/9
 
 - name: SpitCoin
   image: 
