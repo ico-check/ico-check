@@ -52,7 +52,9 @@
   have-company: true
   location: Germany
   comments:
-    - content: 6 month vesting for 50 % of team tokens. Other 50% of team tokens has no vesting schedule.
+    - content: 6 month vesting for 50 % of team tokens. Other 50% of team tokens has no vesting schedule
+      url: https://github.com/ico-check/ico-check/issues/7
+    - content: No working product for Naga wallet (Multi-currency wallet), essential for the NAGA ecosystem
       url: https://github.com/ico-check/ico-check/issues/7
   ico-start-date: 2017-11-30T00:00:00Z
   ico-end-date: 2017-12-15T00:00:00Z
