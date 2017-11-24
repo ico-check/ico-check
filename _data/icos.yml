@@ -12,15 +12,15 @@
   location: Estonia
   comments:
     - content: 9% of tokens for founders and management with a 10 month vesting schedule
-      url:
+      url: https://github.com/ico-check/ico-check/issues/10
     - content: Deployed smart contract does not have vesting schdedule for founders and management
-      url:
+      url: https://github.com/ico-check/ico-check/issues/10
     - content: No working product to test
-      url:
+      url: https://github.com/ico-check/ico-check/issues/10
   ico-start-date: 2017-10-31T00:00:00Z
   ico-end-date: 2018-01-14T00:00:00Z
   safe: false
-  issue-url:
+  issue-url: https://github.com/ico-check/ico-check/issues/10
 
 - name: LockChain
   image: 
