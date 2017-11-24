@@ -1,5 +1,27 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
+- name: Crypterium
+  image: https://i.imgur.com/4SNf0TQ.jpg
+  url: https://crypterium.io
+  real-team: true
+  github: false
+  smart-contract: true
+  product: false
+  min-vesting: false
+  have-company: true
+  location: Estonia
+  comments:
+    - content: 9% of tokens distributed to founders and management with a 10 month vesting schedule
+      url:
+    - content: Deployed smart contract does not have vesting schdedule for founders and management
+      url:
+    - content: No working product to test
+      url:
+  ico-start-date: 2017-10-31T00:00:00Z
+  ico-end-date: 2018-01-14T00:00:00Z
+  safe: false
+  issue-url:
+
 - name: LockChain
   image: 
   url: https://lockchain.co/
