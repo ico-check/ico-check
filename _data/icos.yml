@@ -11,7 +11,7 @@
   have-company: true
   location: Estonia
   comments:
-    - content: 9% of tokens distributed to founders and management with a 10 month vesting schedule
+    - content: 9% of tokens for founders and management with a 10 month vesting schedule
       url:
     - content: Deployed smart contract does not have vesting schdedule for founders and management
       url:
