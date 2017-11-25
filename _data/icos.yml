@@ -12,6 +12,7 @@
   location: Ireland
   comments:
     - content: UNDER REVIEW
+      url: https://github.com/ico-check/ico-check/issues/11
   ico-start-date: 2017-11-29T00:00:00Z
   ico-end-date: 2017-12-20T00:00:00Z
   safe:
