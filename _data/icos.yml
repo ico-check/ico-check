@@ -9,7 +9,7 @@
   product: true
   min-vesting:
   have-company: true
-  location: Ireland
+  location: Poland
   comments:
     - content: Zero tokens will be distributed to the indaHash team.
       url: https://github.com/ico-check/ico-check/issues/11
