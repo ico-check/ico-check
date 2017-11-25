@@ -1,5 +1,22 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
+- name: indaHash
+  image: https://i.imgur.com/YetGeeb.png
+  url: https://crypterium.io
+  real-team:
+  github:
+  smart-contract:
+  product:
+  min-vesting:
+  have-company:
+  location: Ireland
+  comments:
+    - content: UNDER REVIEW
+  ico-start-date: 2017-11-29T00:00:00Z
+  ico-end-date: 2017-12-20T00:00:00Z
+  safe:
+  issue-url:
+
 - name: Crypterium
   image: https://i.imgur.com/4SNf0TQ.jpg
   url: https://crypterium.io
