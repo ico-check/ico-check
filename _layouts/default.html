@@ -7,6 +7,53 @@
 
     {% include header.html %}
 
+    <div class="ui top-padded container">
+      <h2 class="ui center aligned icon header">
+        <i class="circular inverted teal search icon"></i>
+        ICO background check
+        <div class="sub header">
+          Due diligence for ICO's
+        </div>
+      </h2>
+      <p></p>
+    </div>
+
+    <div class="ui top-padded container">
+      <div class="ui internally celled very relaxed centered stackable middle aligned grid">
+        <div class="row">
+
+          <div class="six wide column">
+            <h3 class="ui header">
+              <i class="github icon"></i>
+              <div class="content">
+                <a href="{{ site.github-issues-url }}">
+                  Visit GitHub for explanations
+                </a>
+                <div class="sub header">
+                  Each reviewed ICO has it's own GitHub issue where we provide related information
+                </div>
+              </div>
+            </h3>
+          </div>
+
+          <div class="six wide column">
+            <h3 class="ui header">
+              <i class="telegram icon"></i>
+              <div class="content">
+                <a href="{{ site.telegram-url }}">
+                  Join our telegram
+                </a>
+                <div class="sub header">
+                  Discuss your investment opportunities with the community
+                </div>
+              </div>
+            </h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
     {{ content }}
 
     {% include footer.html %}
