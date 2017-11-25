@@ -3,20 +3,20 @@
 - name: indaHash
   image: https://i.imgur.com/YetGeeb.png
   url: https://indahash.com
-  real-team:
-  github:
-  smart-contract:
-  product:
+  real-team: true
+  github: true
+  smart-contract: true
+  product: true
   min-vesting:
-  have-company:
+  have-company: true
   location: Ireland
   comments:
-    - content: UNDER REVIEW
+    - content: Zero tokens will be distributed to the indaHash team.
       url: https://github.com/ico-check/ico-check/issues/11
   ico-start-date: 2017-11-29T00:00:00Z
   ico-end-date: 2017-12-20T00:00:00Z
-  safe:
-  issue-url:
+  safe: true
+  issue-url: https://github.com/ico-check/ico-check/issues/11
 
 - name: Crypterium
   image: https://i.imgur.com/4SNf0TQ.jpg
