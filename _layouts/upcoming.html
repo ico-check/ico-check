@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="ui top-padded container">
+  {% include tabs.html upcoming-extra-class="active" %}
+
+  <div class="top-padded"></div>
+
+  {% for ico in site.data.upcoming %}
+  <table class="ui celled horizontal padded definition table only-mobile-visible">
+    <tbody>
+    <tr class="light-gray-background">
+      <td class="three wide">
+        Company name
+      </td>
+      {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+    </tr>
+    <tr>
+      <td class="three-wide">
+        Date
+      </td>
+      {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
+    </tr>
+    </tbody>
+  </table>
+  {% endfor %}
+
+  <table class="ui celled padded table mobile-hidden">
+    <thead>
+    <tr>
+      <th class="single line center aligned">Company name</th>
+      <th class="center aligned">Date</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    {% for ico in site.data.upcoming %}
+    <tr>
+      {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+      {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+</div>

@@ -4,6 +4,10 @@ layout: default
 
 <div class="ui top-padded container">
 
+  {% include tabs.html reviewed-extra-class="active" %}
+
+  <div class="top-padded"></div>
+
   {% for ico in site.data.icos %}
   <table class="ui celled horizontal padded definition table only-mobile-visible">
     <tbody>
@@ -98,23 +102,18 @@ layout: default
     {% for ico in site.data.icos %}
     <tr>
       {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
-
       {% include bool-cell.html value=ico.real-team %}
       {% include bool-cell.html value=ico.github %}
       {% include bool-cell.html value=ico.smart-contract %}
       {% include bool-cell.html value=ico.product %}
       {% include bool-cell.html value=ico.min-vesting %}
       {% include bool-cell.html value=ico.have-company %}
-
       {% include flag-cell.html country=ico.location %}
-
       {% include comments-cell.html comments=ico.comments is-mobile=false %}
       {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
-
       {% include bool-cell.html value=ico.safe url=ico.issue-url %}
     </tr>
     {% endfor %}
-
     </tbody>
   </table>
 
@@ -125,4 +124,3 @@ layout: default
   ** Working product must be available before ICO start <br>
   *** +2 years vesting with a 6 month cliff
 </div>
-
