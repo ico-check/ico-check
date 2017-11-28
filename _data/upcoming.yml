@@ -9,11 +9,13 @@
   ico-end-date: 2017-12-31T:00:00:00Z
 
 - name: HADE
+  image: https://i.imgur.com/dWIvpRf.png
   url: http://hade.io/
   ico-start-date: 2017-12-01T00:00:00Z
   ico-end-date: 2017-12-15T00:00:00Z
 
 - name: Dimensions Network (STC)
+  image: https://i.imgur.com/oiBo0cx.png
   url: https://dimensions.network/en/
   ico-start-date: 2018-01-24T06:00:00Z
   ico-end-date: 2018-02-24T06:00:00Z
