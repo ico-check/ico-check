@@ -3,47 +3,47 @@
 - name: GoNetwork
   image: https://i.imgur.com/XhAQdHY.jpg
   url: https://gonetwork.co/
-  real-team:
+  real_team:
   github:
-  smart-contract:
+  smart_contract:
   product:
-  min-vesting:
-  have-company:
+  min_vesting:
+  have_company:
   location:
   comments:
     - content: UNDER REVIEW
-  ico-start-date:
-  ico-end-date:
+  ico_start_date:
+  ico_end_date:
   safe:
-  issue-url:
+  issue_url:
 
 - name: indaHash
   image: https://i.imgur.com/YetGeeb.png
   url: https://indahash.com
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: true
+  smart_contract: true
   product: true
-  min-vesting:
-  have-company: true
+  min_vesting:
+  have_company: true
   location: Poland
   comments:
     - content: Zero tokens will be distributed to the indaHash team.
       url: https://github.com/ico-check/ico-check/issues/11
-  ico-start-date: 2017-11-29T00:00:00Z
-  ico-end-date: 2017-12-20T00:00:00Z
+  ico_start_date: 2017-11-29T00:00:00Z
+  ico_end_date: 2017-12-20T00:00:00Z
   safe: true
-  issue-url: https://github.com/ico-check/ico-check/issues/11
+  issue_url: https://github.com/ico-check/ico-check/issues/11
 
 - name: Crypterium
   image: https://i.imgur.com/4SNf0TQ.jpg
   url: https://crypterium.io
-  real-team: true
+  real_team: true
   github: false
-  smart-contract: true
+  smart_contract: true
   product: false
-  min-vesting: false
-  have-company: true
+  min_vesting: false
+  have_company: true
   location: Estonia
   comments:
     - content: 9% of tokens for founders and management with a 10 month vesting schedule
@@ -52,20 +52,20 @@
       url: https://github.com/ico-check/ico-check/issues/10
     - content: No working product to test
       url: https://github.com/ico-check/ico-check/issues/10
-  ico-start-date: 2017-10-31T00:00:00Z
-  ico-end-date: 2018-01-14T00:00:00Z
+  ico_start_date: 2017-10-31T00:00:00Z
+  ico_end_date: 2018-01-14T00:00:00Z
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/10
+  issue_url: https://github.com/ico-check/ico-check/issues/10
 
 - name: LockChain
   image: 
   url: https://lockchain.co/
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: true
+  smart_contract: true
   product: false
-  min-vesting: false
-  have-company: true
+  min_vesting: false
+  have_company: true
   location: Bulgaria
   comments:
     - content: 1 year vesting schedule for 25% of tokens distributed to team, advisors, community and supporters
@@ -74,39 +74,39 @@
       url: https://www.reddit.com/r/icocrypto/comments/7dzqdo/look_at_this_thinly_veiled_fake_blog_that_exists/
     - content: More red flags
       url: https://www.reddit.com/r/ethtrader/comments/7do7up/lockchain_and_the_bulgarian_cryptoscammers/
-  ico-start-date: 2017-10-29T00:00:00Z
-  ico-end-date: 2017-11-30T00:00:00Z
+  ico_start_date: 2017-10-29T00:00:00Z
+  ico_end_date: 2017-11-30T00:00:00Z
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/9
+  issue_url: https://github.com/ico-check/ico-check/issues/9
 
 - name: SpitCoin
   image: 
   url: http://spit-token.atwebpages.com
-  real-team: false
+  real_team: false
   github: false
-  smart-contract: false
+  smart_contract: false
   product: false
-  min-vesting: false
-  have-company: false
+  min_vesting: false
+  have_company: false
   location:
   comments:
     - content: Asks to send eth to a wallet address and not a contract address
     - content: Anonymous TROLL ICO
       url: https://github.com/ico-check/ico-check/issues/8
-  ico-start-date:
-  ico-end-date:
+  ico_start_date:
+  ico_end_date:
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/8
+  issue_url: https://github.com/ico-check/ico-check/issues/8
   
 - name: Naga
   image: https://i.imgur.com/NigW1r4.png
   url: https://www.nagaico.com
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: false
+  smart_contract: false
   product: false
-  min-vesting: false
-  have-company: true
+  min_vesting: false
+  have_company: true
   location: Germany
   comments:
     - content: 6 month vesting for 50 % of team tokens. Other 50% of team tokens has no vesting schedule
@@ -115,74 +115,74 @@
       url: https://github.com/ico-check/ico-check/issues/7
     - content: More red flags
       url: https://valueandopportunity.com/2017/11/17/the-naga-group-nagacoin-ico-double-pumping-the-cryptocraze
-  ico-start-date: 2017-11-30T00:00:00Z
-  ico-end-date: 2017-12-15T00:00:00Z
+  ico_start_date: 2017-11-30T00:00:00Z
+  ico_end_date: 2017-12-15T00:00:00Z
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/7
+  issue_url: https://github.com/ico-check/ico-check/issues/7
 
 - name: Tokenbox
   image: https://i.imgur.com/LaGRyZ6.png
   url: https://tokenbox.io
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: true
+  smart_contract: true
   product: false
-  min-vesting: false
-  have-company: true
+  min_vesting: false
+  have_company: true
   location: Cayman Islands
   comments:
     - content: 1 year vesting schedule for tokens distributed to team and founders
       url: https://github.com/ico-check/ico-check/issues/6
-  ico-start-date: 2017-11-14T00:00:00Z
-  ico-end-date: 2017-11-28T00:00:00Z
+  ico_start_date: 2017-11-14T00:00:00Z
+  ico_end_date: 2017-11-28T00:00:00Z
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/6
+  issue_url: https://github.com/ico-check/ico-check/issues/6
 
 - name: Quantstamp
   image: https://i.imgur.com/XnKrWqp.png
   url: https://quantstamp.com
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: true
+  smart_contract: true
   product: true
-  min-vesting: true
-  have-company: true
+  min_vesting: true
+  have_company: true
   location: United States
   comments:
     - content: 3 year vesting schedule for tokens distributed to founding team
       url: https://github.com/ico-check/ico-check/issues/5
-  ico-start-date: 2017-11-17T00:00:00Z
-  ico-end-date: 2017-12-16T00:00:00Z
+  ico_start_date: 2017-11-17T00:00:00Z
+  ico_end_date: 2017-12-16T00:00:00Z
   safe: true
-  issue-url: https://github.com/ico-check/ico-check/issues/5
+  issue_url: https://github.com/ico-check/ico-check/issues/5
 
 - name: Raiden Network
   image: https://i.imgur.com/zpQCTSj.png
   url: https://raiden.network/
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: true
+  smart_contract: true
   product: true
-  min-vesting: false
-  have-company: true
+  min_vesting: false
+  have_company: true
   location: Liechtenstein
   comments:
     - content: No vesting schedule for tokens distributed to Brainbot and its employees.
       url: https://github.com/ico-check/ico-check/issues/1
-  ico-start-date: 2017-10-18T00:00:00Z
-  ico-end-date: 2017-11-1T00:00:00Z
+  ico_start_date: 2017-10-18T00:00:00Z
+  ico_end_date: 2017-11-1T00:00:00Z
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/1
+  issue_url: https://github.com/ico-check/ico-check/issues/1
 
 - name: Token Desk
   image: https://pbs.twimg.com/profile_images/911198979332898816/JuOoVJb3.jpg
   url: https://www.tokendesk.io
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: false
+  smart_contract: false
   product: false
-  min-vesting: false
-  have-company: true
+  min_vesting: false
+  have_company: true
   location: United Kingdom
   comments:
     - content: Smart contract not deployed
@@ -191,43 +191,43 @@
       url: https://github.com/ico-check/ico-check/issues/2
     - content: Multiple red flags
       url: https://github.com/ico-check/ico-check/issues/2
-  ico-start-date: 2017-10-04T00:00:00Z
-  ico-end-date: 2017-12-24T00:00:00Z
+  ico_start_date: 2017-10-04T00:00:00Z
+  ico_end_date: 2017-12-24T00:00:00Z
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/2
+  issue_url: https://github.com/ico-check/ico-check/issues/2
 
 - name: NapoleonX
   image: https://i.imgur.com/Hruaqkl.png
   url: https://www.napoleonx.ai/
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: false
+  smart_contract: false
   product: false
-  min-vesting: false
-  have-company: true
+  min_vesting: false
+  have_company: true
   location: France
   comments:
     - content: 6 month vesting schedule for tokens distributed to founders and team
       url: https://github.com/ico-check/ico-check/issues/3
-  ico-start-date: 2017-12-04T00:00:00Z
-  ico-end-date: 2018-01-04T00:00:00Z
+  ico_start_date: 2017-12-04T00:00:00Z
+  ico_end_date: 2018-01-04T00:00:00Z
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/3
+  issue_url: https://github.com/ico-check/ico-check/issues/3
   
 - name: Spectre
   image: https://i.imgur.com/LZywFzo.jpg
   url: https://spectre.ai/
-  real-team: true
+  real_team: true
   github: true
-  smart-contract: true
+  smart_contract: true
   product: true
-  min-vesting: false
-  have-company: true
+  min_vesting: false
+  have_company: true
   location: British Virgin Islands
   comments:
     - content: 6 month vesting schedule for tokens distributed to management
       url: https://github.com/ico-check/ico-check/issues/4
-  ico-start-date: 2017-11-17T00:00:00Z
-  ico-end-date: 2017-12-10T00:00:00Z
+  ico_start_date: 2017-11-17T00:00:00Z
+  ico_end_date: 2017-12-10T00:00:00Z
   safe: false
-  issue-url: https://github.com/ico-check/ico-check/issues/4
+  issue_url: https://github.com/ico-check/ico-check/issues/4

@@ -21,7 +21,7 @@ layout: default
           <td class="three-wide">
             Real team
           </td>
-          {% include bool-cell.html value=ico.real-team %}
+          {% include bool-cell.html value=ico.real_team %}
         </tr>
         <tr>
           <td class="three-wide">
@@ -33,7 +33,7 @@ layout: default
           <td class="three-wide">
             Smart Contract*
           </td>
-          {% include bool-cell.html value=ico.smart-contract %}
+          {% include bool-cell.html value=ico.smart_contract %}
         </tr>
         <tr>
           <td class="three-wide">
@@ -45,13 +45,13 @@ layout: default
           <td class="three-wide">
             Vesting***
           </td>
-          {% include bool-cell.html value=ico.min-vesting %}
+          {% include bool-cell.html value=ico.min_vesting %}
         </tr>
         <tr>
           <td class="three-wide">
             Have a company
           </td>
-          {% include bool-cell.html value=ico.have-company %}
+          {% include bool-cell.html value=ico.have_company %}
         </tr>
         <tr>
           <td class="three-wide">
@@ -69,13 +69,13 @@ layout: default
           <td class="three-wide">
             Date
           </td>
-          {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
+          {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
         </tr>
         <tr>
           <td class="three-wide">
             Safe
           </td>
-          {% include bool-cell.html value=ico.safe url=ico.issue-url %}
+          {% include bool-cell.html value=ico.safe url=ico.issue_url %}
         </tr>
     </tbody>
   </table>
@@ -102,16 +102,16 @@ layout: default
     {% for ico in site.data.icos %}
     <tr>
       {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
-      {% include bool-cell.html value=ico.real-team %}
+      {% include bool-cell.html value=ico.real_team %}
       {% include bool-cell.html value=ico.github %}
-      {% include bool-cell.html value=ico.smart-contract %}
+      {% include bool-cell.html value=ico.smart_contract %}
       {% include bool-cell.html value=ico.product %}
-      {% include bool-cell.html value=ico.min-vesting %}
-      {% include bool-cell.html value=ico.have-company %}
+      {% include bool-cell.html value=ico.min_vesting %}
+      {% include bool-cell.html value=ico.have_company %}
       {% include flag-cell.html country=ico.location %}
       {% include comments-cell.html comments=ico.comments is-mobile=false %}
-      {% include ico-dates-cell.html start-date=ico.ico-start-date end-date=ico.ico-end-date %}
-      {% include bool-cell.html value=ico.safe url=ico.issue-url %}
+      {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
+      {% include bool-cell.html value=ico.safe url=ico.issue_url %}
     </tr>
     {% endfor %}
     </tbody>

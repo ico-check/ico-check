@@ -1,43 +1,43 @@
 - name: ZANGLL
   url: http://www.zangll.io
-  ico-start-date: 2017-11-29T17:00:00Z
-  ico-end-date: 2017-12-28T17:00:00Z
+  ico_start_date: 2017-11-29T17:00:00Z
+  ico_end_date: 2017-12-28T17:00:00Z
 
 - name: BitClave
   url: https://www.bitclave.com/
-  ico-start-date: 2017-11-29T00:00:00Z
-  ico-end-date: 2017-12-29T00:00:00Z
+  ico_start_date: 2017-11-29T00:00:00Z
+  ico_end_date: 2017-12-29T00:00:00Z
 
 - name: Bananacoin
   image: https://i.imgur.com/UCoT1HG.png
   url: http://www.bananacoin.io
-  ico-start-date: 2017-11-29T12:00:00Z
-  ico-end-date: 2017-12-30T12:00:00Z
+  ico_start_date: 2017-11-29T12:00:00Z
+  ico_end_date: 2017-12-30T12:00:00Z
 
 - name: KYC token
   image: https://i.imgur.com/CwLY1f4.png
   url: https://kyc.legal/
-  ico-start-date: 2017-11-29T00:00:00Z
-  ico-end-date: 2018-02-01T00:00:00Z
+  ico_start_date: 2017-11-29T00:00:00Z
+  ico_end_date: 2018-02-01T00:00:00Z
 
 - name: Gizer
   url: https://tokensale.gizer.io/
-  ico-start-date: 2017-11-30T00:00:00Z
-  ico-end-date: 2017-12-30T00:00:00Z
+  ico_start_date: 2017-11-30T00:00:00Z
+  ico_end_date: 2017-12-30T00:00:00Z
 
 - name: Envion
   url: https://envion.org
-  ico-start-date: 2017-12-01T:00:00:00Z
-  ico-end-date: 2017-12-31T:00:00:00Z
+  ico_start_date: 2017-12-01T:00:00:00Z
+  ico_end_date: 2017-12-31T:00:00:00Z
 
 - name: HADE
   image: https://i.imgur.com/dWIvpRf.png
   url: http://hade.io/
-  ico-start-date: 2017-12-01T00:00:00Z
-  ico-end-date: 2017-12-15T00:00:00Z
+  ico_start_date: 2017-12-01T00:00:00Z
+  ico_end_date: 2017-12-15T00:00:00Z
 
 - name: Dimensions Network
   image: https://i.imgur.com/oiBo0cx.png
   url: https://dimensions.network/en/
-  ico-start-date: 2018-01-24T06:00:00Z
-  ico-end-date: 2018-02-24T06:00:00Z
+  ico_start_date: 2018-01-24T06:00:00Z
+  ico_end_date: 2018-02-24T06:00:00Z
