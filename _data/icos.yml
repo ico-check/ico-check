@@ -1,5 +1,22 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
+- name: GoNetwork
+  image: https://i.imgur.com/XhAQdHY.jpg
+  url: https://gonetwork.co/
+  real-team:
+  github:
+  smart-contract:
+  product:
+  min-vesting:
+  have-company:
+  location:
+  comments:
+    - content: UNDER REVIEW
+  ico-start-date:
+  ico-end-date:
+  safe:
+  issue-url:
+
 - name: indaHash
   image: https://i.imgur.com/YetGeeb.png
   url: https://indahash.com
