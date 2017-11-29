@@ -1,4 +1,4 @@
-# ICO Check
+# [ICO-Check](https://icocheck.io/)
 
 [ICO-Check](https://icocheck.io/) is a community-driven website that lists the latest ICOs and conducts due diligence on each one of them.            
              
