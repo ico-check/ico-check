@@ -1,18 +1,8 @@
-- name: ZANGLL
-  url: http://www.zangll.io
-  ico_start_date: 2017-11-29T17:00:00Z
-  ico_end_date: 2017-12-28T17:00:00Z
-
 - name: BitClave
+  image:
   url: https://www.bitclave.com/
   ico_start_date: 2017-11-29T00:00:00Z
   ico_end_date: 2017-12-29T00:00:00Z
-
-- name: Bananacoin
-  image: https://i.imgur.com/UCoT1HG.png
-  url: http://www.bananacoin.io
-  ico_start_date: 2017-11-29T12:00:00Z
-  ico_end_date: 2017-12-30T12:00:00Z
 
 - name: KYC token
   image: https://i.imgur.com/CwLY1f4.png
@@ -20,15 +10,59 @@
   ico_start_date: 2017-11-29T00:00:00Z
   ico_end_date: 2018-02-01T00:00:00Z
 
+- name: Bananacoin
+  image: https://i.imgur.com/UCoT1HG.png
+  url: http://www.bananacoin.io
+  ico_start_date: 2017-11-29T12:00:00Z
+  ico_end_date: 2017-12-30T12:00:00Z
+
+- name: Zangll
+  image:
+  url: http://www.zangll.io
+  ico_start_date: 2017-11-29T17:00:00Z
+  ico_end_date: 2017-12-28T17:00:00Z
+
+- name: EquaCoin
+  image: https://i.imgur.com/Utivnh9.png
+  url: http://www.equacoin.com
+  ico_start_date: 2017-11-30T00:00:00Z
+  ico_end_date: 2017-12-30T00:00:00Z
+
 - name: Gizer
+  image:
   url: https://tokensale.gizer.io/
   ico_start_date: 2017-11-30T00:00:00Z
   ico_end_date: 2017-12-30T00:00:00Z
 
-- name: Envion
-  url: https://envion.org
-  ico_start_date: 2017-12-01T:00:00:00Z
-  ico_end_date: 2017-12-31T:00:00:00Z
+- name: FreelancerCoin
+  image: https://i.imgur.com/DUTcWAW.png
+  url: https://www.freelancercoin.io
+  ico_start_date: 2017-11-30T00:00:00Z
+  ico_end_date: 2018-03-31T00:00:00Z
+
+- name: UTToken
+  image: https://i.imgur.com/MpxC3Mn.png
+  url: https://uttoken.io
+  ico_start_date: 2017-11-30T09:00:00Z
+  ico_end_date: 2017-12-24T23:59:00Z
+
+- name: Zen Protocol
+  image: https://i.imgur.com/mN9vfSX.png
+  url: https://www.zenprotocol.com
+  ico_start_date: 2017-11-30T16:00:00Z
+  ico_end_date: 2017-12-30T16:00:00Z
+
+- name: Bloom
+  image: https://i.imgur.com/t2o0ANn.png
+  url: http://hellobloom.io
+  ico_start_date: 2017-11-30T17:00:00Z
+  ico_end_date: 2017-12-30T17:00:00Z
+
+- name: DFantasy Token
+  image: https://i.imgur.com/aW7CLre.png
+  url: https://www.dfantasy.io/
+  ico_start_date: 2017-12-01T00:00:00Z
+  ico_end_date: 2017-12-10T23:59:00Z
 
 - name: HADE
   image: https://i.imgur.com/dWIvpRf.png
@@ -36,8 +70,452 @@
   ico_start_date: 2017-12-01T00:00:00Z
   ico_end_date: 2017-12-15T00:00:00Z
 
+- name: ConnectJob
+  image: https://i.imgur.com/h1i6keO.png
+  url: https://ico.connectjob.io
+  ico_start_date: 2017-12-01T00:00:00Z
+  ico_end_date: 2017-12-20T00:00:00Z
+
+- name: Envion
+  image: https://i.imgur.com/TEjiSyu.png
+  url: https://envion.org/en/
+  ico_start_date: 2017-12-01T00:00:00Z
+  ico_end_date: 2017-12-31T00:00:00Z
+
+- name: HealthHeart Token
+  image: https://i.imgur.com/bSUIfuK.png
+  url: http://www.healthheart.io/
+  ico_start_date: 2017-12-01T00:00:00Z
+  ico_end_date: 2017-12-31T23:59:00Z
+
+- name: Bitproperty
+  image: https://i.imgur.com/Ia1qHsp.png
+  url: https://btptoken.io/en/
+  ico_start_date: 2017-12-01T00:00:00Z
+  ico_end_date: 2018-01-01T00:00:00Z
+
+- name: Blockchain Traded Fund
+  image: https://i.imgur.com/Um2elRp.png
+  url: https://www.blockchaintradedfunds.com/
+  ico_start_date: 2017-12-01T00:00:00Z
+  ico_end_date: 2018-01-31T00:00:00Z
+
+- name: NVB Token
+  image: https://i.imgur.com/ujD01vX.png
+  url: http://nvb.digital
+  ico_start_date: 2017-12-01T00:00:00Z
+  ico_end_date: 2018-02-15T23:59:00Z
+
+- name: InterestCoin
+  image: https://i.imgur.com/H6zktni.png
+  url: https://interestcoin.io
+  ico_start_date: 2017-12-01T10:00:00Z
+  ico_end_date: 2018-02-28T20:00:00Z
+
+- name: GOLDEA
+  image: https://i.imgur.com/y0zh3AZ.png
+  url: https://www.goldea.io/
+  ico_start_date: 2017-12-01T11:00:00Z
+  ico_end_date: 2018-03-31T11:00:00Z
+
+- name: CROM
+  image: https://i.imgur.com/UQS497U.png
+  url: https://www.cromhub.com
+  ico_start_date: 2017-12-01T12:00:00Z
+  ico_end_date: 2017-12-15T12:00:00Z
+
+- name: STAMP
+  image: https://i.imgur.com/d9jBM9G.png
+  url: http://www.stampsplatform.com
+  ico_start_date: 2017-12-01T12:00:00Z
+  ico_end_date: 2017-12-15T12:00:00Z
+
+- name: Balehubucks
+  image: https://i.imgur.com/Ihy4BqB.png
+  url: http://www.balehubucks.com
+  ico_start_date: 2017-12-01T12:00:00Z
+  ico_end_date: 2017-12-31T12:00:00Z
+
+- name: FLUX COIN
+  image: https://i.imgur.com/Pepo8CT.png
+  url: https://flux.fund
+  ico_start_date: 2017-12-01T12:00:00Z
+  ico_end_date: 2017-12-31T12:00:00Z
+
+- name: Enjoy Life token
+  image: https://i.imgur.com/A6fGuDg.png
+  url: https://ico.enjoy-life.world/en
+  ico_start_date: 2017-12-01T12:00:00Z
+  ico_end_date: 2018-01-15T12:00:00Z
+
+- name: Universal Brand (WAT)
+  image: https://i.imgur.com/citwSQt.png
+  url: http://universal-brand.com
+  ico_start_date: 2017-12-01T12:00:00Z
+  ico_end_date: 2018-02-14T12:00:00Z
+
+- name: LiveTree ADEPT (Seed)
+  image: https://i.imgur.com/YmyJLSf.png
+  url: https://adept.livetree.com
+  ico_start_date: 2017-12-01T13:00:00Z
+  ico_end_date: 2017-12-15T13:00:00Z
+
+- name: BitDegree
+  image: https://i.imgur.com/uIgM2wd.png
+  url: https://www.bitdegree.org
+  ico_start_date: 2017-12-01T14:00:00Z
+  ico_end_date: 2017-12-14T23:59:00Z
+
+- name: Cube
+  image: https://i.imgur.com/nIi3bZT.png
+  url: https://cubeint.io
+  ico_start_date: 2017-12-01T15:00:00Z
+  ico_end_date: 2017-12-07T23:59:00Z
+
+- name: Wala
+  image: https://i.imgur.com/dUuNo8b.png
+  url: https://tokensale.getwala.com/
+  ico_start_date: 2017-12-01T18:00:00Z
+  ico_end_date: 2017-12-11T18:00:00Z
+
+- name: BiafraCoin
+  image: https://i.imgur.com/g7JKPFp.png
+  url: https://www.biafracoin.info/
+  ico_start_date: 2017-12-01T21:00:00Z
+  ico_end_date: 2017-12-31T21:00:00Z
+
+- name: BTC-Green
+  image: https://i.imgur.com/u8pJyut.png
+  url: https://www.btcgreen.co
+  ico_start_date: 2017-12-02T08:00:00Z
+  ico_end_date: 2017-12-31T11:00:00Z
+
+- name: Bitbeeline
+  image: https://i.imgur.com/dtunLR2.png
+  url: https://bitbeeline.co
+  ico_start_date: 2017-12-04T00:00:00Z
+  ico_end_date: 2018-01-03T23:59:00Z
+
+- name: DeHedge
+  image: https://i.imgur.com/X0wquQd.png
+  url: https://dehedge.com/
+  ico_start_date: 2017-12-04T08:00:00Z
+  ico_end_date: 2017-12-18T00:00:00Z
+
+- name: Sether
+  image: https://i.imgur.com/L4tckv7.png
+  url: https://www.sether.io/
+  ico_start_date: 2017-12-04T10:00:00Z
+  ico_end_date: 2018-01-14T23:00:00Z
+
+- name: INS
+  image: https://i.imgur.com/uKGY73M.png
+  url: https://ins.world/
+  ico_start_date: 2017-12-04T11:00:00Z
+  ico_end_date: 2017-12-25T11:00:00Z
+
+- name: REMME
+  image: https://i.imgur.com/JCt02k2.png
+  url: https://tokensale.remme.io/
+  ico_start_date: 2017-12-04T12:00:00Z
+  ico_end_date: 2017-12-25T12:00:00Z
+
+- name: Gameflip (FLIP)
+  image: https://i.imgur.com/xmqgdvX.png
+  url: https://tokensale.gameflip.com/
+  ico_start_date: 2017-12-04T19:00:00Z
+  ico_end_date: 2018-01-29T18:59:00Z
+
+- name: trade.io
+  image: https://i.imgur.com/VFS76um.png
+  url: https://trade.io/
+  ico_start_date: 2017-12-05T00:00:00Z
+  ico_end_date: 2017-12-15T23:00:00Z
+
+- name: Rentberry
+  image: https://i.imgur.com/9vUXhIo.png
+  url: https://rentberry.cryptonomos.com/
+  ico_start_date: 2017-12-05T09:00:00Z
+  ico_end_date: 2018-01-26T08:59:00Z
+
+- name: BetBox
+  image: https://i.imgur.com/zaV2YHh.png
+  url: https://betbox.ai/
+  ico_start_date: 2017-12-05T13:00:00Z
+  ico_end_date: 2018-01-16T23:59:00Z
+
+- name: Miners At Work
+  image: https://i.imgur.com/Zd8LdyJ.png
+  url: https://minersatwork.com/
+  ico_start_date: 2017-12-06T02:00:00Z
+  ico_end_date: 2018-02-05T15:59:00Z
+
+- name: Debitum Network
+  image: https://i.imgur.com/J6z4HEz.png
+  url: https://debitum.network/
+  ico_start_date: 2017-12-07T00:00:00Z
+  ico_end_date: 2017-12-21T00:00:00Z
+
+- name: RAISON
+  image: https://i.imgur.com/9vasZJK.png
+  url: http://raison.ai/index-en.html
+  ico_start_date: 2017-12-07T08:00:00Z
+  ico_end_date: 2017-12-21T08:00:00Z
+
+- name: SwissBorg
+  image: https://i.imgur.com/NVklU9K.png
+  url: https://swissborg.com/en/
+  ico_start_date: 2017-12-07T13:00:00Z
+  ico_end_date: 2017-12-24T13:00:00Z
+
+- name: DIGIT
+  image: https://i.imgur.com/ZlOJhYB.png
+  url: https://digitcoin.world
+  ico_start_date: 2017-12-08T01:00:00Z
+  ico_end_date: 2018-02-14T16:00:00Z
+
+- name: Spectiv
+  image: https://i.imgur.com/BNAy69B.png
+  url: https://www.spectivvr.com/
+  ico_start_date: 2017-12-08T07:00:00Z
+  ico_end_date: 2018-01-08T07:00:00Z
+
+- name: Tigereum
+  image: https://i.imgur.com/WlQgsqM.png
+  url: https://www.tigereum.io
+  ico_start_date: 2017-12-08T09:00:00Z
+  ico_end_date: 2017-12-18T23:00:00Z
+
+- name: LOCIcoin
+  image: https://i.imgur.com/LmMVLeS.png
+  url: https://locipro.com/
+  ico_start_date: 2017-12-08T12:00:00Z
+  ico_end_date: 2017-12-31T12:00:00Z
+
+- name: Coinhealth
+  image:
+  url: http://www.coinhealth.io
+  ico_start_date: 2017-12-10T12:00:00Z
+  ico_end_date: 2018-02-28T12:00:00Z
+
+- name: LoyalCoin
+  image: https://i.imgur.com/w0o5zXI.png
+  url: https://www.loyalcoin.io
+  ico_start_date: 2017-12-11T00:00:00Z
+  ico_end_date: 2018-01-10T23:30:00Z
+
+- name: Telcoin
+  image: https://i.imgur.com/C36qlxf.png
+  url: http://www.telco.in
+  ico_start_date: 2017-12-11T12:00:00Z
+  ico_end_date: 2017-12-23T12:00:00Z
+
+- name: PopulTrade
+  image: https://i.imgur.com/ZEHxaOO.png
+  url: https://popultrade.com/
+  ico_start_date: 2017-12-11T12:00:00Z
+  ico_end_date: 2018-01-15T12:00:00Z
+
+- name: Dream Team
+  image: https://i.imgur.com/9DVUfyC.png
+  url: https://token.dreamteam.gg
+  ico_start_date: 2017-12-11T17:00:00Z
+  ico_end_date: 2017-12-14T17:00:00Z
+
+- name: Refereum
+  image: https://i.imgur.com/NhJzmlj.png
+  url: https://refereum.com/
+  ico_start_date: 2017-12-12T12:00:00Z
+  ico_end_date: 2018-01-12T12:00:00Z
+
+- name: VaultBank
+  image: https://i.imgur.com/Y7wn5Xq.png
+  url: https://vaultbank.io/
+  ico_start_date: 2017-12-12T12:00:00Z
+  ico_end_date: 2018-01-12T12:00:00Z
+
+- name: Lendoit
+  image: https://i.imgur.com/x5mGoIN.png
+  url: https://lendoit.com
+  ico_start_date: 2017-12-13T12:00:00Z
+  ico_end_date: 2018-01-13T12:00:00Z
+
+- name: Game Machine
+  image: https://i.imgur.com/hBU259a.png
+  url: https://gamemachine.io/en
+  ico_start_date: 2017-12-14T12:00:00Z
+  ico_end_date: 2018-01-31T12:00:00Z
+
+- name: Movement
+  image: https://i.imgur.com/HQJhV18.png
+  url: https://www.movementapp.io
+  ico_start_date: 2017-12-15T17:00:00Z
+  ico_end_date: 2017-12-25T17:00:00Z
+
+- name: AidCoin
+  image: https://i.imgur.com/rhKhZlV.png
+  url: https://www.aidcoin.co/
+  ico_start_date: 2017-12-15T18:00:00Z
+  ico_end_date: 2017-12-30T18:00:00Z
+
+- name: eGold
+  image: https://i.imgur.com/YngD1mM.png
+  url: https://egold.gg/
+  ico_start_date: 2017-12-18T08:00:00Z
+  ico_end_date: 2018-02-28T20:00:00Z
+
+- name: COINLION
+  image: https://i.imgur.com/j8MVI2M.png
+  url: https://coinlion.com/
+  ico_start_date: 2017-12-18T12:00:00Z
+  ico_end_date: 2018-02-25T12:00:00Z
+
+- name: Bezop
+  image: https://i.imgur.com/K37mpHR.png
+  url: https://bezop.io
+  ico_start_date: 2017-12-20T13:00:00Z
+  ico_end_date: 2018-01-10T13:00:00Z
+
+- name: Advanced Browsing Token (ABT)
+  image: https://i.imgur.com/W7HPHol.png
+  url: http://abtoken.io
+  ico_start_date: 2017-12-23T12:00:00Z
+  ico_end_date: 2018-01-31T12:00:00Z
+
+- name: Titanium Blockchain Infrastructure Services (TBIS)
+  image: https://i.imgur.com/DnNZvvM.png
+  url: https://tbis.io/
+  ico_start_date: 2018-01-01T12:00:00Z
+  ico_end_date: 2018-03-01T12:00:00Z
+
+- name: Gimmer
+  image: https://i.imgur.com/Bco6HBk.png
+  url: https://token.gimmer.net/
+  ico_start_date: 2018-01-03T12:00:00Z
+  ico_end_date: 2018-01-31T12:00:00Z
+
+- name: LaLa World
+  image: https://i.imgur.com/zRDdkId.png
+  url: https://lalaworld.io/
+  ico_start_date: 2018-01-05T13:00:00Z
+  ico_end_date: 2018-02-05T13:00:00Z
+
+- name: ViMarket
+  image: https://i.imgur.com/JF6vj6Z.png
+  url: https://vimarket.io/
+  ico_start_date: 2018-01-07T12:00:00Z
+  ico_end_date: 2018-01-31T12:00:00Z
+
+- name: Crowd Genie
+  image: https://i.imgur.com/uc0T6Mv.png
+  url: https://genieico.net/
+  ico_start_date: 2018-01-08T12:00:00Z
+  ico_end_date: 2018-02-28T12:00:00Z
+
+- name: ATFS
+  image: https://i.imgur.com/UDklONf.png
+  url: https://atfslab.io
+  ico_start_date: 2018-01-10T14:00:00Z
+  ico_end_date: 2018-02-09T14:00:00Z
+
+- name: SelfKey
+  image: https://i.imgur.com/3mn5CjE.png
+  url: https://selfkey.org
+  ico_start_date: 2018-01-15T00:00:00Z
+  ico_end_date: 2018-02-01T00:00:00Z
+
+- name: CREDITS
+  image: https://i.imgur.com/qglvKpz.png
+  url: https://credits.com
+  ico_start_date: 2018-01-15T00:00:00Z
+  ico_end_date: 2018-02-15T23:59:00Z
+
+- name: Darico
+  image: https://i.imgur.com/2IvlXTE.png
+  url: http://darico.io
+  ico_start_date: 2018-01-15T00:00:00Z
+  ico_end_date: 2018-07-15T00:00:00Z
+
+- name: TopiaCoin
+  image: https://i.imgur.com/1QK52eB.png
+  url: https://topiacoin.io/
+  ico_start_date: 2018-01-15T12:00:00Z
+  ico_end_date: 2018-02-05T12:00:00Z
+
+- name: Cryogen (CRYO)
+  image: https://i.imgur.com/hV4gULK.png
+  url: https://en.cryogen.me/
+  ico_start_date: 2018-01-15T12:00:00Z
+  ico_end_date: 2018-03-15T12:00:00Z
+
+- name: StreamSpace
+  image: https://i.imgur.com/t6rGlVD.png
+  url: https://www.stream.space
+  ico_start_date: 2018-01-15T15:00:00Z
+  ico_end_date: 2018-02-12T15:00:00Z
+
+- name: Narrative
+  image: https://i.imgur.com/2erjZYh.png
+  url: https://www.narrative.network
+  ico_start_date: 2018-01-16T17:00:00Z
+  ico_end_date: 2018-02-15T21:00:00Z
+
+- name: Graft
+  image: https://i.imgur.com/JBOPgY4.png
+  url: https://www.graft.network
+  ico_start_date: 2018-01-18T00:00:00Z
+  ico_end_date: 2018-02-18T23:30:00Z
+
+- name: DADI
+  image: https://i.imgur.com/UV14K2U.png
+  url: https://dadi.cloud
+  ico_start_date: 2018-01-22T12:00:00Z
+  ico_end_date: 2018-02-28T12:00:00Z
+
+- name: MARK.SPACE
+  image: https://i.imgur.com/KBi7pnt.png
+  url: http://markspace.io/
+  ico_start_date: 2018-01-23T12:00:00Z
+  ico_end_date: 2018-02-28T12:00:00Z
+
 - name: Dimensions Network
   image: https://i.imgur.com/oiBo0cx.png
   url: https://dimensions.network/en/
   ico_start_date: 2018-01-24T06:00:00Z
   ico_end_date: 2018-02-24T06:00:00Z
+
+- name: WePower
+  image: https://i.imgur.com/HagNMLw.png
+  url: https://wepower.network
+  ico_start_date: 2018-02-01T00:00:00Z
+  ico_end_date: 2018-02-14T00:00:00Z
+
+- name: RightMesh
+  image:
+  url: https://www.rightmesh.io/
+  ico_start_date: 2018-02-13T12:00:00Z
+  ico_end_date: 2018-02-27T11:59:00Z
+
+- name: Requitix
+  image: https://i.imgur.com/R9hr04t.png
+  url: https://www.requitix.io
+  ico_start_date: 2018-02-20T00:00:00Z
+  ico_end_date: 2018-03-31T00:00:00Z
+
+- name: Flying Money
+  image: https://i.imgur.com/K7oPxIN.png
+  url: http://www.flyingmoney.io
+  ico_start_date: 2018-03-01T10:00:00Z
+  ico_end_date: 2018-05-01T10:00:00Z
+
+- name: Waltix
+  image: https://i.imgur.com/bN7rmDs.png
+  url: https://waltix.io/en/
+  ico_start_date: 2018-03-12T14:00:00Z
+  ico_end_date: 2018-07-12T20:00:00Z
+
+- name: Cappasity
+  image: https://i.imgur.com/DPL6hdE.png
+  url: https://artoken.io
+  ico_start_date: 2018-03-22T13:00:00Z
+  ico_end_date: 2018-04-19T13:00:00Z
