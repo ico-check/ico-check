@@ -1,22 +1,13 @@
 {% if include.value == true %}
   <td class="center aligned positive collapsing">
-    {% capture positive-content %}
-      <i class="large green icon checkmark"></i>
-    {% endcapture %}
-    {% include clickable.html content=positive-content url=include.url %}
+    <i class="large green icon checkmark"></i>
   </td>
 {% elsif include.value == false %}
   <td class="center aligned negative collapsing">
-    {% capture negative-content %}
-      <i class="large red icon close"></i>
-    {% endcapture %}
-    {% include clickable.html content=negative-content url=include.url %}
+    <i class="large red icon close"></i>
   </td>
 {% else %}
   <td class="center aligned collapsing">
-    {% capture neutral-content %}
-      <i class="large icon minus"></i>
-    {% endcapture %}
-    {% include clickable.html content=neutral-content url=include.url %}
+    <i class="large icon minus"></i>
   </td>
 {% endif %}
