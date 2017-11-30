@@ -12,9 +12,7 @@
   location: Canada
   comments:
     - content: The founders never replied to investors' questions, showing total disregard to their concerns.
-      url: https://github.com/ico-check/ico-check/issues/12
     - content: Disturbing screenshot of Co-founder Xun Cai.
-      url: https://github.com/ico-check/ico-check/issues/12
   ico_start_date:
   ico_end_date:
   safe: false
@@ -32,7 +30,6 @@
   location: Poland
   comments:
     - content: Zero tokens will be distributed to the indaHash team.
-      url: https://github.com/ico-check/ico-check/issues/11
   ico_start_date: 2017-11-29T00:00:00Z
   ico_end_date: 2017-12-20T00:00:00Z
   safe: true
@@ -50,11 +47,8 @@
   location: Estonia
   comments:
     - content: 9% of tokens for founders and management with a 10 month vesting schedule
-      url: https://github.com/ico-check/ico-check/issues/10
     - content: Deployed smart contract does not have vesting schdedule for founders and management
-      url: https://github.com/ico-check/ico-check/issues/10
     - content: No working product to test
-      url: https://github.com/ico-check/ico-check/issues/10
   ico_start_date: 2017-10-31T00:00:00Z
   ico_end_date: 2018-01-14T00:00:00Z
   safe: false
@@ -72,7 +66,6 @@
   location: Bulgaria
   comments:
     - content: 1 year vesting schedule for 25% of tokens distributed to team, advisors, community and supporters
-      url: https://github.com/ico-check/ico-check/issues/9
     - content: Fake website promoting LockChain
       url: https://www.reddit.com/r/icocrypto/comments/7dzqdo/look_at_this_thinly_veiled_fake_blog_that_exists/
     - content: More red flags
@@ -95,7 +88,6 @@
   comments:
     - content: Asks to send eth to a wallet address and not a contract address
     - content: Anonymous TROLL ICO
-      url: https://github.com/ico-check/ico-check/issues/8
   ico_start_date:
   ico_end_date:
   safe: false
@@ -113,9 +105,7 @@
   location: Germany
   comments:
     - content: 6 month vesting for 50 % of team tokens. Other 50% of team tokens has no vesting schedule
-      url: https://github.com/ico-check/ico-check/issues/7
     - content: No working product for Naga wallet (Multi-currency wallet), essential for the NAGA ecosystem
-      url: https://github.com/ico-check/ico-check/issues/7
     - content: More red flags
       url: https://valueandopportunity.com/2017/11/17/the-naga-group-nagacoin-ico-double-pumping-the-cryptocraze
   ico_start_date: 2017-11-30T00:00:00Z
@@ -135,7 +125,6 @@
   location: Cayman Islands
   comments:
     - content: 1 year vesting schedule for tokens distributed to team and founders
-      url: https://github.com/ico-check/ico-check/issues/6
   ico_start_date: 2017-11-14T00:00:00Z
   ico_end_date: 2017-11-28T00:00:00Z
   safe: false
@@ -153,7 +142,6 @@
   location: United States
   comments:
     - content: 3 year vesting schedule for tokens distributed to founding team
-      url: https://github.com/ico-check/ico-check/issues/5
   ico_start_date: 2017-11-17T00:00:00Z
   ico_end_date: 2017-12-16T00:00:00Z
   safe: true
@@ -171,7 +159,6 @@
   location: Liechtenstein
   comments:
     - content: No vesting schedule for tokens distributed to Brainbot and its employees.
-      url: https://github.com/ico-check/ico-check/issues/1
   ico_start_date: 2017-10-18T00:00:00Z
   ico_end_date: 2017-11-1T00:00:00Z
   safe: false
@@ -189,11 +176,8 @@
   location: United Kingdom
   comments:
     - content: Smart contract not deployed
-      url: https://github.com/ico-check/ico-check/issues/2
     - content: Adviser was involved in a charity scam
-      url: https://github.com/ico-check/ico-check/issues/2
     - content: Multiple red flags
-      url: https://github.com/ico-check/ico-check/issues/2
   ico_start_date: 2017-10-04T00:00:00Z
   ico_end_date: 2017-12-24T00:00:00Z
   safe: false
@@ -211,7 +195,6 @@
   location: France
   comments:
     - content: 6 month vesting schedule for tokens distributed to founders and team
-      url: https://github.com/ico-check/ico-check/issues/3
   ico_start_date: 2017-12-04T00:00:00Z
   ico_end_date: 2018-01-04T00:00:00Z
   safe: false
@@ -229,7 +212,6 @@
   location: British Virgin Islands
   comments:
     - content: 6 month vesting schedule for tokens distributed to management
-      url: https://github.com/ico-check/ico-check/issues/4
   ico_start_date: 2017-11-17T00:00:00Z
   ico_end_date: 2017-12-10T00:00:00Z
   safe: false

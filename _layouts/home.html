@@ -63,7 +63,7 @@ layout: default
           <td class="three-wide">
             Comments
           </td>
-          {% include comments-cell.html comments=ico.comments is-mobile=true %}
+          {% include comments-cell.html comments=ico.comments is-mobile=true github_issue=ico.issue_url %}
         </tr>
         <tr>
           <td class="three-wide">
@@ -109,7 +109,7 @@ layout: default
       {% include bool-cell.html value=ico.min_vesting %}
       {% include bool-cell.html value=ico.have_company %}
       {% include flag-cell.html country=ico.location %}
-      {% include comments-cell.html comments=ico.comments is-mobile=false %}
+      {% include comments-cell.html comments=ico.comments is-mobile=false github_issue=ico.issue_url %}
       {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
       {% include bool-cell.html value=ico.safe url=ico.issue_url %}
     </tr>
