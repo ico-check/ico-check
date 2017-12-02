@@ -22,6 +22,9 @@ body {
 .top-padded {
   margin-top: 3em;
 }
+.top-marginless {
+  margin-top: 0 !important;
+}
 .wireframe {
   margin-top: 2em;
 }
@@ -29,7 +32,11 @@ body {
   margin: 5em 0 0;
   padding: 5em 0;
 }
-
+.centered-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .footer-link {
   color: rgba(255, 255, 255, 0.5);
 }
