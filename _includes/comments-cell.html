@@ -8,7 +8,7 @@
       {% for comment in include.comments %}
           <li>
             {% if comment.url %}
-              <a href="{{comment.url}}">
+              <a href="{{comment.url}}" target="_blank">
                 {{ comment.content }}
               </a>
             {% else %}
