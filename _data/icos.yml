@@ -6,7 +6,7 @@
   real_team: true
   github: true
   smart_contract: false
-  product: true
+  product: false
   min_vesting: false
   have_company: false
   location: Canada
