@@ -8,7 +8,7 @@
   smart_contract: false
   product: false
   min_vesting: false
-  have_company: false
+  have_company: true
   location: United Kingdom
   comments:
     - content: Token sale without a registered company.
