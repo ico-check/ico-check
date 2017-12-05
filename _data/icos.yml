@@ -11,7 +11,9 @@
   have_company: false
   location: United Kingdom
   comments:
-    - content: Company not registered.
+    - content: Token sale without a registered company.
+    - content: No working product to test.
+    - content: No token sale contract.
   ico_start_date: 2017-12-04T00:00:00Z
   ico_end_date: 2018-01-26T00:00:00Z
   safe: false
