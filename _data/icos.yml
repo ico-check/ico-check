@@ -11,7 +11,6 @@
   have_company: true
   location: United Kingdom
   comments:
-    - content: Token sale without a registered company.
     - content: No working product to test.
     - content: No token sale contract.
   ico_start_date: 2017-12-04T00:00:00Z
