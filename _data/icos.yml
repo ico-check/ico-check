@@ -4,7 +4,7 @@
   image: https://i.imgur.com/jJkBpYC.png
   url: https://www.potentiam.io
   real_team: true
-  github: false
+  github: true
   smart_contract: false
   product: false
   min_vesting: false
