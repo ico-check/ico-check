@@ -8,22 +8,24 @@ layout: default
   <div class="top-padded"></div>
 
   {% for ico in site.data.upcoming %}
-  <table class="ui celled horizontal padded definition table only-mobile-visible">
-    <tbody>
-    <tr class="light-gray-background">
-      <td class="three wide">
-        Company name
-      </td>
-      {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
-    </tr>
-    <tr>
-      <td class="three-wide">
-        Date
-      </td>
-      {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
-    </tr>
-    </tbody>
-  </table>
+    {% if ico.show %}
+    <table class="ui celled horizontal padded definition table only-mobile-visible">
+      <tbody>
+      <tr class="light-gray-background">
+        <td class="three wide">
+          Company name
+        </td>
+        {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+      </tr>
+      <tr>
+        <td class="three-wide">
+          Date
+        </td>
+        {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
+      </tr>
+      </tbody>
+    </table>
+    {% endif %}
   {% endfor %}
 
   <table class="ui celled padded table mobile-hidden">
@@ -36,10 +38,12 @@ layout: default
     <tbody>
 
     {% for ico in site.data.upcoming %}
-    <tr>
-      {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
-      {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
-    </tr>
+      {% if ico.show %}
+      <tr>
+        {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+        {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
+      </tr>
+      {% endif %}
     {% endfor %}
     </tbody>
   </table>
