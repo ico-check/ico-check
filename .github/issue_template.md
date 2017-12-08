@@ -1,12 +1,22 @@
-Company's website: http://www.example.com
+# [Company name](company website)
 
-### Additional fields:
-- Has real/fake team - *Here put sources checked (e.g. LinkedIn for members X, Y, Z) with links when possible*
-- Company's GitHub exists/not exists - *Here put link to company's GitHub if exists*
-- Smart contract exists/not exists - *Here put e.g. Etherscan if ICO's on Ethereum*
-- MVP exists/not exists - *Here put link to the demo if exists*
-- Vesting period - *Here put information where vesting information was found. Link if possibe*
-- Has/doesn't have a real company - *Here put company information if exsits. Also provide links where it can be verified that company exists*
-- Location ... - *Here put where most team members are located and information how it was obtained*
-- Additional comments - *Here put additional comments about the company, with links when possible*
-- ICO date - *Here put dates when ICO starts and ends. Provide information where this information found with links when possible*
+## Team
+*Here list team members with links to their LinkedIn accounts in here*
+
+## Company
+*Here put company information if company exsits. Also provide links (and possibly screenshots) where it can be verified that company exists*
+
+## Smart contract
+*Here put e.g. link to contract address on etherscan*
+
+## Github
+*Here put link to company's GitHub*
+
+## Product
+*Here put link to the product if exists and attach screenshots.*
+
+## Vesting
+*Here put information where vesting information was found and attach screenshots.*
+
+## Additional info
+*Here put additional comments about the company, with links when possible*
