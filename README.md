@@ -9,16 +9,17 @@ Create a new issue with title _company-name background check_. In the issue deta
 
 ## Adding new checked ICO
 1. Check if there exists issue to request background check for the ICO. If not, create a new one.
-2. Add new company info to `_data/icos.yml`
-3. How to check necessary fields:
-
-| Real team                      | GitHub          | Smart Contract                | MVP                                        | Vesting    | Have a company                                                                                      | Location                             | Comments                                      | Date                        | Safe                                                                                                                  |
-| ------------------------------ | --------------- | ----------------------------- | ------------------------------------------ | ---------- | --------------------------------------------------------------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| LinkedIn, press mentions, etc. | Company website | e.g. Etherscan if on Ethereum | Information on Company website, whitepaper | Whitepaper | Whitepaper, website, terms and conditions. Then check company registration in corresponding country | Place where company is registered at | Additional remarks, provide links if possible | Whitepaper, comapny website | How would regular VC evaluate this project? Most of the cases if any field before this is "red" this will also be red |
-4. In the pull request description provide explanation for all the fields according to the provided template.
-5. Create pull request. One of the maintainers will verify it
+2. Fill the information from the [template](https://github.com/ico-check/ico-check/blob/master/.github/issue_template.md). Sample questions to ask when checking company:
+    - Where is your company registered? Could I have the registration number and link to the company registry?
+    - What is the vesting schedule for Team and Advisors token?
+    - Is vesting for Team and Advisors coded in the smart contract?
+    - Will your smart contract be deployed for the pre-sale / ICO?
+    - Could i have a link to your GitHub repo?
+    - Do you have a working product available to test?
+    - Can US investors participate in the sale? If yes did you secure Reg-D?
+3. (Optional step) submit a pull request and add new entry to `_data/icos.yml`
 
 ## Changing data in a checked ICO
 1. Find an issue where ICO was originally added
 2. Request to reopen the issue and change fields. Provide an explanation and relevant links
-3. Change `_data/icos.yml` file and create a pull request
+3. (Optional step) change `_data/icos.yml` file and create a pull request
