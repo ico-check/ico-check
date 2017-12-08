@@ -1,5 +1,23 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
 
+- name: Cryptex Network
+  image:
+  url: http://cryptex.network
+  real_team: false
+  github: false
+  smart_contract: false
+  product: false
+  min_vesting: false
+  have_company: false
+  location:
+  comments:
+    - content: Anonymous ICO
+    - content: SCAM
+  ico_start_date: 2017-11-08T11:00:00Z
+  ico_end_date: 2017-12-12T11:00:00Z
+  safe:
+  issue_url:
+  
 - name: INS
   image: https://i.imgur.com/uKGY73M.png
   url: https://ins.world/
