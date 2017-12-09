@@ -7,6 +7,8 @@ $max-device-res: 1199px;
 
 $light-gray: #f7f7f7;
 
+$system-monospace: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+
 body {
   background-color: #FFFFFF;
 }
@@ -43,6 +45,25 @@ body {
 
 .footer-link:hover {
   color: rgba(255, 255, 255, 0.9);
+}
+
+.white {
+  color: white;
+}
+
+.brighter {
+  color: rgba(255,255,255,.65);
+}
+
+.mono {
+  font-family: $system-monospace;
+}
+
+.unselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
 }
 
 @media screen and (min-width: $max-device-res + 1) {
