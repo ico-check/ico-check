@@ -53,7 +53,7 @@
   issue_url: https://github.com/ico-check/ico-check/issues/18
 
 - name: Share Estate
-  image:
+  image: https://i.imgur.com/YF42Zaq.png
   url: https://sharestate.io
   real_team: false
   github: false
