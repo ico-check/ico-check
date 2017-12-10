@@ -66,8 +66,41 @@ body {
   user-select: none;
 }
 
-@media screen and (min-width: $max-device-res + 1) {
+.ui.definition.table {
+  margin: 3em 0 !important;
+}
+
+.mobile-leaderboard {
+  width: 320px;
+  height: 50px;
+}
+
+.leaderboard {
+  width: 728px;
+  height: 90px;
+}
+
+.large-leaderboard {
+  width: 970px;
+  height: 90px;
+}
+
+@media screen and (min-width: $max-mobile-res + 1) {
   .only-mobile-visible {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
+@media screen and (min-width: $max-device-res + 1) {
+  .only-device-visible {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+
+  .only-tablet-visible {
     visibility: hidden;
     clear: both;
     display: none;
@@ -76,6 +109,12 @@ body {
 
 @media screen and (max-width: $max-device-res) {
   .mobile-hidden {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+
+  .only-computer-visible {
     visibility: hidden;
     clear: both;
     display: none;
@@ -89,6 +128,12 @@ body {
     display: none;
   }
 
+  .only-tablet-visible {
+      visibility: hidden;
+      clear: both;
+      display: none;
+    }
+
   .ui.definition.table tr td.definition, .ui.definition.table tr td:first-child:not(.ignored) {
     background-color: inherit !important;
   }
@@ -96,8 +141,4 @@ body {
   .light-gray-background {
     background-color: $light-gray !important;
   }
-}
-
-.ui.definition.table {
-  margin: 3em 0 !important;
 }

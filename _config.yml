@@ -19,6 +19,14 @@ telegram-url: https://t.me/checkico
 github-url: https://github.com/ico-check/ico-check
 github-issues-url: https://github.com/ico-check/ico-check/issues
 google_analytics: UA-108636813-1
+ads:
+  redirect_url:
+  # mobile leaderboard expects size 320x50
+  mobile_leaderboard_url:
+  # leaderboard expects size 728x90
+  leaderboard_url:
+  # large leaderboard expects size 970x90
+  large_leaderboard_url:
 description: >- # this means to ignore newlines until "baseurl:"
   ICO-Check is a community-driven website that lists the latest ICOs and conducts due diligence on each one of them.
 baseurl: "" # the subpath of your site, e.g. /blog

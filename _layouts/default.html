@@ -5,9 +5,10 @@
 
   <body>
 
+    {% include ad.html %}
     {% include header.html %}
 
-    <div class="ui top-padded container">
+    <div class="ui little-top-padded container">
       <div class="centered-container">
         <i class="huge blue search icon"></i>
         <img src="/assets/logo_ico-check.svg" class="ui small image">
@@ -18,7 +19,7 @@
       <p></p>
     </div>
 
-    <div class="ui top-padded container">
+    <div class="ui little-top-padded container">
       <div class="ui internally celled very relaxed centered stackable middle aligned grid">
         <div class="row">
 
@@ -54,7 +55,9 @@
       </div>
     </div>
 
-    {{ content }}
+    <div class="ui little-top-padded container">
+      {{ content }}
+    </div>
 
     {% include footer.html %}
 

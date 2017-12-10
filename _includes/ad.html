@@ -1,0 +1,23 @@
+{% if site.ads.redirect_url and site.ads.mobile_leaderboard_url && site.ads.leaderboard_url && site.ads.large_leaderboard_url %}
+<div class="only-mobile-visible">
+  <div class="ui centered mobile leaderboard ad">
+    <a href="{{site.ads.redirect_url}}">
+      <img class="mobile-leaderboard" src="{{site.ads.mobile_leaderboard_url}}">
+    </a>
+  </div>
+</div>
+<div class="only-tablet-visible">
+  <div class="ui centered leaderboard ad">
+    <a href="{{site.ads.redirect_url}}">
+      <img class="leaderboard" src="{{site.ads.leaderboard_url}}">
+    </a>
+  </div>
+</div>
+<div class="only-computer-visible">
+  <div class="ui centered large leaderboard ad">
+    <a href="{{site.ads.redirect_url}}">
+      <img class="large-leaderboard" src="{{site.ads.large_leaderboard_url}}">
+    </a>
+  </div>
+</div>
+{% endif %}
