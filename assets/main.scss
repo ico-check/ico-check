@@ -93,6 +93,14 @@ body {
   }
 }
 
+@media screen and (max-width: $max-mobile-res) {
+  .mobile-hidden {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
 @media screen and (min-width: $max-device-res + 1) {
   .only-device-visible {
     visibility: hidden;
@@ -108,7 +116,7 @@ body {
 }
 
 @media screen and (max-width: $max-device-res) {
-  .mobile-hidden {
+  .device-hidden {
     visibility: hidden;
     clear: both;
     display: none;

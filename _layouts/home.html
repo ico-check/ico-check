@@ -4,7 +4,33 @@ layout: default
 
 {% include tabs.html reviewed-extra-class="active" %}
 
-<div class="top-padded"></div>
+<div class="little-top-padded"></div>
+
+<div class="centered-container mobile-hidden">
+  <div class="ui horizontal small divided list">
+    <span class="item">
+      * Smart contract must be deployed before ICO start
+    </span>
+    <span class="item">
+      ** Working product must be available before ICO start
+    </span>
+    <span class="item">
+      *** +2 years vesting with a 6 month cliff
+    </span>
+  </div>
+</div>
+
+<div class="only-mobile-visible">
+  <div>
+    * Smart contract must be deployed before ICO start
+  </div>
+  <div>
+    ** Working product must be available before ICO start
+  </div>
+  <div>
+    *** +2 years vesting with a 6 month cliff
+  </div>
+</div>
 
 {% for ico in site.data.icos %}
 <table class="ui celled horizontal padded definition table only-device-visible">
@@ -79,7 +105,7 @@ layout: default
 </table>
 {% endfor %}
 
-<table class="ui celled padded table mobile-hidden">
+<table class="ui celled padded table device-hidden">
   <thead>
     <tr>
       <th class="single line center aligned">Company name</th>
@@ -114,9 +140,3 @@ layout: default
   {% endfor %}
   </tbody>
 </table>
-
-<div class="top-padded">
-  * Smart contract must be deployed before ICO start <br>
-  ** Working product must be available before ICO start <br>
-  *** +2 years vesting with a 6 month cliff
-</div>
