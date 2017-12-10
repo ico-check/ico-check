@@ -35,7 +35,7 @@
   issue_url:
 
 - name: StayAllied
-  image:
+  image: https://i.imgur.com/3HkamYr.jpg
   url: http://www.stayallied.com
   real_team: false
   github: true
