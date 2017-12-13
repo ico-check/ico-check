@@ -130,14 +130,13 @@
   url: https://www.potentiam.io
   real_team: true
   github: true
-  smart_contract: false
+  smart_contract: true
   product: false
-  min_vesting: false
+  min_vesting: true
   have_company: true
   location: United Kingdom
   comments:
     - content: No working product to test.
-    - content: Smart contract not deployed.
   ico_start_date: 2017-12-04T00:00:00Z
   ico_end_date: 2018-01-26T00:00:00Z
   safe: false
