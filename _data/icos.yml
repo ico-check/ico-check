@@ -43,10 +43,9 @@
   smart_contract: true
   product: false
   min_vesting: false
-  have_company: false
+  have_company: true
   location: Switzerland
   comments:
-    - content: No Registered company.
     - content: No vesting schedule for tokens distributed to founder, team and advisory board.
     - content: No working product.
   ico_start_date: 2017-12-12T11:00:00Z
