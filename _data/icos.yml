@@ -29,8 +29,8 @@
   have_company: true
   location: Switzerland
   comments:
-    - content: Team tokens vested over 5 years (2 year cliff)
-    - content: Advisors tokens vested over 2 years (1 year cliff)
+    - content: Team tokens vest over 5 years with a 2 year cliff
+    - content: Advisors tokens vest over 2 years with a 1 year cliff
     - content: The Co-founder was completely transparent during the whole due diligence process
   ico_start_date: 2017-11-27T00:00:00Z
   ico_end_date: 2018-01-26T00:00:00Z
