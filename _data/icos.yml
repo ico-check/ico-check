@@ -53,7 +53,7 @@
   comments:
     - content: No vesting schedule for team and advisors token
     - content: The founders never answered the questions asked by investors, showing disregard for their concerns.
-    - content: Charlie Lee on twitter: "I am not advising their ICO"
+    - content: Charlie Lee on twitter: <<I am not advising their ICO>>
       url: https://twitter.com/SatoshiLite/status/941253495121784832
   ico_start_date: 2017-12-15T00:00:00Z
   ico_end_date: 2017-12-23T00:00:00Z
