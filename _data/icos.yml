@@ -20,6 +20,26 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/22
   
+- name: Liminality
+  image:
+  url: https://liminality.network
+  real_team: true
+  github: true
+  smart_contract: false
+  product: false
+  min_vesting: false
+  have_company: false
+  location: Switzerland
+  comments:
+    - content: No registered company
+    - content: No vesting schedule for team and partners tokens
+    - content: No working product to test
+    - content: No smart contract
+  ico_start_date: 2017-12-26T00:00:00Z
+  ico_end_date: 2018-01-25T00:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/26
+  
 - name: SALPay
   image: https://i.imgur.com/acb63Ar.png
   url: https://ico.salpay.com
