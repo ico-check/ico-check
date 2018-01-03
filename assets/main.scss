@@ -101,6 +101,32 @@ body {
   }
 }
 
+.top-banner {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #052d49;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+
+.top-banner-link {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-right: 0.5rem;
+}
+
+a.top-banner-link:hover {
+  color: white !important;
+}
+
 @media screen and (min-width: $max-device-res + 1) {
   .only-device-visible {
     visibility: hidden;
