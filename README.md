@@ -10,10 +10,12 @@ Create a new issue with title _company-name background check_. In the issue deta
 ## Adding new checked ICO
 1. Check if there exists issue to request background check for the ICO. If not, create a new one.
 2. Fill the information from the [template](https://github.com/ico-check/ico-check/blob/master/.github/issue_template.md). Sample questions to ask when checking company:
-    - Where is your company registered? Could I have the registration number and link to the company registry?
+    - Where is your company registered? Could i have a copy of certificate of incorporation, list of directors and details of registered office address?
+    - Can i have details of any intellectual property which the company has created, registered or applied to register?
     - What is the vesting schedule for Team and Advisors token?
     - Is vesting for Team and Advisors coded in the smart contract?
-    - Will your smart contract be deployed for the pre-sale / ICO?
+    - Is your smart contract deployed for the pre-sale / ICO?
+    - Was your smart contract audited by an external security company?
     - Could i have a link to your GitHub repo?
     - Do you have a working product available to test?
     - Can US investors participate in the sale? If yes did you secure Reg-D?
