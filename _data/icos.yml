@@ -11,7 +11,9 @@
   have_company: true
   location: Gibraltar
   comments:
-    - content: The team was completely transparent during the due diligence process  
+    - content: No vesting schedule for Organization & Team tokens
+    - content: Residents of The United States, China, and South Korea will not be able to participate  
+    - content: The team was completely transparent during the due diligence process
   ico_start_date: 2018-01-12T11:00:00Z
   ico_end_date: 2018-02-08T11:00:00Z
   safe: false
