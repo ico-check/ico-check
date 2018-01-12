@@ -93,10 +93,30 @@
     - content: No vesting schedule for Organization & Team tokens
     - content: Residents of The United States, China, and South Korea will not be able to participate  
     - content: The team was completely transparent during the due diligence process
-  ico_start_date: 2018-01-12T11:00:00Z
-  ico_end_date: 2018-02-08T11:00:00Z
+  ico_start_date: 2018-01-23T11:00:00Z
+  ico_end_date: 2018-02-15T11:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/24
+
+- name: CoinFi
+  image: https://i.imgur.com/92Ni9MC.jpg
+  url: https://sale.coinfi.com/
+  real_team: true
+  github: true
+  smart_contract: true
+  product: false
+  min_vesting: true
+  have_company: true
+  transparent: true
+  location: Cayman Islands
+  comments:
+    - content: Public sale is cancelled
+    - content: Video demo of Prototype available
+    - content: The Co-founder was completely transparent during the due diligence process  
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/33
   
 - name: Giza Device
   image: https://i.imgur.com/7xNufAl.jpg
