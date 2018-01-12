@@ -79,6 +79,12 @@ layout: default
       </tr>
       <tr>
         <td class="three-wide">
+          Transparent
+        </td>
+        {% include bool-cell.html value=ico.transparent %}
+      </tr>
+      <tr>
+        <td class="three-wide">
           Location
         </td>
         {% include flag-cell.html country=ico.location %}
@@ -95,12 +101,6 @@ layout: default
         </td>
         {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
       </tr>
-      <tr>
-        <td class="three-wide">
-          Safe
-        </td>
-        {% include bool-cell.html value=ico.safe url=ico.issue_url %}
-      </tr>
   </tbody>
 </table>
 {% endfor %}
@@ -115,10 +115,10 @@ layout: default
       <th class="center aligned">Product**</th>
       <th class="center aligned">Vesting***</th>
       <th class="center aligned">Have a company</th>
+      <th class="center aligned">Transparent</th>
       <th class="center aligned">Location</th>
       <th class="center aligned">Comments</th>
       <th class="center aligned">Date</th>
-      <th class="center aligned">Safe</th>
     </tr>
   </thead>
   <tbody>
@@ -132,10 +132,10 @@ layout: default
     {% include bool-cell.html value=ico.product %}
     {% include bool-cell.html value=ico.min_vesting %}
     {% include bool-cell.html value=ico.have_company %}
+    {% include bool-cell.html value=ico.transparent %}
     {% include flag-cell.html country=ico.location %}
     {% include comments-cell.html comments=ico.comments is-mobile=false github_issue=ico.issue_url %}
     {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
-    {% include bool-cell.html value=ico.safe url=ico.issue_url %}
   </tr>
   {% endfor %}
   </tbody>

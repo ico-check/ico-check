@@ -16,7 +16,68 @@
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/34
-  
+
+- name: Bluzelle
+  image: https://i.imgur.com/psV0cAG.jpg
+  url: https://bluzelle.com
+  real_team: true
+  github: true
+  smart_contract:
+  product:
+  min_vesting:
+  have_company: true
+  location: Singapore
+  comments:
+    - content: UNDER REVIEW
+    - content: Smart contract is not available yet
+    - content: Product "Lovelace" is not available yet
+    - content: Team and advisors vesting not coded in the smart contract yet
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/22
+
+- name: Nucleus Vision
+  image: https://i.imgur.com/VrJkhWP.jpg
+  url: https://nucleus.vision/
+  real_team: true
+  github: true
+  smart_contract:
+  product:
+  min_vesting:
+  have_company:
+  transparent: false
+  location:
+  comments:
+    - content: UNDER REVIEW
+    - content: Legitimate questions deleted by admin and users banned for asking them
+    - content: Bellboi rebranded to Nucleus Vision
+    - content: Bellboi.com (Nucleus Vision) claims to have 10,000 participating stores in 2016
+      url: https://web.archive.org/web/20160723052711/http://www.bellboi.com/
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/25
+
+- name: Cypherium
+  image: https://i.imgur.com/9sSbiXZ.jpg
+  url: https://www.cypherium.io
+  real_team: true
+  github: false
+  smart_contract:
+  product: false
+  min_vesting:
+  have_company: true
+  location: Hong Kong
+  comments:
+    - content: UNDER REVIEW
+    - content: No product and code to see yet
+    - content: Co-founders Nate Ren and Solomen Zhang are not shareholders of the company
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/27
+
 - name: Holo
   image: https://i.imgur.com/NO3d4q7.png
   url: https://holo.host/ico/
@@ -26,6 +87,7 @@
   product: true
   min_vesting: false
   have_company: true
+  transparent: true
   location: Gibraltar
   comments:
     - content: No vesting schedule for Organization & Team tokens
@@ -71,66 +133,6 @@
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/28
 
-- name: Cypherium
-  image: https://i.imgur.com/9sSbiXZ.jpg
-  url: https://www.cypherium.io
-  real_team: true
-  github: false
-  smart_contract:
-  product: false
-  min_vesting:
-  have_company: true
-  location: Hong Kong
-  comments:
-    - content: UNDER REVIEW
-    - content: No product and code to see yet
-    - content: Co-founders Nate Ren and Solomen Zhang are not shareholders of the company  
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/27
-
-- name: Nucleus Vision
-  image: https://i.imgur.com/VrJkhWP.jpg
-  url: https://nucleus.vision/
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company:
-  location:
-  comments:
-    - content: UNDER REVIEW
-    - content: Legitimate questions deleted by admin and users banned for asking them
-    - content: Bellboi rebranded to Nucleus Vision
-    - content: Bellboi.com (Nucleus Vision) claims to have 10,000 participating stores in 2016
-      url: https://web.archive.org/web/20160723052711/http://www.bellboi.com/
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/25
-
-- name: Bluzelle
-  image: https://i.imgur.com/psV0cAG.jpg
-  url: https://bluzelle.com
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company: true
-  location: Singapore
-  comments:
-    - content: UNDER REVIEW
-    - content: Smart contract is not available yet
-    - content: Product "Lovelace" is not available yet  
-    - content: Team and advisors vesting not coded in the smart contract yet    
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/22
-  
 - name: Liminality
   image:
   url: https://liminality.network
@@ -162,6 +164,7 @@
   product: true
   min_vesting: false
   have_company: true
+  transparent: true
   location: Singapore
   comments:
     - content: Existing business with revenue
@@ -182,6 +185,7 @@
   product: true
   min_vesting: false
   have_company: true
+  transparent: false
   location: Switzerland
   comments:
     - content: No vesting schedule for team and advisors token
@@ -202,6 +206,7 @@
   product: true
   min_vesting: true
   have_company: true
+  transparent: true
   location: Switzerland
   comments:
     - content: Team tokens vest over 5 years with a 2 year cliff
@@ -275,6 +280,7 @@
   product: false
   min_vesting: false
   have_company: false
+  transparent: false
   location:
   comments:
     - content: Anonymous ICO
@@ -293,6 +299,7 @@
   product: false
   min_vesting: false
   have_company: false
+  transparent: false
   location:
   comments:
     - content: Anonymous ICO
@@ -311,6 +318,7 @@
   product: false
   min_vesting: false
   have_company: false
+  transparent: false
   location:
   comments:
     - content: Anonymous ICO
@@ -346,6 +354,7 @@
   product: false
   min_vesting: false
   have_company: false
+  transparent: false
   location: Canada
   comments:
     - content: The founders never replied to investors' questions, showing total disregard to their concerns.
@@ -364,6 +373,7 @@
   product: true
   min_vesting:
   have_company: true
+  transparent: false
   location: Poland
   comments:
     - content: Zero tokens will be distributed to the indaHash team.
@@ -401,6 +411,7 @@
   product: false
   min_vesting: false
   have_company: true
+  transparent: false
   location: Bulgaria
   comments:
     - content: 1 year vesting schedule for 25% of tokens distributed to team, advisors, community and supporters
@@ -422,6 +433,7 @@
   product: false
   min_vesting: false
   have_company: false
+  transparent: false
   location:
   comments:
     - content: Asks to send eth to a wallet address and not a contract address
@@ -512,6 +524,7 @@
   min_vesting: false
   have_company: true
   location: United Kingdom
+  transparent: false
   comments:
     - content: Smart contract not deployed
     - content: Adviser was involved in a charity scam
