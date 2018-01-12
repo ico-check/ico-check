@@ -1,13 +1,19 @@
 {% if include.value == true %}
   <td class="center aligned positive collapsing">
-    <i class="large green icon checkmark"></i>
+    <span {% include tooltip-attribute.html tooltip=include.tooltip %}>
+      <i class="large green icon checkmark"></i>
+    </span>
   </td>
 {% elsif include.value == false %}
   <td class="center aligned negative collapsing">
-    <i class="large red icon close"></i>
+    <span {% include tooltip-attribute.html tooltip=include.tooltip %}>
+      <i class="large red icon close"></i>
+    </span>
   </td>
 {% else %}
   <td class="center aligned collapsing">
-    <i class="large icon minus"></i>
+    <span {% include tooltip-attribute.html tooltip=include.tooltip %}>
+      <i class="large icon minus" ></i>
+    </span>
   </td>
 {% endif %}
