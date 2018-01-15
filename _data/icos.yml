@@ -86,7 +86,6 @@
   product: false
   min_vesting:
   have_company: true
-  transparent: false
   location: Hong Kong
   comments:
     - content: Pre-sale has concluded and there won’t be an ICO.
