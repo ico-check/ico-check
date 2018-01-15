@@ -58,6 +58,24 @@
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/25
+  
+- name: TheKey
+  image: https://i.imgur.com/nnADBTB.jpg
+  url: https://www.thekey.vip
+  real_team: true
+  github: true
+  smart_contract:
+  product: false
+  min_vesting: false
+  have_company: true
+  transparent: false
+  location: Singapore
+  comments:
+    - content: The team never answered the questions asked by investors, showing disregard for their concerns.
+  ico_start_date: 2018-01-15T11:00:00Z
+  ico_end_date: 2018-02-28T11:00:00Z
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/30
 
 - name: Cypherium
   image: https://i.imgur.com/9sSbiXZ.jpg
