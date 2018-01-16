@@ -577,7 +577,7 @@
   url: https://www.napoleonx.ai/
   real_team: true
   github: true
-  smart_contract: false
+  smart_contract:
   product: false
   min_vesting: false
   have_company: true
