@@ -17,26 +17,6 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/34
 
-- name: Bluzelle
-  image: https://i.imgur.com/psV0cAG.jpg
-  url: https://bluzelle.com
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company: true
-  location: Singapore
-  comments:
-    - content: UNDER REVIEW
-    - content: Smart contract is not available yet
-    - content: Product "Lovelace" is not available yet
-    - content: Team and advisors vesting not coded in the smart contract yet
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/22
-
 - name: Nucleus Vision
   image: https://i.imgur.com/VrJkhWP.jpg
   url: https://nucleus.vision/
@@ -58,6 +38,24 @@
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/25
+  
+- name: Bluzelle
+  image: https://i.imgur.com/psV0cAG.jpg
+  url: https://bluzelle.com
+  real_team: true
+  github: true
+  smart_contract: true
+  product: false
+  min_vesting: false
+  have_company: true
+  location: Singapore
+  comments:
+    - content: No working product
+    - content: Vesting schedule for team and advisors not coded in the smart contract
+  ico_start_date: 2018-01-18T11:00:00Z
+  ico_end_date: 2018-02-02T11:00:00Z
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/22
   
 - name: TheKey
   image: https://i.imgur.com/nnADBTB.jpg
