@@ -1,4 +1,40 @@
-<div class="ui top pointing secondary menu">
-  <a href="/" class="{{ include.reviewed-extra-class }} item">Checked ICOs</a>
-  <a href="/upcoming" class="{{ include.upcoming-extra-class }} item">Upcoming ICOs</a>
+<div class="only-mobile-visible">
+  <div class="ui right labeled icon top right pointing dropdown fluid primary button">
+    <span class="text">
+      {% if include.active-tab == 'active' %}
+        Active ICOs
+      {% elsif include.active-tab == 'past' %}
+        Past ICOs
+      {% elsif include.active-tab == 'future' %}
+        Future ICOs
+      {% else %}
+        Under review ICOs
+      {% endif %}
+    </span>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <a class="{% if include.active-tab == 'active' %}selected active{% endif %} item" href="/">
+        Active ICOs
+      </a>
+      <a class="{% if include.active-tab == 'past' %}selected active{% endif %} item" href="/past">
+        Past ICOs
+      </a>
+      <a class="{% if include.active-tab == 'future' %}selected active{% endif %} item" href="/future">
+        Future ICOs
+      </a>
+      <a class="{% if include.active-tab == 'in-review' %}selected active{% endif %} item" href="/in-review">
+        Under review ICOs
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="mobile-hidden">
+  <div class="ui top pointing secondary scrollable menu">
+    <a href="/" class="{% if include.active-tab == 'active' %}active{% endif %} item">Active ICOs</a>
+    <a href="/past" class="{% if include.active-tab == 'past' %}active{% endif %} item">Past ICOs</a>
+    <a href="/future" class="{% if include.active-tab == 'future' %}active{% endif %} item">Future ICOs</a>
+    <a href="/in-review" class="{% if include.active-tab == 'in-review' %}active{% endif %} item">Under review ICOs</a>
+  </div>
 </div>

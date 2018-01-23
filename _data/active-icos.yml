@@ -1,0 +1,73 @@
+# For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
+
+- name: Holo
+  image: https://i.imgur.com/NO3d4q7.png
+  url: https://holo.host/ico/
+  real_team: true
+  github: true
+  smart_contract: true
+  product: true
+  min_vesting: false
+  have_company: true
+  transparent: true
+  location: Gibraltar
+  comments:
+    - content: No vesting schedule for Organization & Team tokens
+    - content: Residents of The United States, China, and South Korea will not be able to participate
+    - content: The team was completely transparent during the due diligence process
+  ico_start_date: 2018-01-23T11:00:00Z
+  ico_end_date: 2018-02-15T11:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/24
+
+- name: Giza Device
+  image: https://i.imgur.com/7xNufAl.jpg
+  url: https://www.gizadevice.com/
+  real_team: true
+  github: true
+  smart_contract: true
+  product: false
+  min_vesting: false
+  have_company: true
+  location: United Kingdom
+  comments:
+    - content: Not a single team member is listed as director of GIZA DEVICE LTD. Director Lafortune Elna Paulette and Majority shareholder Andrey Pashin are nowhere to be seen on the website or white paper.
+    - content: Github has no repository  
+  ico_start_date: 2018-01-12T11:00:00Z
+  ico_end_date: 2018-02-08T11:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/38
+
+- name: Potentiam
+  image: https://i.imgur.com/jJkBpYC.png
+  url: https://www.potentiam.io
+  real_team: true
+  github: true
+  smart_contract: true
+  product: false
+  min_vesting: true
+  have_company: true
+  location: United Kingdom
+  comments:
+    - content: No working product to test.
+  ico_start_date: 2017-12-04T00:00:00Z
+  ico_end_date: 2018-01-26T00:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/13
+
+- name: NapoleonX
+  image: https://i.imgur.com/Hruaqkl.png
+  url: https://www.napoleonx.ai/
+  real_team: true
+  github: true
+  smart_contract:
+  product: false
+  min_vesting: false
+  have_company: true
+  location: France
+  comments:
+    - content: 6 month vesting schedule for tokens distributed to founders and team
+  ico_start_date: 2018-01-22T00:00:00Z
+  ico_end_date: 2018-02-28T00:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/3

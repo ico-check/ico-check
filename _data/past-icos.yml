@@ -1,44 +1,3 @@
-# For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
-
-- name: Republic Protocol
-  image: https://i.imgur.com/audSq0N.jpg
-  url: https://republicprotocol.com
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company: true
-  location: British Virgin Islands
-  comments:
-    - content: UNDER REVIEW
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/34
-
-- name: Nucleus Vision
-  image: https://i.imgur.com/VrJkhWP.jpg
-  url: https://nucleus.vision/
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company:
-  transparent: false
-  location:
-  comments:
-    - content: UNDER REVIEW
-    - content: Legitimate questions deleted by admin and users banned for asking them
-    - content: Bellboi rebranded to Nucleus Vision
-    - content: Bellboi.com (Nucleus Vision) claims to have 10,000 participating stores in 2016
-      url: https://web.archive.org/web/20160723052711/http://www.bellboi.com/
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/25
-  
 - name: CargoX
   image: https://i.imgur.com/TFa8PRh.png
   url: https://cargox.io/
@@ -57,7 +16,7 @@
   ico_end_date: 2018-02-15T11:00:00Z
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/46
-  
+
 - name: Bluzelle
   image: https://i.imgur.com/psV0cAG.jpg
   url: https://bluzelle.com
@@ -75,7 +34,7 @@
   ico_end_date: 2018-02-02T11:00:00Z
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/22
-  
+
 - name: TheKey
   image: https://i.imgur.com/nnADBTB.jpg
   url: https://www.thekey.vip
@@ -113,26 +72,6 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/27
 
-- name: Holo
-  image: https://i.imgur.com/NO3d4q7.png
-  url: https://holo.host/ico/
-  real_team: true
-  github: true
-  smart_contract: true
-  product: true
-  min_vesting: false
-  have_company: true
-  transparent: true
-  location: Gibraltar
-  comments:
-    - content: No vesting schedule for Organization & Team tokens
-    - content: Residents of The United States, China, and South Korea will not be able to participate  
-    - content: The team was completely transparent during the due diligence process
-  ico_start_date: 2018-01-23T11:00:00Z
-  ico_end_date: 2018-02-15T11:00:00Z
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/24
-
 - name: CoinFi
   image: https://i.imgur.com/92Ni9MC.jpg
   url: https://sale.coinfi.com/
@@ -147,29 +86,11 @@
   comments:
     - content: Public sale is cancelled
     - content: Video demo of Prototype available
-    - content: The Co-founder was completely transparent during the due diligence process  
+    - content: The Co-founder was completely transparent during the due diligence process
   ico_start_date:
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/33
-  
-- name: Giza Device
-  image: https://i.imgur.com/7xNufAl.jpg
-  url: https://www.gizadevice.com/
-  real_team: true
-  github: true
-  smart_contract: true
-  product: false
-  min_vesting: false
-  have_company: true
-  location: United Kingdom
-  comments:
-    - content: Not a single team member is listed as director of GIZA DEVICE LTD. Director Lafortune Elna Paulette and Majority shareholder Andrey Pashin are nowhere to be seen on the website or white paper.
-    - content: Github has no repository  
-  ico_start_date: 2018-01-12T11:00:00Z
-  ico_end_date: 2018-02-08T11:00:00Z
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/38
 
 - name: PundiX
   image: https://i.imgur.com/aPkmma6.jpg
@@ -182,7 +103,7 @@
   have_company: true
   location: Indonesia
   comments:
-    - content: Team and advisors tokens locked for 10 month with 10% that vest each month.  
+    - content: Team and advisors tokens locked for 10 month with 10% that vest each month.
   ico_start_date: 2018-01-21T11:00:00Z
   ico_end_date: 2018-01-31T11:00:00Z
   safe: false
@@ -209,7 +130,7 @@
   ico_end_date: 2018-01-25T00:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/26
-  
+
 - name: SALPay
   image: https://i.imgur.com/acb63Ar.png
   url: https://ico.salpay.com
@@ -224,8 +145,8 @@
   comments:
     - content: Existing business with revenue
     - content: Smart contract not deployed
-    - content: Team tokens vest over 12 month  
-    - content: The Founder was completely transparent during the due diligence process    
+    - content: Team tokens vest over 12 month
+    - content: The Founder was completely transparent during the due diligence process
   ico_start_date: 2017-11-28T00:00:00Z
   ico_end_date: 2018-01-01T00:00:00Z
   safe: false
@@ -271,7 +192,7 @@
   ico_end_date: 2018-01-26T00:00:00Z
   safe: true
   issue_url: https://github.com/ico-check/ico-check/issues/14
-  
+
 - name: Bounty0x
   image: https://i.imgur.com/cp9t2qT.jpg
   url: https://bounty0x.io
@@ -289,7 +210,7 @@
   ico_end_date: 2017-12-31T11:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/20
-  
+
 - name: FoodCoin
   image: https://i.imgur.com/ZnlQy3i.png
   url: https://www.foodcoin.io
@@ -363,7 +284,7 @@
   ico_end_date: 2017-12-29T11:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/17
-  
+
 - name: Cryptex Network
   image:
   url: http://cryptex.network
@@ -382,42 +303,6 @@
   ico_end_date: 2017-12-12T11:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/16
-  
-- name: Potentiam
-  image: https://i.imgur.com/jJkBpYC.png
-  url: https://www.potentiam.io
-  real_team: true
-  github: true
-  smart_contract: true
-  product: false
-  min_vesting: true
-  have_company: true
-  location: United Kingdom
-  comments:
-    - content: No working product to test.
-  ico_start_date: 2017-12-04T00:00:00Z
-  ico_end_date: 2018-01-26T00:00:00Z
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/13
-
-- name: GoNetwork
-  image: https://i.imgur.com/XhAQdHY.jpg
-  url: https://gonetwork.co/
-  real_team: true
-  github: true
-  smart_contract: false
-  product: false
-  min_vesting: false
-  have_company: false
-  transparent: false
-  location: Canada
-  comments:
-    - content: The founders never replied to investors' questions, showing total disregard to their concerns.
-    - content: Disturbing screenshot of Co-founder Xun Cai.
-  ico_start_date:
-  ico_end_date:
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/12
 
 - name: indaHash
   image: https://i.imgur.com/YetGeeb.png
@@ -458,7 +343,7 @@
   issue_url: https://github.com/ico-check/ico-check/issues/10
 
 - name: LockChain
-  image: 
+  image:
   url: https://lockchain.co/
   real_team: true
   github: true
@@ -480,7 +365,7 @@
   issue_url: https://github.com/ico-check/ico-check/issues/9
 
 - name: SpitCoin
-  image: 
+  image:
   url: http://spit-token.atwebpages.com
   real_team: false
   github: false
@@ -497,7 +382,7 @@
   ico_end_date:
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/8
-  
+
 - name: Naga
   image: https://i.imgur.com/NigW1r4.png
   url: https://www.nagaico.com
@@ -565,7 +450,7 @@
   comments:
     - content: No vesting schedule for tokens distributed to Brainbot and its employees.
   ico_start_date: 2017-10-18T00:00:00Z
-  ico_end_date: 2017-11-1T00:00:00Z
+  ico_end_date: 2017-11-01T00:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/1
 
@@ -589,23 +474,6 @@
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/2
 
-- name: NapoleonX
-  image: https://i.imgur.com/Hruaqkl.png
-  url: https://www.napoleonx.ai/
-  real_team: true
-  github: true
-  smart_contract:
-  product: false
-  min_vesting: false
-  have_company: true
-  location: France
-  comments:
-    - content: 6 month vesting schedule for tokens distributed to founders and team
-  ico_start_date: 2017-12-04T00:00:00Z
-  ico_end_date: 2018-01-04T00:00:00Z
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/3
-  
 - name: Spectre
   image: https://i.imgur.com/LZywFzo.jpg
   url: https://spectre.ai/

@@ -1,0 +1,136 @@
+<div class="little-top-padded"></div>
+
+<div class="centered-container mobile-hidden">
+  <div class="ui horizontal small divided list">
+    <span class="item">
+      * Smart contract must be deployed before ICO start
+    </span>
+    <span class="item">
+      ** Working product must be available before ICO start
+    </span>
+    <span class="item">
+      *** +2 years vesting with a 6 month cliff
+    </span>
+  </div>
+</div>
+
+<div class="only-mobile-visible">
+  <div>
+    * Smart contract must be deployed before ICO start
+  </div>
+  <div>
+    ** Working product must be available before ICO start
+  </div>
+  <div>
+    *** +2 years vesting with a 6 month cliff
+  </div>
+</div>
+
+{% for ico in include.icos %}
+<table class="ui celled horizontal padded definition table only-device-visible">
+  <tbody>
+  <tr class="light-gray-background">
+    <td class="three wide">
+      Company name
+    </td>
+    {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Real team
+    </td>
+    {% include bool-cell.html value=ico.real_team %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      GitHub
+    </td>
+    {% include bool-cell.html value=ico.github %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Smart Contract*
+    </td>
+    {% include bool-cell.html value=ico.smart_contract %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Product**
+    </td>
+    {% include bool-cell.html value=ico.product %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Vesting***
+    </td>
+    {% include bool-cell.html value=ico.min_vesting %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Have a company
+    </td>
+    {% include bool-cell.html value=ico.have_company %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Transparent
+    </td>
+    {% include bool-cell.html value=ico.transparent %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Location
+    </td>
+    {% include flag-cell.html country=ico.location %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Comments
+    </td>
+    {% include comments-cell.html comments=ico.comments is-mobile=true github_issue=ico.issue_url %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Date
+    </td>
+    {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
+  </tr>
+  </tbody>
+</table>
+{% endfor %}
+
+<table class="ui celled padded table device-hidden">
+  <thead>
+  <tr>
+    <th class="single line center aligned">Company name</th>
+    <th class="center aligned">Real team</th>
+    <th class="center aligned">GitHub</th>
+    <th class="center aligned">Smart Contract*</th>
+    <th class="center aligned">Product**</th>
+    <th class="center aligned">Vesting***</th>
+    <th class="center aligned">Have a company</th>
+    <th class="center aligned">Transparent</th>
+    <th class="center aligned">Location</th>
+    <th class="center aligned">Comments</th>
+    <th class="center aligned">Date</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  {% for ico in include.icos %}
+  <tr>
+    {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+    {% include bool-cell.html value=ico.real_team tooltip="Real team" %}
+    {% include bool-cell.html value=ico.github tooltip="GitHub" %}
+    {% include bool-cell.html value=ico.smart_contract tooltip="Smart Contract" %}
+    {% include bool-cell.html value=ico.product tooltip="Product" %}
+    {% include bool-cell.html value=ico.min_vesting tooltip="Vesting" %}
+    {% include bool-cell.html value=ico.have_company tooltip="Have a company" %}
+    {% include bool-cell.html value=ico.transparent tooltip="Transparent" %}
+    {% include flag-cell.html country=ico.location %}
+    {% include comments-cell.html comments=ico.comments is-mobile=false github_issue=ico.issue_url %}
+    {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
