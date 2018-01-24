@@ -23,12 +23,12 @@
 - name: Giza Device
   image: https://i.imgur.com/7xNufAl.jpg
   url: https://www.gizadevice.com/
-  real_team: true
+  real_team:
   github: true
   smart_contract: true
   product: false
   min_vesting: false
-  have_company: true
+  have_company:
   location: United Kingdom
   comments:
     - content: Not a single team member is listed as director of GIZA DEVICE LTD. Director Lafortune Elna Paulette and Majority shareholder Andrey Pashin are nowhere to be seen on the website or white paper.
