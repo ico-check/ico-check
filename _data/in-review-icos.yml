@@ -30,7 +30,7 @@
   min_vesting: false
   have_company: true
   transparent:
-  location:
+  location: United States
   comments:
     - content: UNDER REVIEW
     - content: Team and Advisors get access to half of their tokens once the ICO start. The other half vests over 12 month.
