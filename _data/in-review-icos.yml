@@ -30,7 +30,7 @@
   min_vesting: false
   have_company:
   transparent:
-  location: Singapore
+  location: British Virgin Islands
   comments:
     - content: UNDER REVIEW
     - content: 2 years vesting for Team tokens but can't audit the contract. Not available on github.
