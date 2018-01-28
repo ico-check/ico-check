@@ -1,3 +1,25 @@
+- name: Nucleus Vision
+  image: https://i.imgur.com/VrJkhWP.jpg
+  url: https://nucleus.vision/
+  real_team: true
+  github: true
+  smart_contract:
+  product:
+  min_vesting:
+  have_company:
+  transparent: false
+  location:
+  comments:
+    - content: Public sale cancelled
+    - content: Legitimate questions deleted by admin and users banned for asking them
+    - content: Bellboi rebranded to Nucleus Vision
+    - content: Bellboi.com (Nucleus Vision) claims to have 10,000 participating stores in 2016
+      url: https://web.archive.org/web/20160723052711/http://www.bellboi.com/
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/25
+
 - name: CargoX
   image: https://i.imgur.com/TFa8PRh.png
   url: https://cargox.io/
