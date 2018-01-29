@@ -1,3 +1,25 @@
+- name: Holo
+  image: https://i.imgur.com/NO3d4q7.png
+  url: https://holo.host/ico/
+  real_team: true
+  github: true
+  smart_contract: true
+  product: true
+  min_vesting: false
+  have_company: true
+  transparent: true
+  location: Gibraltar
+  comments:
+    - content: ICO Delayed. Check their website for updates.
+      url: https://holo.host/ico/
+    - content: No vesting schedule for Organization & Team tokens
+    - content: Residents of The United States, China, and South Korea will not be able to participate
+    - content: The team was completely transparent during the due diligence process
+  ico_start_date:
+  ico_end_date:
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/24
+
 - name: FundRequest
   image: https://i.imgur.com/jNolXfq.png
   url: https://register.fundrequest.io/
