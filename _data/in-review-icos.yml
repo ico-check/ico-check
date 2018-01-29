@@ -28,7 +28,7 @@
   smart_contract:
   product: false
   min_vesting: false
-  have_company:
+  have_company: true
   transparent:
   location: British Virgin Islands
   comments:
