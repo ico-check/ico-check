@@ -61,22 +61,3 @@
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/29
-
-- name: Republic Protocol
-  image: https://i.imgur.com/audSq0N.jpg
-  url: https://republicprotocol.com
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company: true
-  location: British Virgin Islands
-  comments:
-    - content: UNDER REVIEW
-    - content: Whitelist is now closed
-  ico_start_date: 2018-02-03T11:00:00Z
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/34
-
