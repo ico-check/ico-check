@@ -1,24 +1,4 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
-- name: Giza Device
-  image: https://i.imgur.com/7xNufAl.jpg
-  url: https://www.gizadevice.com/
-  real_team:
-  github: true
-  smart_contract: true
-  product: false
-  min_vesting: false
-  have_company:
-  transparent: false
-  location: United Kingdom
-  comments:
-    - content: Not a single team member is listed as director of GIZA DEVICE LTD. Director Lafortune Elna Paulette and Majority shareholder Andrey Pashin are nowhere to be seen on the website or white paper.
-    - content: Tokens for team and founders will be locked for 8 months
-    - content: Github has no repository
-  ico_start_date: 2018-01-12T11:00:00Z
-  ico_end_date: 2018-02-08T11:00:00Z
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/38
-
 - name: NapoleonX
   image: https://i.imgur.com/Hruaqkl.png
   url: https://www.napoleonx.ai/
