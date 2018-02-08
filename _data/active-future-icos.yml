@@ -1,20 +1,22 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
-- name: NapoleonX
-  image: https://i.imgur.com/Hruaqkl.png
-  url: https://www.napoleonx.ai/
+- name: GoNetwork
+  image: https://i.imgur.com/XhAQdHY.jpg
+  url: https://gonetwork.co/
   real_team: true
   github: true
-  smart_contract:
+  smart_contract: false
   product: false
   min_vesting: false
-  have_company: true
-  location: France
+  have_company: false
+  transparent: false
+  location: Canada
   comments:
-    - content: 6 month vesting schedule for tokens distributed to founders and team
-  ico_start_date: 2018-01-22T00:00:00Z
-  ico_end_date: 2018-02-28T00:00:00Z
+    - content: The founders never replied to investors' questions, showing total disregard to their concerns.
+    - content: Disturbing screenshot of Co-founder Xun Cai.
+  ico_start_date:
+  ico_end_date:
   safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/3
+  issue_url: https://github.com/ico-check/ico-check/issues/12
 
 - name: Holo
   image: https://i.imgur.com/NO3d4q7.png
@@ -34,8 +36,8 @@
     - content: No vesting schedule for Organization & Team tokens, but the team will mostly be paid in Holo fuel which is not exchangeable until the platform is running. HoloTokens are temporary and will be destroyed once Holo Launches.
     - content: Residents of The United States, China, and South Korea will not be able to participate
     - content: The team was completely transparent during the due diligence process
-  ico_start_date:
-  ico_end_date:
+  ico_start_date: 2018-02-22T11:00:00Z
+  ico_end_date: 2018-03-23T11:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/24
 
@@ -53,29 +55,47 @@
   comments:
     - content: Hard Cap 15 Million USD in ETH equivalent and the spot price is 1800 FND/ETH
     - content: Smart Contract will be deployed after security audit and before the token sale
-    - content: Whitelist closed on 25 Jan 2018
-    - content: Token Sale mid Feb 2018
+    - content: Whitelist closed on 25 Jan 2018. Only whitelisted participants are allowed to participate.
+    - content: The token sale will be a two day event. 12/02/2018 - Individual Capped sale for 24 hours - every whitelisted can contribute min 0.01 and max 1 ETH. 13/02/2018 - Uncapped until the max is reached (6000 ETH).
     - content: The Founder was completely transparent during the due diligence process
-  ico_start_date: 2018-02-14T11:00:00Z
-  ico_end_date:
+  ico_start_date: 2018-02-12T11:00:00Z
+  ico_end_date: 2018-02-13T11:00:00Z
   safe: true
   issue_url: https://github.com/ico-check/ico-check/issues/45
 
-- name: GoNetwork
-  image: https://i.imgur.com/XhAQdHY.jpg
-  url: https://gonetwork.co/
+- name: Gimmer
+  image: https://i.imgur.com/vD1Fqzb.jpg
+  url: https://token.gimmer.net/
   real_team: true
   github: true
-  smart_contract: false
+  smart_contract: true
   product: false
   min_vesting: false
-  have_company: false
-  transparent: false
-  location: Canada
+  have_company: true
+  location: Gibraltar
   comments:
-    - content: The founders never replied to investors' questions, showing total disregard to their concerns.
-    - content: Disturbing screenshot of Co-founder Xun Cai.
-  ico_start_date:
-  ico_end_date:
+    - content: Vesting for Team and advisors not coded in the smart contract.
+    - content: Team tokens vest over 3.5 years and varies for advisors depending on their role.
+    - content: Demo available on Windows, Mac and Linux. You can create strategies and backtest using real market data.
+    - content: The Co-founder was completely transparent during the due diligence process.   
+  ico_start_date: 2018-02-01T00:00:00Z
+  ico_end_date: 2018-02-28T00:00:00Z
   safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/12
+  issue_url: https://github.com/ico-check/ico-check/issues/51
+
+- name: NapoleonX
+  image: https://i.imgur.com/Hruaqkl.png
+  url: https://www.napoleonx.ai/
+  real_team: true
+  github: true
+  smart_contract:
+  product: false
+  min_vesting: false
+  have_company: true
+  location: France
+  comments:
+    - content: 6 month vesting schedule for tokens distributed to founders and team
+  ico_start_date: 2018-01-22T00:00:00Z
+  ico_end_date: 2018-02-28T00:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/3
