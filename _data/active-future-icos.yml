@@ -62,6 +62,25 @@
   ico_end_date: 2018-02-13T11:00:00Z
   safe: true
   issue_url: https://github.com/ico-check/ico-check/issues/45
+  
+- name: GBX - Gibraltar Blockchain Exchange
+  image: https://i.imgur.com/Nmo7X4C.jpg
+  url: https://gbx.gi/token-sales/
+  real_team: true
+  github: false
+  smart_contract: true
+  product: false
+  min_vesting: false
+  have_company: true
+  location: Gibraltar
+  comments:
+    - content: Vesting for Team and advisors not coded in the smart contract.
+    - content: Source code for smart contract not available to audit.
+    - content: Founder and staff tokens vest over 3 years. Partners and advisors tokens vest over 6 to 12 month.   
+  ico_start_date: 2018-02-07T00:00:00Z
+  ico_end_date: 2018-02-14T00:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/62
 
 - name: Gimmer
   image: https://i.imgur.com/vD1Fqzb.jpg
@@ -72,6 +91,7 @@
   product: false
   min_vesting: false
   have_company: true
+  transparent: true
   location: Gibraltar
   comments:
     - content: Vesting for Team and advisors not coded in the smart contract.
