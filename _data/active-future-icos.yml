@@ -63,7 +63,7 @@
   safe: true
   issue_url: https://github.com/ico-check/ico-check/issues/45
   
-- name: GBX - Gibraltar Blockchain Exchange
+- name: GBX
   image: https://i.imgur.com/Nmo7X4C.jpg
   url: https://gbx.gi/token-sales/
   real_team: true
