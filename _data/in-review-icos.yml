@@ -12,7 +12,9 @@
   comments:
     - content: UNDER REVIEW
     - content: User entered the chat for the first time and got banned.
+    - content: User banned after asking how will KYC details be secured
     - content: Other users banned for asking legitimate questions
+    
   ico_start_date: 
   ico_end_date:
   safe: false
