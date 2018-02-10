@@ -1,3 +1,22 @@
+- name: GBX
+  image: https://i.imgur.com/Nmo7X4C.jpg
+  url: https://gbx.gi/token-sales/
+  real_team: true
+  github: false
+  smart_contract: true
+  product: false
+  min_vesting: false
+  have_company: true
+  location: Gibraltar
+  comments:
+    - content: Vesting for Team and advisors not coded in the smart contract.
+    - content: Source code for smart contract not available to audit.
+    - content: Founder and staff tokens vest over 3 years. Partners and advisors tokens vest over 6 to 12 month.   
+  ico_start_date: 2018-02-07T00:00:00Z
+  ico_end_date: 2018-02-08T00:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/62
+
 - name: Republic Protocol
   image: https://i.imgur.com/audSq0N.jpg
   url: https://republicprotocol.com
