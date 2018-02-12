@@ -53,6 +53,7 @@
   transparent: true
   location: Estonia
   comments:
+    - content: Team tokens vest over 2 years with a 6 month cliff. Advisors 6 month with a 3 month cliff.
     - content: Hard Cap 15 Million USD in ETH equivalent and the spot price is 1800 FND/ETH
     - content: Whitelist closed on 25 Jan 2018. Only whitelisted participants are allowed to participate.
     - content: The token sale will be a two day event. 12/02/2018 - Individual Capped sale for 24 hours - every whitelisted can contribute min 0.01 and max 1 ETH. 13/02/2018 - Uncapped until the max is reached (6000 ETH).
