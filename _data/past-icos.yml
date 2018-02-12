@@ -58,7 +58,7 @@
 - name: Giza Device
   image: https://i.imgur.com/7xNufAl.jpg
   url: https://www.gizadevice.com/
-  real_team:
+  real_team: false
   github: true
   smart_contract: true
   product: false
