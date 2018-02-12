@@ -63,7 +63,7 @@
   smart_contract: true
   product: false
   min_vesting: false
-  have_company:
+  have_company: false
   transparent: false
   location: United Kingdom
   comments:
