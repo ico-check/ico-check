@@ -11,7 +11,6 @@
   location: Singapore
   comments:
     - content: UNDER REVIEW
-    - content: Users banned for asking legitimate questions.
   ico_start_date: 
   ico_end_date:
   safe: false
@@ -35,24 +34,6 @@
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/58
-
-- name: Colu
-  image: https://i.imgur.com/MIOjDsM.jpg
-  url: https://cln.network/
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company: true
-  transparent:
-  location: Gibraltar
-  comments:
-    - content: UNDER REVIEW
-  ico_start_date: 2018-02-14T11:00:00Z
-  ico_end_date: 2018-02-18T11:00:00Z
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/31
 
 - name: Sentinel Chain
   image: https://i.imgur.com/edGEqYY.png
