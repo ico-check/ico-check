@@ -60,6 +60,27 @@
   ico_end_date: 2018-03-23T11:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/24
+  
+- name: Remme
+  image: https://i.imgur.com/imj7JQL.jpg
+  url: https://tokensale.remme.io
+  real_team: true
+  github: true
+  smart_contract: true
+  product: false
+  min_vesting: false
+  have_company: true
+  transparent:
+  location: British Virgin Islands
+  comments:
+    - content: Vesting for team tokens not coded in the deployed contract.
+    - content: Team and founders tokens vest over 2 years with a 6 month cliff.
+    - content: 10 % of Partners and advisors tokens will vest over 6 month with 3 month cliff.
+    - content: Demo available.
+  ico_start_date: 2018-02-13T11:00:00Z
+  ico_end_date: 2018-03-13T11:00:00Z
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/50
 
 - name: FundRequest
   image: https://i.imgur.com/jNolXfq.png
