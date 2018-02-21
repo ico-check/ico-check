@@ -17,7 +17,26 @@
   ico_end_date:
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/12
-  
+
+- name: Endor
+  image: https://i.imgur.com/JoIgfZZ.jpg
+  url: https://www.endor.com
+  real_team: true
+  github: true
+  smart_contract:
+  product:
+  min_vesting:
+  have_company: true
+  transparent:
+  location: Gibraltar
+  comments:
+    - content: Token economy and terms not published.
+    - content: Presale ongoing.
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/64
+
 - name: Loomia
   image: https://i.imgur.com/7YW0Axg.png
   url: https://loomia.com/
