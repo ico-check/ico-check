@@ -22,7 +22,7 @@
   real_team:
   github: true
   smart_contract:
-  product:
+  product: false
   min_vesting:
   have_company: false
   transparent:
