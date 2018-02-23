@@ -1,7 +1,7 @@
 - name: Sharder Protocol
   image: https://i.imgur.com/iScbiV9.jpg
   url: https://sharder.org/
-  real_team: 
+  real_team: true
   github: true
   smart_contract: true
   product: false
