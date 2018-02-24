@@ -48,6 +48,7 @@
   location: United States
   comments:
     - content: UNDER REVIEW
+    - content: Token economy and terms not published yet.
   ico_start_date: 
   ico_end_date:
   safe:
@@ -56,7 +57,7 @@
 - name: DML
   image: https://i.imgur.com/dmgmmlA.jpg
   url: https://decentralizedml.com/
-  real_team:
+  real_team: true
   github: true
   smart_contract:
   product:
