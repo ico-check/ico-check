@@ -24,14 +24,15 @@
   real_team: true
   github: true
   smart_contract:
-  product:
+  product: false
   min_vesting:
   have_company: true
   transparent:
   location: Gibraltar
   comments:
-    - content: Token economy and terms not published yet.
-    - content: Presale ongoing.
+    - content: Product not connected to blockchain
+    - content: Vesting schedule for team and advisors token N/A
+    - content: 20% Token Private Sale \ Crowd-Sale
   ico_start_date:
   ico_end_date:
   safe:
