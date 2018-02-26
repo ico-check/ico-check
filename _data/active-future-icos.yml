@@ -25,13 +25,13 @@
   github: true
   smart_contract:
   product: false
-  min_vesting:
+  min_vesting: false
   have_company: true
   transparent:
   location: Gibraltar
   comments:
     - content: Product not connected to blockchain
-    - content: Vesting schedule for team and advisors token N/A
+    - content: Token economy was published but Vesting schedule for Team and Advisors tokens was omitted.
     - content: 20% of Tokens for Private Sale \ Crowd-Sale
   ico_start_date:
   ico_end_date:
