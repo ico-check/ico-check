@@ -110,17 +110,17 @@
 - name: YGGDRASH
   image: https://i.imgur.com/jTpqWxB.jpg
   url: https://yggdrash.io/
-  real_team:
+  real_team: true
   github: true
   smart_contract:
   product: false
   min_vesting:
-  have_company: false
+  have_company: true
   transparent:
   location: Singapore
   comments:
     - content: UNDER REVIEW
-    - content: No record found for "Yggdrash Foundation" in the Singapore companies registry
+    - content: Company AKASHIC FOUNDATION LTD. registered in Singapore.
   ico_start_date: 
   ico_end_date:
   safe:
