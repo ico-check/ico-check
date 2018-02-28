@@ -2,7 +2,7 @@
   image: https://i.imgur.com/uNPUR7c.png
   url: https://txhash.com/
   real_team:
-  github: true
+  github:
   smart_contract:
   product:
   min_vesting:
