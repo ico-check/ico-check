@@ -18,6 +18,26 @@
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/12
 
+- name: Endor
+  image: https://i.imgur.com/JoIgfZZ.jpg
+  url: https://www.endor.com
+  real_team: true
+  github: true
+  smart_contract:
+  product: false
+  min_vesting: false
+  have_company: true
+  transparent:
+  location: Gibraltar
+  comments:
+    - content: Product not connected to blockchain
+    - content: Token economy was published but Vesting schedule for Team and Advisors tokens was omitted.
+    - content: 20% of Tokens for Private Sale \ Crowd-Sale
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/64
+
 - name: YGGDRASH
   image: https://i.imgur.com/jTpqWxB.jpg
   url: https://yggdrash.io/
@@ -42,26 +62,30 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/71
   
-- name: Endor
-  image: https://i.imgur.com/JoIgfZZ.jpg
-  url: https://www.endor.com
+- name: Sentinel Chain
+  image: https://i.imgur.com/edGEqYY.png
+  url: https://sentinel-chain.org/
   real_team: true
-  github: true
-  smart_contract:
+  github: false
+  smart_contract: false
   product: false
   min_vesting: false
   have_company: true
   transparent:
-  location: Gibraltar
+  location: Singapore
   comments:
-    - content: Product not connected to blockchain
-    - content: Token economy was published but Vesting schedule for Team and Advisors tokens was omitted.
-    - content: 20% of Tokens for Private Sale \ Crowd-Sale
-  ico_start_date:
-  ico_end_date:
+    - content: Hacked. KYC Leaked.
+    - content: Smart contract N/A. Cannot check codified vesting for team and advisors.
+    - content: Team does not want to share their Github yet.
+    - content: No working product
+    - content: Q1-Q2 2019 - Launch of Sentinel Chain v1.0
+    - content: Hard Cap 14.4 million USD
+    - content: Whitelist ends 26th February 2018
+  ico_start_date: 2018-03-06T11:00:00Z
+  ico_end_date: 2018-03-08T11:00:00Z
   safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/64
-
+  issue_url: https://github.com/ico-check/ico-check/issues/49
+  
 - name: Loomia
   image: https://i.imgur.com/7YW0Axg.png
   url: https://loomia.com/
