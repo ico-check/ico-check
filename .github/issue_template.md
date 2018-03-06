@@ -1,4 +1,4 @@
-# [Company name](company website)
+# [ICO name](ICO website)
 
 ## Team
 *Here list team members with links to their LinkedIn accounts in here*
@@ -20,3 +20,9 @@
 
 ## Additional info
 *Here put additional comments about the company, with links when possible*
+
+### Token distribution
+*Here put token distribution screenshot or info, with links when possible*
+
+### Token allocation
+*Here put token allocation screenshot or info, with links when possible*
