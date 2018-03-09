@@ -3,6 +3,9 @@
 ## Team
 *Here list team members with links to their LinkedIn accounts in here*
 
+### Advisors
+*Here list advisors with links to their LinkedIn accounts in here*
+
 ## Company
 *Here put company information if company exsits. Also provide links (and possibly screenshots) where it can be verified that company exists*
 
