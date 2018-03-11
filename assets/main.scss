@@ -7,6 +7,8 @@ $max-device-res: 1199px;
 
 $light-gray: #f7f7f7;
 
+$border-color: #e1e2e2;
+
 $system-monospace: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
 
 body {
@@ -59,6 +61,55 @@ body {
   font-family: $system-monospace;
 }
 
+#table-header {
+  background: $light-gray;
+  border-top-color: $border-color !important;
+  border-bottom-color: $border-color !important;
+  box-shadow: 0 -1px 0 0 $border-color !important;
+}
+
+#ico-table {
+  border-radius: .15em !important;
+  box-shadow: 0 0 0 1px $border-color !important;
+}
+
+#ico-table>.row:not(#table-header) {
+  box-shadow: 0 -1px 0 0 $border-color !important;
+}
+
+#ico-table>.row>.column {
+  box-shadow: -1px 0 0 0 $border-color !important;
+}
+
+.header-col {
+  padding-left: 0.2em !important;
+  padding-right: 0.2em !important;
+  font-weight: bolder;
+}
+
+.column.has-vertically-aligned-content {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.positive.column {
+  background: #fcfff5;
+}
+
+.negative.column {
+  background: #fff6f6;
+}
+
+.ui.sticky:not(.fixed) {
+  left: 0 !important;
+}
+
+.ui.sticky {
+  -webkit-transform: translate3d(0,0,0);
+}
+
 .unselectable {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
@@ -98,6 +149,18 @@ body {
     visibility: hidden;
     clear: both;
     display: none;
+  }
+
+  .wide-container {
+    margin: 0 1em !important;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: $max-mobile-res + 1) and (max-width: $max-device-res) {
+  .wide-container {
+    margin: 0 1.5em !important;
+    position: relative;
   }
 }
 
@@ -139,6 +202,11 @@ a.top-banner-link:hover {
     clear: both;
     display: none;
   }
+
+  .wide-container {
+    margin: 0 64px !important;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: $max-device-res) {
@@ -163,10 +231,10 @@ a.top-banner-link:hover {
   }
 
   .only-tablet-visible {
-      visibility: hidden;
-      clear: both;
-      display: none;
-    }
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
 
   .ui.definition.table tr td.definition, .ui.definition.table tr td:first-child:not(.ignored) {
     background-color: inherit !important;

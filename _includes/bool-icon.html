@@ -1,0 +1,11 @@
+{% if include.value == true %}
+{% assign icon = "green checkmark" %}
+{% elsif include.value == false %}
+{% assign icon = "red close" %}
+{% else %}
+{% assign icon = "minus" %}
+{% endif %}
+
+<span {% include tooltip-attribute.html tooltip=include.tooltip %}>
+  <i class="large {{ icon }} icon"></i>
+</span>

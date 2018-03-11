@@ -4,4 +4,6 @@ $(document).ready(function() {
             element.click()
         }
     });
+
+    $('#table-header').sticky();
 });
