@@ -83,16 +83,15 @@
 - name: YGGDRASH
   image: https://i.imgur.com/jTpqWxB.jpg
   url: https://yggdrash.io/
-  real_team:
+  real_team: true
   github: true
-  smart_contract:
+  smart_contract: true
   product: false
   min_vesting: false
   have_company: true
   transparent:
   location: Singapore
   comments:
-    - content: Team to check
     - content: Company AKASHIC FOUNDATION LTD. registered in Singapore.
     - content: TestNet released Q3 2018 | MainNet Q2 2019
     - content: Team tokens vest over 1 year
