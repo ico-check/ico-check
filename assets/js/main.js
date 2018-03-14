@@ -5,5 +5,13 @@ $(document).ready(function() {
         }
     });
 
-    $('#table-header').sticky();
+    $('#table-header').sticky({
+      onStick: function() {
+        const height = $('#table-header').height();
+        $('#ico-table').find('> :nth-child(2)').css("margin-top", `${height}px`);
+      },
+      onUnstick: function () {
+        $('#ico-table').find('> :nth-child(2)').css("margin-top", "0px");
+      }
+    });
 });
