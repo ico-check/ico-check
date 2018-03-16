@@ -42,8 +42,8 @@
   smart_contract:
   product:
   min_vesting:
-  have_company:
-  transparent:
+  have_company: true
+  transparent: true
   location: United States
   comments:
     - content: UNDER REVIEW
