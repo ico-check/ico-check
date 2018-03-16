@@ -55,16 +55,18 @@
 - name: Nexo
   image: https://i.imgur.com/DrLqRYG.jpg
   url: https://nexo.io/
-  real_team:
-  github:
+  real_team: true
+  github: false
   smart_contract:
-  product:
+  product: false
   min_vesting:
-  have_company:
+  have_company: false
   transparent:
-  location:
+  location: Cayman Islands
   comments:
     - content: UNDER REVIEW
+    - content: No working product. Demo available on the website.
+    - content: Gitub N/A, cannot audit smart contract for codified vesting.
   ico_start_date: 
   ico_end_date:
   safe:
