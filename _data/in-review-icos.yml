@@ -170,7 +170,7 @@
   product:
   min_vesting:
   have_company: true
-  transparent:
+  transparent: true
   location: United States
   comments:
     - content: UNDER REVIEW
