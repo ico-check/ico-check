@@ -92,6 +92,7 @@
   transparent:
   location: United States
   comments:
+    - content: Crowdsale cancelled and replaced by Airdrop.
     - content: Team and Advisors get access to half of their tokens once the ICO start. The other half vests over 12 month.
     - content: Vesting schedule for Team and Advisors won't be coded in the smart contract.
     - content: Product not connected to blockchain, the tile platform.
