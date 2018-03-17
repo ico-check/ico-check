@@ -44,14 +44,15 @@
   url: https://nexo.io/
   real_team: true
   github: false
-  smart_contract:
+  smart_contract: true
   product: false
-  min_vesting:
+  min_vesting: false
   have_company: true
   transparent:
   location: Cayman Islands
   comments:
     - content: No working product. Demo available on the website.
+    - content: Codified vesting N/A in deployed smart contract.
     - content: Gitub N/A, cannot audit smart contract for codified vesting.
     - content: Security Token
   ico_start_date: 2018-03-06T11:00:00Z
