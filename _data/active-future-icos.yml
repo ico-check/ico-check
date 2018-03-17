@@ -18,6 +18,47 @@
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/12
   
+- name: NuCypher
+  image: https://i.imgur.com/htSKE5A.png
+  url: https://nucypher.com
+  real_team: true
+  github: true
+  smart_contract:
+  product:
+  min_vesting:
+  have_company: true
+  transparent: true
+  location: United States
+  comments:
+    - content: Token economy and terms not published yet.
+    - content: Crowdsale after mainnet (Product will be functional on the Main network)
+    - content: Smart contract not yet deployed.
+    - content: Team and advisors tokens vest over 2 years. To verify once smart contract is deployed.
+  ico_start_date: 
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/69
+  
+- name: Nexo
+  image: https://i.imgur.com/DrLqRYG.jpg
+  url: https://nexo.io/
+  real_team: true
+  github: false
+  smart_contract:
+  product: false
+  min_vesting:
+  have_company: true
+  transparent:
+  location: Cayman Islands
+  comments:
+    - content: No working product. Demo available on the website.
+    - content: Gitub N/A, cannot audit smart contract for codified vesting.
+    - content: Security Token
+  ico_start_date: 2018-03-06T11:00:00Z
+  ico_end_date: 2018-04-01T11:00:00Z
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/77
+  
 - name: Mainframe
   image: https://i.imgur.com/Ln6COOt.jpg
   url: https://mainframe.com
