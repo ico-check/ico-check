@@ -362,10 +362,11 @@
   url: https://www.cypherium.io
   real_team: true
   github: true
-  smart_contract:
+  smart_contract: false
   product: false
-  min_vesting:
+  min_vesting: false
   have_company: true
+  transparent: false
   location: Hong Kong
   comments:
     - content: Pre-sale has concluded and there won’t be an ICO.
