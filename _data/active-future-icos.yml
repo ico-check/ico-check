@@ -129,7 +129,7 @@
   product: false
   min_vesting: false
   have_company: true
-  transparent:
+  transparent: false
   location: United Kingdom
   comments:
     - content: No smart contract for the crowdsale.
