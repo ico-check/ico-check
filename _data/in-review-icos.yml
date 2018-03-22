@@ -44,7 +44,7 @@
   smart_contract:
   product:
   min_vesting:
-  have_company:
+  have_company: false
   transparent:
   location:
   comments:
