@@ -49,6 +49,8 @@
   location:
   comments:
     - content: UNDER REVIEW
+    - content: Whitelist registration ended.
+    - content: As of 22 March 2018 company still not registered in Liechtenstein.
   ico_start_date: 
   ico_end_date:
   safe:
