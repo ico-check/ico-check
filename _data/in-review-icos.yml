@@ -44,7 +44,7 @@
   min_vesting:
   have_company: true
   transparent:
-  location:
+  location: Liechtenstein
   comments:
     - content: UNDER REVIEW
     - content: Whitelist registration ended.
