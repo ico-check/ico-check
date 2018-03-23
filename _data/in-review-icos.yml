@@ -37,10 +37,10 @@
 - name: Block Collider
   image: https://i.imgur.com/CipbP8B.jpg
   url: https://www.blockcollider.org/
-  real_team:
+  real_team: true
   github: true
   smart_contract:
-  product:
+  product: false
   min_vesting:
   have_company: false
   transparent:
@@ -48,7 +48,7 @@
   comments:
     - content: UNDER REVIEW
     - content: Whitelist registration ended.
-    - content: As of 22 March 2018 company still not registered in Liechtenstein.
+    - content: Block Collider Foundation registered in Liechtenstein on 23 March 2018.
     - content: All countries can participate in the crowdsale.
   ico_start_date: 
   ico_end_date:
