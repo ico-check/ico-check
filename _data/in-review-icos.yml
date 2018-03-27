@@ -180,6 +180,7 @@
   comments:
     - content: UNDER REVIEW
     - content: Algo Marketplace beta will be online upon completion of TGE
+    - content: Team tokens vest over 3 years with a 3 months cliff. 6 months for advisor with 3 months cliff. To verify in the deployed smart contract.
   ico_start_date: 
   ico_end_date:
   safe: false
