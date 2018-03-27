@@ -188,13 +188,13 @@
 - name: Seele
   image: https://i.imgur.com/JZXm0lQ.jpg
   url: https://seele.pro
-  real_team: 
+  real_team: true
   github: true
   smart_contract:
-  product:
-  min_vesting:
-  have_company:
-  transparent:
+  product: false
+  min_vesting: false
+  have_company: false
+  transparent: false
   location:
   comments:
     - content: UNDER REVIEW
