@@ -228,13 +228,14 @@
   github: true
   smart_contract: true
   product: true
-  min_vesting:
+  min_vesting: false
   have_company: true
   transparent: true
   location: Gibraltar
   comments:
     - content: New decentralized platform
-    - content: No vesting schedule for Organization & Team tokens. The team will mostly be paid in Holo fuel which is not exchangeable until the platform is running. HoloTokens are temporary and will be destroyed once Holo Launches.
+    - content: No vesting schedule for Organization & Team tokens.
+    - content: The team will mostly be paid in Holo fuel which is not exchangeable until the platform is running. HoloTokens are temporary and will be destroyed once Holo Launches.
     - content: Residents of The United States, China, and South Korea will not be able to participate
     - content: The team was completely transparent during the due diligence process
   ico_start_date: 2018-03-29T11:00:00Z
