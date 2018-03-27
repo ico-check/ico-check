@@ -172,13 +172,14 @@
   real_team: true
   github: true
   smart_contract:
-  product:
+  product: false
   min_vesting:
   have_company: true
   transparent:
   location: Singapore
   comments:
     - content: UNDER REVIEW
+    - content: Algo Marketplace beta will be online upon completion of TGE
   ico_start_date: 
   ico_end_date:
   safe: false
