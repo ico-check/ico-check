@@ -58,6 +58,31 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/69
   
+- name: Gluon
+  image: https://i.imgur.com/Pr6QKqD.png
+  url: https://www.gluon.com/
+  real_team: true
+  github:
+  smart_contract:
+  product:
+  min_vesting:
+  have_company: true
+  transparent: true
+  location: United States
+  comments:
+    - content: ICO on the Stratis Platform
+      url: https://stratisplatform.com/2018/01/17/stratis_partners_with_gluon/
+    - content: Team and advisors tokens vest obver 2 years. To verify if codified in Stratis smart contract.
+    - content: Code for Gluon platform and product is proprietary.
+    - content: Product not yet connected to blockchain.
+    - content: Github has no repositories. Blockchain code will be published.
+    - content: Token Sale Rescheduled to May 2018
+      url: https://www.gluon.com/gluon-token-sale-rescheduled/
+  ico_start_date: 
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/78
+  
 - name: Edenchain
   image: https://i.imgur.com/bfm56xl.jpg
   url: https://edenchain.io/
