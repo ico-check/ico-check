@@ -132,7 +132,7 @@
   image: https://i.imgur.com/8kn8hF1.jpg
   url: https://atonomi.io/
   real_team: true
-  github: true
+  github:
   smart_contract:
   product:
   min_vesting:
