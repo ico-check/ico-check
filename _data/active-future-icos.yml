@@ -189,7 +189,7 @@
   url: https://appics.com/
   real_team: true
   github: false
-  smart_contract:
+  smart_contract: true
   product: false
   min_vesting: false
   have_company: true
@@ -199,7 +199,6 @@
     - content: No vesting schedule for Team and Advisors in the smart contract.
     - content: No working product
     - content: Use of proceeds not available
-    - content: Smart contract not yet deployed
   ico_start_date: 2018-03-28T11:00:00Z
   ico_end_date: 2018-04-28T11:00:00Z
   safe: false
