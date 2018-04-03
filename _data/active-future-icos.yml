@@ -52,7 +52,8 @@
   comments:
     - content: Token economy and terms not yet published.
     - content: Token Presale | SAFT | $16,664,962 | March 21, 2018
-    - content: FORM D - Offering and Sales Amounts | Total Offering Amount $35,000,000 USD, Total Amount Sold $16,664,962 USD, Total Remaining to be Sold $18,335,038 USD    
+    - content: FORM D - Offering and Sales Amounts | Total Offering Amount $35,000,000 USD, Total Amount Sold $16,664,962 USD, Total Remaining to be Sold $18,335,038 USD
+      url: https://www.sec.gov/Archives/edgar/data/1725812/000172581218000002/xslFormDX01/primary_doc.xml
   ico_start_date: 
   ico_end_date:
   safe:
