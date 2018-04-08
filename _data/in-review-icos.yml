@@ -108,26 +108,6 @@
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/73
-
-- name: Origin Protocol
-  image: https://i.imgur.com/ZzrzwEM.jpg
-  url: https://www.originprotocol.com
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company: true
-  transparent:
-  location: United States
-  comments:
-    - content: UNDER REVIEW
-    - content: Token economy and terms not published yet.
-    - content: Demo DApp on the Ethereum Rinkeby test network.
-  ico_start_date: 
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/63
   
 - name: Minerva
   image: https://i.imgur.com/lUyUQfD.png
