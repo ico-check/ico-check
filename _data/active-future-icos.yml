@@ -243,6 +243,7 @@
   transparent:
   location: Cayman Islands
   comments:
+    - content: Public sale cancelled.
     - content: No working product. Demo available on the website.
     - content: Codified vesting N/A in deployed smart contract.
     - content: Gitub N/A, cannot audit smart contract for codified vesting.
