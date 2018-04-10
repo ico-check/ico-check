@@ -118,8 +118,8 @@
   location: Singapore
   comments:
     - content: Tokens are NEO NEP-5
-    - content: Developers and advisors tokens vest over 3 years with a 1 year cliff. (Need to check codified vesting in the neo smart contract)
-    - content: Cannot identity some team members. Last name and social profile missing.
+    - content: Developers and advisors tokens vest over 3 years with a 1 year cliff. (Need to check for codified vesting in the neo smart contract)
+    - content: Cannot identify some team members. Last name and social profile missing.
   ico_start_date: 
   ico_end_date:
   safe:
