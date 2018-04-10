@@ -274,6 +274,27 @@
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/91
   
+- name: BTU Protocol
+  image: https://i.imgur.com/VQYBAXR.jpg
+  url: https://www.btu-protocol.com/en/
+  real_team: true
+  github: true
+  smart_contract:
+  product: false
+  min_vesting: false
+  have_company: true
+  transparent:
+  location: France
+  comments:
+    - content: Smart Contract not yet deployed.
+    - content: Product demo available.
+    - content: Founders tokens vest over 1 year. To check in smart contract.
+    - content: Presale ongoing, ends 6th June 2018.
+  ico_start_date: 2018-04-10T11:00:00Z
+  ico_end_date: 2018-06-06T11:00:00Z
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/101
+  
 - name: APPICS
   image: https://i.imgur.com/kRkERQo.jpg
   url: https://appics.com/
