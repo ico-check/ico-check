@@ -18,6 +18,31 @@
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/12
   
+- name: Akash Network
+  image: https://i.imgur.com/FANa1gD.jpg
+  url: https://akash.network/
+  real_team: true
+  github: true
+  smart_contract:
+  product:
+  min_vesting:
+  have_company: true
+  transparent: true
+  location: United States
+  comments:
+    - content: New blockchain.
+    - content: Working prototype marketplace available. Mainnet before or during the public sale.
+    - content: Team tokens vest over 2 years with a 1 year cliff. Advisors 12 months with a 6 months cliff. Smart contract not used for the token sale. No codified vesting.
+    - content: Shufti is the third party KYC/AML service.
+      url: https://shuftipro.com/
+    - content: Filed for SEC Form D with Rule 506(b). Team is working towards filing for rule 506(c). Part of the capital raised under 506(b) will be used to fund the processes needed for 506(c) compliance.
+    - content: FORM D - Offering and Sales Amounts | Total Offering Amount $5,000,000 USD, Total Amount Sold $1,269,127 USD, Total Remaining to be Sold $3,730,873 USD.
+      url: https://www.sec.gov/Archives/edgar/data/1734871/000173487118000002/xslFormDX01/primary_doc.xml
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/107
+  
 - name: Orchid
   image: https://i.imgur.com/Ngr7hpg.jpg
   url: https://orchidprotocol.com/
