@@ -261,7 +261,7 @@
   url: https://decentralizedml.com/
   real_team: true
   github: true
-  smart_contract:
+  smart_contract: true
   product: false
   min_vesting:
   have_company: true
