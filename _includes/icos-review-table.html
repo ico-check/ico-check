@@ -29,59 +29,71 @@
 <div class="little-top-padded"></div>
 
 {% for ico in include.icos %}
+{% if ico.sponsored == true %}
+{% assign extra_class = "highlighted" %}
+{% else %}
+{% assign extra_class = "" %}
+{% endif %}
 <table class="ui celled horizontal padded definition table only-device-visible">
   <tbody>
-  <tr class="light-gray-background">
+  <tr class="{{ extra_class }} light-gray-background">
     <td class="three wide">
       Company name
     </td>
     <td class="center aligned">
       {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+      {% if ico.sponsored %}
+      <div class="relative">
+        <p class="sponsored">
+          Sponsored
+        </p>
+      </div>
+      {% endif %}
     </td>
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Real team
     </td>
     {% include device-bool-cell.html value=ico.real_team %}
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       GitHub
     </td>
     {% include device-bool-cell.html value=ico.github %}
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Smart Contract*
     </td>
     {% include device-bool-cell.html value=ico.smart_contract %}
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Product**
     </td>
     {% include device-bool-cell.html value=ico.product %}
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Vesting***
     </td>
     {% include device-bool-cell.html value=ico.min_vesting %}
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Have a company
     </td>
     {% include device-bool-cell.html value=ico.have_company %}
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Transparent
     </td>
     {% include device-bool-cell.html value=ico.transparent %}
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Location
     </td>
@@ -89,7 +101,7 @@
       {% include flag-cell.html country=ico.location %}
     </td>
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Comments
     </td>
@@ -97,7 +109,7 @@
       {% include comments-cell.html comments=ico.comments github_issue=ico.issue_url %}
     </td>
   </tr>
-  <tr>
+  <tr class="{{ extra_class }}">
     <td class="three-wide">
       Date
     </td>
@@ -126,9 +138,20 @@
     </div>
 
     {% for ico in include.icos %}
-    <div class="row">
+    {% if ico.sponsored == true %}
+    {% assign extra_class = "highlighted" %}
+    {% else %}
+    {% assign extra_class = "" %}
+    {% endif %}
+    <div class="{{ extra_class }} row">
       <div class="two wide has-vertically-aligned-content center aligned column">
-        {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+        {% include company-cell.html name=ico.name url=ico.url image=ico.image sponsored=ico.sponsored %}
+        {% if ico.sponsored %}
+          <p class="sponsored">
+            Sponsored
+          </p>
+        {% endif %}
+
       </div>
       {% include desktop-bool-cell.html value=ico.real_team tooltip="Real team" width="one" %}
       {% include desktop-bool-cell.html value=ico.github tooltip="GitHub" width="one" %}

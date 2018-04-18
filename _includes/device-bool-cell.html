@@ -1,11 +1,3 @@
-{% if include.value == true %}
-{% assign color = "positive" %}
-{% elsif include.value == false %}
-{% assign color = "negative" %}
-{% else %}
-{% assign color = "" %}
-{% endif %}
-
-<td class="center aligned {{ color }} collapsing">
+<td class="center aligned collapsing">
   {% include bool-icon.html value=include.value tooltip=include.tooltip %}
 </td>

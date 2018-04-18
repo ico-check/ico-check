@@ -61,6 +61,10 @@ body {
   font-family: $system-monospace;
 }
 
+.highlighted {
+  background-color: #FEF8EA !important;
+}
+
 #table-header {
   background: $light-gray;
   border-top-color: $border-color !important;
@@ -186,6 +190,18 @@ body {
   margin-right: 0.5rem;
 }
 
+.relative {
+  position: relative;
+}
+
+.sponsored {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-size: 80%;
+  color: slategrey;
+}
+
 a.top-banner-link:hover {
   color: white !important;
 }
@@ -241,6 +257,6 @@ a.top-banner-link:hover {
   }
 
   .light-gray-background {
-    background-color: $light-gray !important;
+    background-color: $light-gray;
   }
 }

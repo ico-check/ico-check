@@ -1,11 +1,3 @@
-{% if include.value == true %}
-{% assign color = "positive" %}
-{% elsif include.value == false %}
-{% assign color = "negative" %}
-{% else %}
-{% assign color = "" %}
-{% endif %}
-
-<div class="{{ include.width }} wide has-vertically-aligned-content {{ color }} column">
+<div class="{{ include.width }} wide has-vertically-aligned-content column">
   {% include bool-icon.html value=include.value tooltip=include.tooltip %}
 </div>
