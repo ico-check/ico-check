@@ -24,6 +24,13 @@
         <div class="row">
 
           <div class="five wide column">
+            {% if site.ads.first_rectangle_ad.redirect_url %}
+              <div class="ui centered medium rectangle ad">
+                <a href="{{ site.ads.first_rectangle_ad.redirect_url }}" target="_blank">
+                  <img src="{{ site.ads.first_rectangle_ad.medium_rectangle_url }}">
+                </a>
+              </div>
+            {% else %}
             <h3 class="ui header">
               <i class="github icon"></i>
               <div class="content">
@@ -35,9 +42,17 @@
                 </div>
               </div>
             </h3>
+            {% endif %}
           </div>
 
           <div class="five wide column">
+            {% if site.ads.second_rectangle_ad.redirect_url %}
+            <div class="ui centered medium rectangle ad">
+              <a href="{{ site.ads.second_rectangle_ad.redirect_url }}" target="_blank">
+                <img src="{{ site.ads.second_rectangle_ad.medium_rectangle_url }}">
+              </a>
+            </div>
+            {% else %}
             <h3 class="ui header">
               <i class="telegram icon"></i>
               <div class="content">
@@ -49,9 +64,17 @@
                 </div>
               </div>
             </h3>
+            {% endif %}
           </div>
 
           <div class="five wide column">
+            {% if site.ads.third_rectangle_ad.redirect_url %}
+            <div class="ui centered medium rectangle ad">
+              <a href="{{ site.ads.third_rectangle_ad.redirect_url }}" target="_blank">
+                <img src="{{ site.ads.third_rectangle_ad.medium_rectangle_url }}">
+              </a>
+            </div>
+            {% else %}
             <h3 class="ui header">
               <i class="twitter icon"></i>
               <div class="content">
@@ -63,6 +86,7 @@
                 </div>
               </div>
             </h3>
+            {% endif %}
           </div>
         </div>
 

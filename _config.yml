@@ -28,6 +28,19 @@ ads:
   leaderboard_url:
   # large leaderboard expects size 970x90
   large_leaderboard_url:
+
+  first_rectangle_ad:
+    redirect_url:
+    # medium rectangle expects size 300x250
+    medium_rectangle_url:
+  second_rectangle_ad:
+    redirect_url:
+    # medium rectangle expects size 300x250
+    medium_rectangle_url:
+  third_rectangle_ad:
+    redirect_url:
+    # medium rectangle expects size 300x250
+    medium_rectangle_url:
 description: >- # this means to ignore newlines until "baseurl:"
   ICO-Check is a community-driven website that lists the latest ICOs and conducts due diligence on each one of them.
 baseurl: "" # the subpath of your site, e.g. /blog
