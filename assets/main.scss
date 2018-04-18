@@ -9,6 +9,8 @@ $light-gray: #f7f7f7;
 
 $border-color: #e1e2e2;
 
+$highlighted-color: #FEF8EA;
+
 $system-monospace: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
 
 body {
@@ -62,7 +64,7 @@ body {
 }
 
 .highlighted {
-  background-color: #FEF8EA !important;
+  background-color: $highlighted-color !important;
 }
 
 #table-header {
