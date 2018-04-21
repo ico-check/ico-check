@@ -97,7 +97,9 @@
   location: United States
   comments:
     - content: TBD
-    - content: SEC Form D | SAFT | 8 Nov 2017 | Reported Sold $4.5M | 31 Investors
+    - content: SEC Form D | Rule 506(c) | SAFT | 8 Nov 2017 | Total Offering Amount $125,595,882 USD | Total Amount Sold	$36,128,073 USD | Total Remaining to be Sold $89,467,809 USD | 42 Investors
+      url: https://www.sec.gov/Archives/edgar/data/1721086/000172108617000001/xslFormDX01/primary_doc.xml
+    - content: SEC Form D | Rule 506(b) | SAFT | 8 Nov 2017 | Reported Sold $4.5M | 31 Investors
       url: https://www.sec.gov/Archives/edgar/data/1721086/000172108617000001/xslFormDX01/primary_doc.xml
   ico_start_date:
   ico_end_date:
