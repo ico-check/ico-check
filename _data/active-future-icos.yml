@@ -289,7 +289,7 @@
   product: false
   min_vesting: false
   have_company: true
-  transparent: false
+  transparent:
   location: Singapore
   comments:
     - content: Public beta in june.
