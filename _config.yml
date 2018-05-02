@@ -23,24 +23,24 @@ google_analytics: UA-108636813-1
 ads:
   redirect_url: https://techcrunch.com/2017/07/01/invisible-unicorns-35-big-companies-that-started-with-little-or-no-money/
   # mobile leaderboard expects size 320x50
-  mobile_leaderboard_url: https://i.imgur.com/gVaJbqE.jpg
+  mobile_leaderboard_url: https://i.imgur.com/xjEfHnX.jpg
   # leaderboard expects size 728x90
-  leaderboard_url: https://i.imgur.com/xSmZkGB.jpg
+  leaderboard_url: https://i.imgur.com/cLxrzB8.jpg
   # large leaderboard expects size 970x90
-  large_leaderboard_url: https://i.imgur.com/tVv3Ufs.jpg
+  large_leaderboard_url: https://i.imgur.com/2qkEkB4.jpg
 
   first_rectangle_ad:
     redirect_url: https://www.sec.gov/ICO
     # medium rectangle expects size 300x250
-    medium_rectangle_url: https://i.imgur.com/4ykkVH6.jpg
+    medium_rectangle_url: https://i.imgur.com/HL0ZL1o.jpg
   second_rectangle_ad:
     redirect_url: https://www.sec.gov/ICO
     # medium rectangle expects size 300x250
-    medium_rectangle_url: https://i.imgur.com/RXng7ME.jpg
+    medium_rectangle_url: https://i.imgur.com/nPoYlQ9.jpg
   third_rectangle_ad:
     redirect_url: https://www.sec.gov/ICO
     # medium rectangle expects size 300x250
-    medium_rectangle_url: https://i.imgur.com/NPqL10Y.jpg
+    medium_rectangle_url: https://i.imgur.com/Eqjgniy.jpg
 description: >- # this means to ignore newlines until "baseurl:"
   ICO-Check is a community-driven website that lists the latest ICOs and conducts due diligence on each one of them.
 baseurl: "" # the subpath of your site, e.g. /blog
