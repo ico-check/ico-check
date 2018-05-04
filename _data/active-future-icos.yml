@@ -18,6 +18,30 @@
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/12
   
+- name: QuarkChain
+  image: https://i.imgur.com/aYLlKxq.jpg
+  url: https://quarkchain.io/
+  real_team:
+  github: false
+  smart_contract:
+  product: false
+  min_vesting:
+  have_company: true
+  transparent: false
+  location: Singapore
+  comments:
+    - content: Cannot verify that all team members work for QuarkChain.
+    - content: Code in Private repo. Team said that they will be open sourcing their code in Q2 2018.
+    - content: Team and advisors tokens vest over 2 years. To check in the deployed smart contract.
+    - content: Use of proceeds not available.
+    - content: Private sale hard cap $16M. Public sale hard cap $4M. Total supply 10B QKC.
+    - content: The team never provided the company registration number, list of directors, details of registered office address and use of proceeds.
+    - content: The team never replied to investors' questions, showing total disregard to their concerns.
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/112
+  
 - name: Akash Network
   image: https://i.imgur.com/FANa1gD.jpg
   url: https://akash.network/
