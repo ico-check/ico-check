@@ -1,3 +1,23 @@
+- name: LCCX
+  image: https://i.imgur.com/wA3vLRY.jpg
+  url: https://lccx.io/
+  real_team:
+  github: false
+  smart_contract: false
+  product: false
+  min_vesting: false
+  have_company: true
+  transparent: false
+  location: United Kingdom
+  comments:
+    - content: No smart contract for the crowdsale.
+    - content: No working product.
+    - content: No vesting schedule for Advisors tokens. Vesting schedule not codified, smart contract N/A.
+  ico_start_date: 2018-03-12T11:00:00Z
+  ico_end_date: 2018-04-30T11:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/93
+
 - name: DML
   image: https://i.imgur.com/dmgmmlA.jpg
   url: https://decentralizedml.com/
