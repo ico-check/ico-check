@@ -42,6 +42,28 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/112
   
+- name: TrustToken
+  image: https://i.imgur.com/SLeHnf0.jpg
+  url: https://www.trusttoken.com/
+  real_team:
+  github: true
+  smart_contract:
+  product:
+  min_vesting:
+  have_company: true
+  transparent: false
+  location: United States
+  comments:
+    - content: User banned by Token Trust for asking if Co-founder & COO Stephen Kade is CTO of Bankorus (ongoing ICO).
+    - content: Bankorus confirmed that Stephen Kade is their CTO.
+    - content: The question remains as to how Stephen Kade can have two important positions at the same time.
+    - content: Potential investors must complete the pre-sale application and accreditation process to have access to the white paper.
+    - content: Team tokens vest over 4 years. Check if codified.
+  ico_start_date:
+  ico_end_date:
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/126
+  
 - name: Bankorus
   image: https://i.imgur.com/LZR6NRG.jpg
   url: https://www.bankorus.com/
