@@ -131,6 +131,31 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/113
   
+- name: Mandala
+  image: https://i.imgur.com/nluWHRm.jpg
+  url: https://mandalaex.com/
+  real_team: true
+  github: true
+  smart_contract:
+  product: false
+  min_vesting: false
+  have_company: true
+  transparent: true
+  location: Cayman Islands
+  comments:
+    - content: Github has one repo for the token sale smart contract. Project Source code not yet released to the public.
+    - content: Smart contract not yet deployed.
+    - content: Q3 Mandala platform beta release. Q4 Mandala platform full release.
+    - content: Team tokens vest over 1 year. 50% released after 6 months of crowdsale. Advisors tokens vest over 3 months. 50% released after the crowdsale.
+    - content: Mandala is considering changing the vesting schedule for team tokens to 2 years. 25% released every 6 month. They are also exploring on extending the vesting schedule for advisors tokens. Pending check for Codified vesting in the smart contract.
+    - content: US investors cannot participate in the tokensale. Mandala filed a Reg-S for their token sale and are filing a Reg A+ for the exchange.
+    - content: Private sale and Pre-sale ongoing.
+  ico_start_date: 2018-04-21T11:00:00Z
+  ico_end_date: 2018-07-31T11:00:00Z
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/129
+  sponsored: false
+  
 - name: Carbon
   image: https://i.imgur.com/8EKAcrR.jpg
   url: https://www.carbon.money/
