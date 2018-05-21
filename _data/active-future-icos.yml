@@ -52,9 +52,10 @@
   product:
   min_vesting:
   have_company: true
-  transparent:
+  transparent: false
   location: United States
   comments:
+    - content: Update 17 May 2018 - The latest statement made by Stephen Kade saying that he is transitioning from CTO of Bankorus to CTO Advisory contradicts what he previously wrote, stating that Bankorus should not have listed him as the CTO, and misrepresented his relationship with them.
     - content: Bankorus confirmed that Stephen Kade is their CTO. Update 10 May 2018 - Stephen Kade has confirmed that he is not the CTO of Bankorus.
     - content: Trust Token asks for personal data when potential investors fill out the pre-sale application but does not have a privacy policy.
     - content: Potential investors must complete the pre-sale application and accreditation process to have access to the white paper.
@@ -77,7 +78,7 @@
   transparent: false
   location: Hong Kong
   comments:
-    - content: Token economy and terms not yet published.
+    - content: Update 17 May 2018 - The latest statement made by Stephen Kade saying that he is transitioning from CTO of Bankorus to CTO Advisory contradicts what he previously wrote, stating that Bankorus should not have listed him as the CTO, and misrepresented his relationship with them.
     - content: Stephen Kade (Co-founder of TrustToken) has confirmed that he is not the CTO of Bankorus and is focused full-time on building TrustToken.
     - content: Cannot verify that all team members work for Bankorus.
     - content: Public repo will be available after the conclusion of the token sale.
