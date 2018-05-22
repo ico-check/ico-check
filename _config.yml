@@ -20,7 +20,7 @@ twitter-url: https://twitter.com/icocheckio
 github-url: https://github.com/ico-check/ico-check
 github-issues-url: https://github.com/ico-check/ico-check/issues
 google_analytics: UA-108636813-1
-version: 2
+version: 3
 ads:
   redirect_url: https://techcrunch.com/2017/07/01/invisible-unicorns-35-big-companies-that-started-with-little-or-no-money/
   # mobile leaderboard expects size 320x50
