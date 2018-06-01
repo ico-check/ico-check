@@ -24,11 +24,11 @@ version: 4
 ads:
   redirect_url: https://www.wired.com/2017/02/airbnbs-surprising-path-to-y-combinator/
   # mobile leaderboard expects size 320x50
-  mobile_leaderboard_url: https://i.imgur.com/x9GeEeR.jpg
+  mobile_leaderboard_url: https://i.imgur.com/2X4RXEB.png
   # leaderboard expects size 728x90
-  leaderboard_url: https://i.imgur.com/mt5YLUk.jpg
+  leaderboard_url: https://i.imgur.com/NqoOzO9.png
   # large leaderboard expects size 970x90
-  large_leaderboard_url: https://i.imgur.com/OntIriN.jpg
+  large_leaderboard_url: https://i.imgur.com/yleLEJp.png
 
   first_rectangle_ad:
     redirect_url: https://www.sec.gov/ICO
