@@ -1,3 +1,22 @@
+- name: PCHAIN
+  image: https://i.imgur.com/scvV8GZ.jpg
+  url: https://pchain.org/
+  real_team: true
+  github: true
+  smart_contract:
+  product: false
+  min_vesting:
+  have_company: true
+  transparent:
+  location: Singapore
+  comments:
+    - content: TBU
+    - content: Team tokens vest over 2 years. Pending check for codified vesting in the ERC20 smart contract.
+  ico_start_date: 2018-05-28T11:00:00Z
+  ico_end_date: 2018-05-28T11:00:00Z
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/99
+
 - name: QuarkChain
   image: https://i.imgur.com/aYLlKxq.jpg
   url: https://quarkchain.io/
