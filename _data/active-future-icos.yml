@@ -37,30 +37,6 @@
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/12
   sponsored: false
-    
-- name: QuarkChain
-  image: https://i.imgur.com/aYLlKxq.jpg
-  url: https://quarkchain.io/
-  real_team:
-  github: false
-  smart_contract:
-  product: false
-  min_vesting:
-  have_company: true
-  transparent: false
-  location: Singapore
-  comments:
-    - content: Cannot verify that all team members work for QuarkChain.
-    - content: Code in Private repo. The Quarkchain team said that they will be open sourcing their code in Q2 2018.
-    - content: Team and advisors tokens vest over 2 years. To check in the deployed smart contract.
-    - content: Use of proceeds not available.
-    - content: Private sale hard cap $16M. Public sale hard cap $4M. Total supply 10B QKC.
-    - content: The Quarkchain team never provided the company registration number, list of directors, details of registered office address and use of proceeds.
-    - content: The Quarkchain team never replied to investors' questions, showing total disregard to their concerns.
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/112
   
 - name: TrustToken
   image: https://i.imgur.com/SLeHnf0.jpg
@@ -417,26 +393,6 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/78
   
-- name: Sentinel Protocol
-  image: https://i.imgur.com/6h4E2Zv.jpg
-  url: https://gonetwork.co/
-  real_team: true
-  github: false
-  smart_contract:
-  product: false
-  min_vesting: false
-  have_company: true
-  transparent:
-  location: Singapore
-  comments:
-    - content: Public beta in june.
-    - content: Team and advisors tokens vest over 2 years but not coded in the smart contract.
-    - content: Smart contract was not audited by an independent cybersecurity company.
-  ico_start_date: 2018-05-11T11:00:00Z
-  ico_end_date: 2018-05-24T11:00:00Z
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/114
-  
 - name: FTEC
   image: https://i.imgur.com/DtVZBrj.jpg
   url: https://ftec.ai/
@@ -458,26 +414,7 @@
   ico_end_date: 2018-07-18T11:00:00Z
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/119
-   
-- name: Cardstack
-  image: https://i.imgur.com/DykmFL7.jpg
-  url: https://cardstack.com/
-  real_team: true
-  github: true
-  smart_contract: true
-  product: false
-  min_vesting: false
-  have_company: true
-  transparent:
-  location: Switzerland
-  comments:
-    - content: Testnet not available. Beta Ethereum plug-in N/A.
-    - content: Cannot audit codified vesting in the deployed smart contract. Contract source code not published on etherscan.
-  ico_start_date:
-  ico_end_date:
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/91
-  
+     
 - name: BTU Protocol
   image: https://i.imgur.com/VQYBAXR.jpg
   url: https://www.btu-protocol.com/en/
@@ -498,25 +435,3 @@
   ico_end_date: 2018-06-06T11:00:00Z
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/101
-  
-- name: Loomia
-  image: https://i.imgur.com/7YW0Axg.png
-  url: https://loomia.com/
-  real_team: true
-  github: true
-  smart_contract:
-  product: false
-  min_vesting: false
-  have_company: true
-  transparent:
-  location: United States
-  comments:
-    - content: Crowdsale cancelled and replaced by Airdrop.
-    - content: Team and Advisors get access to half of their tokens once the ICO start. The other half vests over 12 month.
-    - content: Vesting schedule for Team and Advisors won't be coded in the smart contract.
-    - content: Product not connected to blockchain, the tile platform.
-    - content: Presale ongoing
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/29
