@@ -1,23 +1,4 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
-- name: IcoCheck 2.0
-  image: https://i.imgur.com/iQQXCSY.png
-  url: https://icocheck.io/
-  real_team:
-  github:
-  smart_contract:
-  product:
-  min_vesting:
-  have_company:
-  transparent:
-  location:
-  comments:
-    - content: Development of the new version of the website IcoCheck 2.0 is about to start
-  ico_start_date:
-  ico_end_date:
-  safe: true
-  issue_url: https://github.com/ico-check/ico-check/issues/131
-  sponsored: true
-
 - name: GoNetwork
   image: https://i.imgur.com/XhAQdHY.jpg
   url: https://gonetwork.co/
