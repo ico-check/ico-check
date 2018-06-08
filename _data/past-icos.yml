@@ -22,7 +22,7 @@
   url: https://quarkchain.io/
   real_team: true
   github: false
-  smart_contract:
+  smart_contract: true
   product: false
   min_vesting: false
   have_company: true
