@@ -29,7 +29,6 @@
   transparent: false
   location: Singapore
   comments:
-    - content: Cannot verify that all team members work for QuarkChain.
     - content: Code in Private repo. The Quarkchain team said that they will be open sourcing their code in Q2 2018.
     - content: Team and advisors tokens vest over 2 years. Vesting schedule not codified.
     - content: Use of proceeds not available.
