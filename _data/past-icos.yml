@@ -20,18 +20,18 @@
 - name: QuarkChain
   image: https://i.imgur.com/aYLlKxq.jpg
   url: https://quarkchain.io/
-  real_team:
+  real_team: true
   github: false
   smart_contract:
   product: false
-  min_vesting:
+  min_vesting: false
   have_company: true
   transparent: false
   location: Singapore
   comments:
     - content: Cannot verify that all team members work for QuarkChain.
     - content: Code in Private repo. The Quarkchain team said that they will be open sourcing their code in Q2 2018.
-    - content: Team and advisors tokens vest over 2 years. To check in the deployed smart contract.
+    - content: Team and advisors tokens vest over 2 years. Vesting schedule not codified.
     - content: Use of proceeds not available.
     - content: Private sale hard cap $16M. Public sale hard cap $4M. Total supply 10B QKC.
     - content: The Quarkchain team never provided the company registration number, list of directors, details of registered office address and use of proceeds.
