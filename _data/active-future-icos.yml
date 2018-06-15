@@ -102,8 +102,9 @@
     - content: Team tokens vest over 2 years with a 1 year cliff. Advisors 12 months with a 6 months cliff. Codify vesting on the native blockchain. To check once the network is live.
     - content: KYC/AML service provider is Shufti.
       url: https://shuftipro.com/
-    - content: Overclock Labs, Inc. filed for 506(c) exemption of Reg D. They plan to raise $34.00 M.
+    - content: Overclock Labs, Inc. filed for 506(c) exemption of Reg D.
       url: https://www.sec.gov/Archives/edgar/data/1734871/000173487118000003/xslFormDX01/primary_doc.xml
+    - content: Hard cap changed from $34MM to $20MM.
   ico_start_date:
   ico_end_date:
   safe:
