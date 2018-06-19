@@ -246,12 +246,12 @@
   image: https://i.imgur.com/b8jPNRf.jpg
   url: https://cryptocurve.io/
   real_team: true
-  github: false
+  github: true
   smart_contract:
   product: false
   min_vesting:
   have_company: true
-  transparent: false
+  transparent:
   location: United Kingdom
   comments:
     - content: Token economy and terms not yet published.
