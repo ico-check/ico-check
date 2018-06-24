@@ -378,7 +378,7 @@
 - name: FTEC
   image: https://i.imgur.com/DtVZBrj.jpg
   url: https://ftec.ai/
-  real_team:
+  real_team: true
   github: true
   smart_contract: true
   product: false
