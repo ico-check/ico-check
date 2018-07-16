@@ -1,3 +1,25 @@
+- name: Hat Exchange
+  image: https://i.imgur.com/oIxiTwm.jpg
+  url: https://hat.exchange/
+  real_team: false
+  github: false
+  smart_contract: true
+  product:
+  min_vesting: false
+  have_company: false
+  transparent: false
+  location: United States
+  comments:
+    - content: Formerly known as Hawala.Today.
+    - content: Refused to provide LinkedIn profiles for the "team" members.
+    - content: Staking wallet available, actual exchange yet to launch.
+    - content: Hat exchange lied about token lock and continue to mislead token holders.
+    - content: No team member is listed as the director of Bynary, Inc.
+  ico_start_date:
+  ico_end_date:
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/136
+
 - name: Telegram TON
   image: https://i.imgur.com/uJvbG04.png
   url: https://telegram.org/
