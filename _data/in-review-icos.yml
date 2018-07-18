@@ -1,3 +1,21 @@
+- name: Keep network
+  image: https://i.imgur.com/RbLlipe.jpg
+  url: https://keep.network/
+  real_team:
+  github:
+  smart_contract:
+  product:
+  min_vesting:
+  have_company:
+  transparent:
+  location:
+  comments:
+    - content: TBU
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url:
+
 - name: Ankr Network
   image: https://i.imgur.com/RfWlJv3.jpg
   url: https://ankr.network/
