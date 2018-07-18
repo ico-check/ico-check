@@ -285,23 +285,3 @@
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/78
   
-- name: FTEC
-  image: https://i.imgur.com/DtVZBrj.jpg
-  url: https://ftec.ai/
-  real_team: true
-  github: true
-  smart_contract: true
-  product: false
-  min_vesting: false
-  have_company: true
-  transparent: false
-  location: United Kingdom
-  comments:
-    - content: FTEC registered a new limited company in the UK for the ICO. Ihor Torshyn (CEO) is director.
-    - content: Linked profile of CFO Evgeniy Sidelnikov is confusing as it shows that he was 13yo when he went to grad school (MIT). It has been verified that he never went to MIT.
-    - content: Team tokens vest over 1 year. No vesting schedule for advisors tokens.
-    - content: Demo on IOS and Android.
-  ico_start_date: 2018-04-24T11:00:00Z
-  ico_end_date: 2018-07-18T11:00:00Z
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/119
