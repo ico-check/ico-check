@@ -120,8 +120,8 @@
   location:
   comments:
     - content: TBU
-  ico_start_date:
-  ico_end_date:
+  ico_start_date: 2018-07-31T11:00:00Z
+  ico_end_date: 2018-08-09T11:00:00Z
   safe:
   issue_url:
 
