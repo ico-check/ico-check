@@ -1,3 +1,21 @@
+- name: Intellos
+  image: https://i.imgur.com/V7F308X.jpg
+  url: https://intellos.com/
+  real_team:
+  github:
+  smart_contract:
+  product:
+  min_vesting:
+  have_company:
+  transparent:
+  location:
+  comments:
+    - content: TBU
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url:  
+
 - name: Nervos network
   image: https://i.imgur.com/vB2Aan0.jpg
   url: https://www.nervos.org/
