@@ -2,23 +2,23 @@
   <div class="ui right labeled icon top right pointing dropdown fluid primary button">
     <span class="text">
       {% if include.active-tab == 'active' %}
-        Active & Upcoming ICOs
+        Active & Upcoming Crypto Projects
       {% elsif include.active-tab == 'past' %}
-        Past ICOs
+        Past Crypto Projects
       {% else %}
-        Under review ICOs
+        Under Review Crypto Projects
       {% endif %}
     </span>
     <i class="dropdown icon"></i>
     <div class="menu">
       <a class="{% if include.active-tab == 'active' %}selected active{% endif %} item" href="/">
-        Active & Upcoming ICOs
+        Active & Upcoming Crypto Projects
       </a>
       <a class="{% if include.active-tab == 'past' %}selected active{% endif %} item" href="/past">
-        Past ICOs
+        Past Crypto Projects
       </a>
       <a class="{% if include.active-tab == 'in-review' %}selected active{% endif %} item" href="/in-review">
-        Under review ICOs
+        Under Review Crypto Projects
       </a>
     </div>
   </div>
