@@ -23,7 +23,7 @@
   image: https://i.imgur.com/oIxiTwm.jpg
   url: https://hat.exchange/
   real_team:
-  github: false
+  github: true
   smart_contract: true
   product:
   min_vesting: false
@@ -32,6 +32,7 @@
   location: United States
   comments:
     - content: Formerly known as Hawala.Today.
+    - content: No ICO but an airdrop instead.
     - content: More proof needed to verify all team members. Core team member / founder must be director of the company.
     - content: Refused to provide LinkedIn profiles for the "team" members.
     - content: Staking wallet available, actual exchange yet to launch.
