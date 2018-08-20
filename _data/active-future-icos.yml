@@ -1,4 +1,25 @@
 # For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
+- name: Chia Network
+  image: https://i.imgur.com/UsQmzf6.jpg
+  url: https://chia.net/
+  real_team: true
+  github: true
+  smart_contract:
+  product:
+  min_vesting:
+  have_company: true
+  transparent:
+  location: United States
+  comments:
+    - content: Co-founder Bram Cohen & Ryan Singer are director of CHIA NETWORK INC.
+    - content: According to Form D filing Chia Network Inc. raised $3,375,000 USD.
+      url: https://www.sec.gov/Archives/edgar/data/1730166/000173016618000003/xslFormDX01/primary_doc.xml
+    - content: Co-founder Bram Cohen & Ryan Singer are director of CHIA NETWORK INC.
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/ico-check/ico-check/issues/137
+
 - name: TrustToken
   image: https://i.imgur.com/SLeHnf0.jpg
   url: https://www.trusttoken.com/
