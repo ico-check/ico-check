@@ -14,8 +14,9 @@
     - content: Co-founder Bram Cohen & Ryan Singer are director of CHIA NETWORK INC.
     - content: According to Form D filing Chia Network Inc. raised $3,375,000 USD.
       url: https://www.sec.gov/Archives/edgar/data/1730166/000173016618000003/xslFormDX01/primary_doc.xml
-    - content: FAQ page says that Chia will be built using the Bitcoin codebase.
+    - content: FAQ page says that Chia will be built using the Bitcoin codebase and that it will support Lightning Network out of the box.
       url: https://chia.net/faq/
+    - content: Mainnet planned to launch by the end of 2018.
   ico_start_date:
   ico_end_date:
   safe:
