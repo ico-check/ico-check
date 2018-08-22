@@ -5,7 +5,7 @@
   real_team: true
   github: true
   smart_contract:
-  product:
+  product: false
   min_vesting:
   have_company: true
   transparent:
