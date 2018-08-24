@@ -16,6 +16,7 @@
       url: https://www.sec.gov/Archives/edgar/data/1730166/000173016618000003/xslFormDX01/primary_doc.xml
     - content: FAQ page says that Chia will be built using the Bitcoin codebase and that it will support Lightning Network out of the box.
       url: https://chia.net/faq/
+    - content: 2 public repositories. Corporate website and BLS Signature Library with initial commit on 1st Aug 2018, 17 Commits as of 21st Aug 2018 and 2 contributors.
     - content: Mainnet planned to launch by the end of 2018.
   ico_start_date:
   ico_end_date:
