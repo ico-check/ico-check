@@ -1,3 +1,21 @@
+- name: Cardano
+  image: https://i.imgur.com/yAL8KTP.jpg
+  url: https://www.cardano.org/
+  real_team:
+  github:
+  smart_contract:
+  product:
+  min_vesting:
+  have_company:
+  transparent:
+  location:
+  comments:
+    - content: TBU
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url:
+
 - name: Chromaway
   image: https://i.imgur.com/YbkJE33.png
   url: https://chromaway.com/
