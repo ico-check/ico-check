@@ -1002,17 +1002,15 @@
   url: https://ico.salpay.com
   real_team: true
   github: true
-  smart_contract: false
+  smart_contract: true
   product: true
   min_vesting: false
   have_company: true
-  transparent: true
+  transparent:
   location: Singapore
   comments:
-    - content: Existing business with revenue
-    - content: Smart contract not deployed
+    - content: As of Oct 5 2018 - UNDER REVIEW
     - content: Team tokens vest over 12 month
-    - content: The Founder was completely transparent during the due diligence process
   ico_start_date: 2017-11-28T00:00:00Z
   ico_end_date: 2018-01-01T00:00:00Z
   safe: false
