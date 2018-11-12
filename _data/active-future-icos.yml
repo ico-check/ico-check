@@ -196,30 +196,7 @@
   ico_end_date:
   safe: false
   issue_url: https://github.com/ico-check/ico-check/issues/130
-  sponsored: false
-  
-- name: DFINITY
-  image: https://i.imgur.com/leYv3Ny.jpg
-  url: https://dfinity.org/
-  real_team: true
-  github: true
-  smart_contract:
-  product: false
-  min_vesting:
-  have_company: true
-  transparent:
-  location: Switzerland
-  comments:
-    - content: Crowdsale cancelled.
-    - content: DFINITY will be airdropping up to 25M Swiss Francs worth of DFN to community members. KYC and AML will be required. US individuals will not be able to participate
-    - content: DFINITY will be raising approximately 90M Swiss Francs in a private presale.
-    - content: Public testnet will be released in the coming month.
-    - content: Token will be generated and distributed after mainnet (Q4 2018).
-  ico_start_date: 
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/98
-        
+          
 - name: NuCypher
   image: https://i.imgur.com/htSKE5A.png
   url: https://nucypher.com
