@@ -182,7 +182,7 @@
   real_team: true
   github: true
   smart_contract: true
-  product:
+  product: false
   min_vesting: false
   have_company: false
   transparent: false
