@@ -37,3 +37,5 @@ Create a new issue with title _company-name background check_. In the issue deta
 1. Find an issue where the crypto project was originally added
 2. Request to reopen the issue and change fields. Provide an explanation and relevant links
 3. (Optional step) change `_data/icos.yml` file and create a pull request
+
+## Full list of question in the [wiki](https://github.com/ico-check/ico-check/wiki/icocheck.io-wiki)
