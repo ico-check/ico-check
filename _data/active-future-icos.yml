@@ -22,29 +22,6 @@
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/137
-
-- name: TrustToken
-  image: https://i.imgur.com/SLeHnf0.jpg
-  url: https://www.trusttoken.com/
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company: true
-  transparent: false
-  location: United States
-  comments:
-    - content: Update 17 May 2018 - The latest statement made by Stephen Kade saying that he is transitioning from CTO of Bankorus to CTO Advisory contradicts what he previously wrote, stating that Bankorus should not have listed him as the CTO, and misrepresented his relationship with them.
-    - content: Bankorus confirmed that Stephen Kade is their CTO. Update 10 May 2018 - Stephen Kade has confirmed that he is not the CTO of Bankorus.
-    - content: Trust Token asks for personal data when potential investors fill out the pre-sale application but does not have a privacy policy.
-    - content: Potential investors must complete the pre-sale application and accreditation process to have access to the white paper.
-    - content: Private and public pre-sales done with SAFTs through the Sec. 506(c) exemption of Reg D, every single purchaser needs to go through the KYC/AML + Accreditation check on CoinList.
-    - content: Team tokens vest over 4 years. Check if codified.
-  ico_start_date:
-  ico_end_date:
-  safe: false
-  issue_url: https://github.com/ico-check/ico-check/issues/126
   
 - name: Akash Network
   image: https://i.imgur.com/FANa1gD.jpg
