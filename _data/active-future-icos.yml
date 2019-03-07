@@ -116,7 +116,7 @@
   image: https://i.imgur.com/Ngr7hpg.jpg
   url: https://orchidprotocol.com/
   real_team: true
-  github: false
+  github: true
   smart_contract:
   product: false
   min_vesting:
