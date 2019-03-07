@@ -133,27 +133,7 @@
   ico_end_date:
   safe:
   issue_url: https://github.com/ico-check/ico-check/issues/106
-  
-- name: Akasha
-  image: https://i.imgur.com/eN9uTsZ.jpg
-  url: https://akasha.world/
-  real_team: true
-  github: true
-  smart_contract:
-  product:
-  min_vesting:
-  have_company: true
-  transparent:
-  location: Switzerland
-  comments:
-    - content: TBD
-    - content: AKASHA International GmbH and AKASHA Stiftung (Foundation) registered in Switzerland.
-    - content: Beta available.
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/ico-check/ico-check/issues/104
-            
+              
 - name: NuCypher
   image: https://i.imgur.com/htSKE5A.png
   url: https://nucypher.com
