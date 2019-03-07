@@ -498,7 +498,7 @@
   transparent:
   location:
   comments:
-    - content: UNDER REVIEW
+    - content: Project cancelled
   ico_start_date: 
   ico_end_date:
   safe:
@@ -518,6 +518,7 @@
   comments:
     - content: UNDER REVIEW
     - content: Github private N/A.
+    - content: Project cancelled   
   ico_start_date:
   ico_end_date:
   safe:
