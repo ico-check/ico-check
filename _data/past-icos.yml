@@ -1,3 +1,27 @@
+- name: Cryptocurve
+  image: https://i.imgur.com/b8jPNRf.jpg
+  url: https://cryptocurve.io/
+  real_team: true
+  github: true
+  smart_contract: true
+  product: false
+  min_vesting: false
+  have_company: false
+  transparent: false
+  location: Netherlands
+  comments:
+    - content: Team tokens vest over 2 years. No vesting schedule for advisors. Vesting schedule not coded in the wanchain smart contract.
+    - content: 15 public repositories - MyCryptoCurve repo 49 Commits as of 18 Nov 2018
+    - content: CurveWallet BETA available.
+    - content: There are no search results for "Stichting CryptoCurve (Dutch foundation)" in the Netherlands company registry. "Stichting CryptoCurve" is the company mentionned in the Curv sale terms & conditions and White paper.
+    - content: On 18 Nov 2018 the CEO said that the company is "registered althought it is no finalized yet."            
+    - content: ICO check Questions sent to Joshua Halferty by DM on 18 June 2018 remain unanswered. The CEO was contacted on 18 Nov 2018 and admited to not being transparent "on some things."
+    - content: Team not giving answers to investors when asked how much was raised during the private sale.    
+  ico_start_date: 2018-10-30T11:00:00Z
+  ico_end_date: 2018-11-30T11:00:00Z
+  safe: false
+  issue_url: https://github.com/ico-check/ico-check/issues/130
+
 - name: Bankorus
   image: https://i.imgur.com/LZR6NRG.jpg
   url: https://www.bankorus.com/
