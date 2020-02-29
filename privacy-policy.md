@@ -11,7 +11,7 @@ The content of the [icocheck.io](https://icocheck.io) website is gathered from p
 [icocheck.io](https://icocheck.io) recommends viewers to always conduct their own independent research - or use professional financial services - before making investment decisions.     
             
 # Privacy Policy for [icocheck.io](https://icocheck.io)
-If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at [Contact](mailto:contact@icocheck.io).
+If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at [Contact](mailto:diligencechecker@protonmail.com).
 
 ## Cookies and Web Beacons
 [icocheck.io](https://icocheck.io) does not use any cookies.
